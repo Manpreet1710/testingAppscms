@@ -1,0 +1,82 @@
+---
+h1: Java Decompiler
+h2: Decompile your class files using Java decompiler
+title: Best Java Decompiler by Appscms
+meta: Use best online java decompiler for free to decompile java classes and get most
+  accurate results.
+features_desc_heading_1: Decompile your Java class files in one click
+features_desc_detail_1: Just drag and drop your java class files. Now count till three.
+  Your class files are decompiled and are ready for download. Don’t worry, decompilation
+  quality will be best in class.
+features_desc_heading_2: Secure decompilation
+features_desc_detail_2: We store files only for for a very short duration for decompilation
+  and then delete the files. We do not store any of your data.
+features_desc_heading_3: Java decompilation for all platforms
+features_desc_detail_3: Our web based Java class decompilation works on all platforms
+  including mac, linux, ubuntu, windows 7, windows 8 and windows 10.
+features_desc_heading_4: Decompilation made simple
+features_desc_detail_4: No learning curve as our decompiler is the simplest java decompiler
+  available on the web.
+features_desc_heading_5: We support all versions of Java
+features_desc_detail_5: We support all versions of Java so that you really don't have
+  to worry about anything.
+features_desc_heading_6: Quick decompilation on cloud
+features_desc_detail_6: Our decompilation use cloud technology for decompilation.
+  You do not have to install anything on your machine for this decompilation to work.
+how_to_heading: 'How to decompile class files online:'
+how_to_para: 'Appscms.com provides best in class java decompilation, providing most
+  accurately decompiled classes. Here is how to decompile using Appscms.com '
+how_to_steps:
+- Upload your class files for decompilation.
+- Wait for a moment as we decompile your classes.
+- And your decompiled classes are ready for download.
+faqs:
+- question: Is the JBVD java decompiler better than JD java decompiler?
+  answer: Both JBVD and JD are excellent Java decompilers. Even though they both have
+    quite similar features; JD is available for Windows, Mac and Linux too whereas
+    JBVD is strictly for windows. So, as per your needs you should choose what’s best
+    for you.
+- question: Does DJ Java decompiler have more errors than JD Java decompiler?
+  answer: Actually DJ Java decompiler have significantly less syntax errors in the
+    reconstructed code than the JD Java decompiler; so the myth of errors with DJ
+    Java decompiler is completely false.
+- question: Is Cavaj available for Mac and Linux?
+  answer: No, unfortunately Cavaj is currently not available for Mac and Linux Operating
+    systems and is strictly a Windows Java decompiler.
+- question: Does JD-GUI support color coded Java codes?
+  answer: Yes, JD-GUI supports and displays color coded Java source codes.
+- question: What type of files does JD-GUI support?
+  answer: You will be glad to know that JD-GUI supports many file formats. Currently
+    JD-GUI supports CLASS, JAR, WAR, EAR, AAR, KAR, JMOD & ZIP file types.
+- question: Which compilers with which JD-Core can work ?
+  answer: 'JD-Core library can work with following compilers : JDK 1.1.8, JDK 1.3.1,
+    JDK 1.4.2, JDK 1.5.0, JDK 1.6.0, JDK 1.7.0, JDK 1.8.0, JDK 9.0.1, JDK 10.0.2 jrockit90_150_06
+    jikes-1.22 harmony-jdk-r533500 Eclipse Java Compiler v_677_R32x, 3.2.1 release.'
+- question: Which are the open source Java decompiler projects?
+  answer: There are a total 3 open source Java decompiler projects. They are JD-Core,
+    JD-GUI & JD-Eclipse; known as the open source projects released under the GPLv3
+    License by Java. From which, JD-Core and JD-GUI are written in Java.
+- question: What is the JD-Core library?
+  answer: JD-Core is a library that reconstructs Java source code from one or more
+    “.class” files. JD-Core may be used to recover lost source code and explore the
+    source of Java runtime libraries. New features of Java 5, such as annotations,
+    generics or type “enum”, are supported. JD-GUI and JD-Eclipse include JD-Core
+    library.
+- question: Is there any plugin for Eclipse format by Java?
+  answer: Yes, there is an open source plugin by Java known as JD-Eclipse. JD-Eclipse
+    is a plug-in for the Eclipse platform. It allows you to display all the Java sources
+    during your debugging process, even if you do not have them all.
+- question: How to instantly access methods and fields of reconstructed source code
+    in JD project (JD-GUI)?
+  answer: There is a simple way for that, You can browse the reconstructed source
+    code with the JD-GUI for instant access to methods and fields.
+- question: Which version of windows is supported by Appscms' Java Decompiler ?
+  answer: Appscms Java decompiler supports all versions of Windows including Windows
+    7, Windows 8, Windows 10
+- question: Can I decompile class files without losing quality ?
+  answer: Yes. We use most sophisticated best in class algorithms for decompilation,
+    and provide highest quality of output for decompilation.
+- question: How can I use Java decompiler for free ?
+  answer: You can use Appscms' Java decompiler online for free.
+- question: Which versions of Java are supported by this decompiler ?
+  answer: All versions of Java are supported by Appscms's decompiler.

@@ -1,0 +1,91 @@
+---
+h1: DEX Decompiler
+h2: Decompile your Android DEX using DEX decompiler
+title: Best Android DEX Decompiler by Appscms
+meta: Use best online DEX decompiler for free to decompile your DEX and get correctly
+  decompiled files.
+features_desc_heading_1: Decompile your DEXs in one click
+features_desc_detail_1: Just drag and drop your DEX. Now count till three. Your DEX
+  is decompiled and is ready for download. Don’t worry, decompilation quality will
+  be best in class.
+features_desc_heading_2: Secure decompilation
+features_desc_detail_2: We store your DEXs only for for a very short duration for
+  decompilation and then delete the files. We do not store any of your DEXs.
+features_desc_heading_3: DEX decompilation which works on all platforms
+features_desc_detail_3: Our web based DEX decompilation works on all platforms including
+  mac, linux, ubuntu, windows 7, windows 8 and windows 10.
+features_desc_heading_4: DEX Decompilation made simple
+features_desc_detail_4: No learning curve as our decompiler is the simplest DEX decompiler
+  available on the web.
+features_desc_heading_5: We support all types of DEX
+features_desc_detail_5: We support all types of DEX so that you really don't have
+  to worry about anything.
+features_desc_heading_6: Quick decompilation on cloud
+features_desc_detail_6: Our DEX decompilation use cloud technology for decompilation.
+  You do not have to install anything on your machine for this decompilation to work.
+how_to_heading: 'How to decompile DEX online:'
+how_to_para: 'Appscms.com provides best in class DEX decompilation, providing most
+  accurately decompiled classes. Here is how to decompile DEXs using Appscms.com '
+how_to_steps:
+- Upload your DEX for decompilation.
+- Wait for a moment as we decompile your DEX.
+- And your decompiled DEX is ready for download.
+faqs:
+- question: What changes mainly appeared in a decompiled .DEX file?
+  answer: When your .DEX file is decompiled, it is not in the exact source code form.
+    You will see a lot of .dex file hooks and in general it is not an exact android
+    project that an IDE can recognise and import. You can use any normal editor to
+    read the code and understand to make changes. These are the normal changes in
+    the decompiled .DEX file.
+- question: Why do you need to decompile an .DEX file in the first place?
+  answer: As an android developer you may require to decompile .DEX file to get actual
+    source code. Like if you saw an app with awesome design and you want to know how
+    to implement that design in your project. For that, and many such curious legit
+    reasons you may need to decompile an .DEX file.
+- question: Which tools do you need to decompile an .DEX file on Android?
+  answer: 'For this you need three types of tools : Tool to work with android .dex
+    and java .class files. A tool for reverse engineering Android .DEX files. A Java
+    decompiler tool to decompile and analyze Java 5 “byte code” and the later versions.  With
+    the help of these three you can easily do your work.'
+- question: The .DEX file and .dex file are the same or different?
+  answer: They are indeed different. Where an .DEX file is the collection of all the
+    android application related files in compressed format; the .dex file in the .DEX
+    file is the compressed file which is made up of all the Java classes in the application
+    code. They are different from each other but still related to each other.
+- question: Does decompiling .DEX files give you the Java source code?
+  answer: Yes, decompiling an .DEX file gives you it’s Java source code.
+- question: Why won’t the decompiled code compile correctly?
+  answer: 'Here there can be many reasons. But mainly there is one common repeated
+    reason for that. The decompiled code does not compile correctly because the compiler
+    performs many irreversible changes to the code. Which causes the compiled code
+    to appear with errors at the end. '
+- question: How to import decompiled code into Eclipse?
+  answer: 'It’s quite easy to import decompiled code into Eclipse; once you download
+    the decompiled files, extract them to a folder on your computer. Now, open up
+    Eclipse and go to the following path :        File -> New -> Project. There choose
+    ‘Android project’ from the New project window. And hence you will be able to import
+    the decompiled code into Eclipse.'
+- question: What programs are used to decompile an .DEX file?
+  answer: All the software programs mentioned in the blog post of ‘Best .DEX decompiler’
+    are eligible to use as a decompiler for .DEX files. You can choose any best suiting
+    for  you from that list as they are our main recommendations.
+- question: What does online .DEX decompilers do?
+  answer: All applications for Android phones are distributed as DEX Files. These
+    files contain all the code, images and other media necessary to run the application
+    on your phone. This website will decompile the code embedded in DEX files and
+    extract all the other assets in the file.
+- question: Is decompiling an .DEX file legal?
+  answer: Yes, decompiling an .DEX file is absolutely legal. As decompiling gives
+    you only the source code; there is no illegal thing in knowing what you use. But,
+    after obtaining the source code what you do with it is something considerable
+    for legal actions; otherwise it’s legal.
+- question: Which version of windows is supported by Appscms' DEX Decompiler ?
+  answer: Appscms DEX decompiler supports all versions of Windows including Windows
+    7, Windows 8, Windows 10
+- question: Can I decompile DEXs without losing quality ?
+  answer: Yes. We use most sophisticated best in class algorithms for decompilation,
+    and provide highest quality of output for DEX decompilation.
+- question: How can I use DEX decompiler for free ?
+  answer: You can use Appscms' DEX decompiler online for free.
+- question: Which variants of apps are supported by this decompiler ?
+  answer: All types of android apps are supported by Appscms's decompiler.

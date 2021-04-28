@@ -1,0 +1,58 @@
+---
+title: About Us
+description: We make mobile apps dynamic so that your users do not have to upgrade
+  their apps for minor changes.
+resources_link_heading: Resources
+resources_link_one_text: Blog
+resources_link_one_link: "/blog"
+resources_link_two_text: Android & iOS Libraries
+resources_link_two_link: "/library"
+resources_link_three_text: About us
+resources_link_three_link: "/about"
+resources_link_four_text: Contact us
+resources_link_four_link: "/contact"
+features_link_heading: Features
+
+terms_and_conditions_text: Terms and Conditions
+terms_and_conditions_link: "/terms-and-conditions"
+privacy_policy_text: Privacy Policy
+privacy_policy_link: "/privacy-policy"
+disclaimer_text: Disclaimer
+disclaimer_link: "/disclaimer"
+
+linkedin_link: 
+twitter_link: 
+facebook_link: 
+instagram_link: 
+pinterest_link: 
+
+
+features:
+  # - text: Over the air update
+  #   link: "/"
+  # - text: Content Management
+  #   link: "/"
+  # - text: Translation System
+  #   link: "/"
+  - text: 'Java Decompiler'
+    link: '/java-decompiler'
+  - text: 'Jar file opener'
+    link: '/jar-file-opener'
+  - text: 'Jar decompiler'
+    link: '/jar-decompiler'
+  - text: 'Apk decompiler'
+    link: '/apk-decompiler'
+  - text: 'Open apk file'
+    link: '/open-apk-file'
+  - text: 'AAR decompiler'
+    link: '/aar'
+  - text: 'ARSC decompiler'
+    link: '/arsc'
+  - text: 'DEX decompiler'
+    link: '/dex'
+  - text: 'SMALI decompiler'
+    link: '/smali'
+  - text: 'Sqlite viewer online'
+    link: '/sqlite-viewer-online'
+  - text: 'Adb commands'
+    link: '/adb-commands'

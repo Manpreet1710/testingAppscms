@@ -1,0 +1,54 @@
+I"�<h1 id="why-is-the-jar-file-not-opening"><strong>Why is the .JAR file not opening?</strong></h1>
+
+<h3 id="reason-and-solution-for-you"><strong>Reason and solution for you…</strong></h3>
+
+<p>When it comes to .JAR files, we can understand that sometimes they just don’t go well, for example sometimes they just don’t open! As a developer, it may be very frustrating and unmotivating, but no worries! Today we are here to tell you what actually went wrong with your .JAR file that results in it not opening, and trust us this blog post will give you so many facts that you will never worry anymore about thinking about why my .JAR file is not working? So, without any further due let’s jump into our topic…</p>
+
+<p><img src="/uploads/maxresdefault.jpg" alt="" /></p>
+
+<h2 id="reason-1---the-java-run-time-environment-is-not-properly-set-to-run-jar-files"><strong>Reason 1 - The Java Run-Time Environment is not properly set to run .JAR files</strong></h2>
+
+<p>This may be one of the very common reasons for a .JAR file to not open. Luckily there are a couple of easy solutions for fixing this problem on your own. When we try to open a .jar file, what happens most of the time is that Windows will ask what program to use. Most of us simply choose the Java.exe, but this has the problem of stripping –jar from the program’s execution path. Basically you cannot set the required complex command to open .jar files by using “Open With…” in Windows 10 of your PC.</p>
+
+<p>So now, normally what happens is that we associate the .jar file to open with java.exe, and double-click on the executable .jar, then a command prompt window will open for a split second and close, and the program does not launch. And here’s how you get an unopened .JAR file!</p>
+
+<h3 id="solution-"><strong>Solution :</strong></h3>
+
+<p>To fix this what we need to do is re-associate the .jar file with the Java binary. Here is a step-by-step procedure on how to do it with some tips.</p>
+
+<ol>
+  <li>First of all make sure you are updated with the latest Java Runtime Environment, if not please do so.</li>
+  <li>Now, navigate to your Java installation folder, go inside the /bin/ folder, right-click on Java.exe and set it to “Run as Administrator”.</li>
+  <li>After this, press Windows + X keys and select “Command Prompt (Admin)” or Powershell (Admin) and type ‘cmd’.</li>
+  <li>Now, type the following commands into the prompt (replace the C:\Program Files\etc with your actual Java installation folder, for example, C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe) :</li>
+</ol>
+
+<p><strong><em>ftype jarfileterm=cmd /s /k “”C:\Program Files\Java\jre7\bin\java.exe” -jar “%1″ %*” assoc .jar=jarfileterm</em></strong></p>
+
+<p>Or if in case you want the command prompt to stay open after launching the .jar file (for debugging purposes), use the following code instead of the previous one:</p>
+
+<p><strong><em>ftype jarfileterm=cmd /s /k “”C:\Program Files\Java\jre7\bin\java.exe” -jar “%1″ %*” assoc .jar=jarfileterm</em></strong></p>
+
+<p>And now, we suggest you try to launch the .JAR file that was not opening. Depending on which of the steps above we told you to take, the java executable should either launch or launch with a persistent command prompt behind it (which will fill up with Java calls from the app, useful for debugging purposes). And, that’s how you will be able to open a .JAR file that was not opening, and you know why it was doing that so. But, wait. If your problem is not solved yet, don’t sweat it! We have another solution for you and it will definitely work! Stay tuned for the next reason.</p>
+
+<h2 id="reason-2---windows-registry-is-not-calling-jre-java-runtime-environment-properly"><strong>Reason 2 - Windows Registry is not calling JRE (Java Runtime Environment) properly</strong></h2>
+
+<p>Now, as we have already worked with the command prompt and still if your .JAR file is not running; and the steps did not work for you, we will need to tweak your registry.</p>
+
+<p>Follow the steps below in the solution and you may be able to solve the problem…</p>
+
+<h3 id="solution--1"><strong>Solution :</strong></h3>
+
+<ol>
+  <li>First of all, do a simple thing. Just right-click on your Start button and do a search for “Regedit”, when it pops up open it.</li>
+  <li>Now, pay attention and expand the HKEY_CLASSES_ROOT folder, and scroll down until you find the folders “jar_auto_file” and “jarfileterm”; you will find them right somewhere there.</li>
+  <li>After that, expand the path as follows : <strong>jar_auto_file &gt; Shell &gt; Open &gt; Command</strong></li>
+  <li>Now, you will see a key named “Default”. Just right-click on the “Default” key and choose the “Modify” option.</li>
+  <li>Now in the “Value data” box that will pop up in the “Edit string” window, paste the ‘ftype’ command you entered earlier in the command prompt, and press OK.</li>
+  <li>Similarly, do the same procedure for the jarfileterm folder (you need to expand <strong>jarfileterm &gt; Shell &gt; Open &gt; Command</strong>).</li>
+</ol>
+
+<p>Now, we recommend you to exit Regedit and try to open your .JAR file now! It should open by now successfully. And that’s how we can say you are able to open your ‘not-running’ .JAR file now, with the addition of gaining some knowledge about why it was happening in the first place!</p>
+
+<p>We hope you liked this blog post and it brings value to your time, there are many other interesting blog posts for developers on our site; check them out too. If you have any suggestions, questions, queries, or compliments the comment box is all yours! We will love to hear from you, suggest to us what you like to know more from us. On that note, we hope to see you in another blog post of Appscms.com. See ya!</p>
+:ET

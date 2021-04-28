@@ -1,0 +1,380 @@
+---
+permalink: java-decompiler
+---
+
+<html>
+
+<head>
+
+    <title>{{ site.data.java_decompiler.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ site.data.java_decompiler.meta }}">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="{{ site.favicon | relative_url }}">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ 'css/linearicons.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'css/bootstrap.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'css/font-awesome.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="css/file-upload.css">
+
+    {%- include google-analytics.html -%}
+
+    <style>
+        #download:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start Header Area -->
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between">
+                <div id="logo">
+                    <a href="{{ '/' | relative_url }}">
+                        <img class="logo-1" src="{{ 'img/logo.png' | relative_url }}" alt="" title="" />
+                    </a>
+                    <!-- <a href="{{ '/' | relative_url }}">
+                    <img class="logo-2" src="{{ 'img/logo.png' | relative_url }}" alt="" title="" />
+                </a> -->
+                </div>
+                {% include nav-menu.html %}
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="heading">
+        <h1 class="heading-h1">{{ site.data.java_decompiler.h1 }}</h1>
+        <h2 class="heading-h2">{{ site.data.java_decompiler.h2 }}</h2>
+    </div>
+
+    <!--downloading content  -->
+    <div class="DownloadFiles">
+        <div class="d-flex">
+            <h4 id="name"></h4>
+            <a class="btn" id="delete" onclick="restart()">Try Again</a>
+        </div>
+        <div class="downloadresetbutton">
+            <a href="#" id="download">Download File</a>
+        </div>
+    </div>
+
+    <div id="uploader" class="uploader">
+        <div class="inner-box" id="dropContainer">
+            <div class="dropzone">
+                <div id="upload-icon-section">
+                    <div>
+                        <input type="file" id='file' class="file-upload" accept=".class" onchange="upload()">
+                        <button id="uploadFile" type="file" class="button">Upload file</button>
+                    </div>
+                    <div class="drop_here_txt">
+                        or Drop Class File here
+                    </div>
+                    <div id="main"></div>
+                </div>
+
+                <div id="extracted" style="text-align: left;">
+                    <div class="actualContent">
+                        <pre id="pre"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="row mx-0 justify-content-center textual-content">
+        <div class="col-md-9">
+            <div class="row mx-0 col text-center">
+
+                <div class="col-md-4">
+                    <i><img class="icon" src="img/file-upload/icon-1.svg.svg"
+                            alt="{{site.data.java_decompiler.features_desc_heading_1}}"></i>
+                    <span>{{site.data.java_decompiler.features_desc_heading_1}}</span>
+                    <p>{{site.data.java_decompiler.features_desc_detail_1}}</p>
+                </div>
+                <div class="col-md-4">
+                    <i><img class="icon" src="img/file-upload/security.svg.svg"
+                            alt="{{site.data.java_decompiler.features_desc_heading_2}}"></i>
+                    <span>{{site.data.java_decompiler.features_desc_heading_2}}</span>
+                    <p>{{site.data.java_decompiler.features_desc_detail_2}}</p>
+                </div>
+                <div class="col-md-4">
+                    <i><img class="icon" src="img/file-upload/cross-paltform.svg.svg"
+                            alt="{{site.data.java_decompiler.features_desc_heading_3}}"></i>
+                    <span>{{site.data.java_decompiler.features_desc_heading_3}}</span>
+                    <p>{{site.data.java_decompiler.features_desc_detail_3}}</p>
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <i><img class="icon" src="img/file-upload/ease-use.svg.svg"
+                            alt="{{site.data.java_decompiler.features_desc_heading_4}}"></i>
+                    <span>{{site.data.java_decompiler.features_desc_heading_4}}</span>
+                    <p>{{site.data.java_decompiler.features_desc_detail_4}}</p>
+                </div>
+                <div class="col-md-4">
+                    <i><img class="icon" src="img/file-upload/multilingual.svg.svg"
+                            alt="{{site.data.java_decompiler.features_desc_heading_5}}"></i>
+                    <span>{{site.data.java_decompiler.features_desc_heading_5}}</span>
+                    <p>{{site.data.java_decompiler.features_desc_detail_5}}</p>
+                </div>
+                <div class="col-md-4">
+                    <i><img class="icon" src="img/file-upload/coudbased.svg.svg"
+                            alt="{{site.data.java_decompiler.features_desc_heading_6}}"></i>
+                    <span>{{site.data.java_decompiler.features_desc_heading_6}}</span>
+                    <p>{{site.data.java_decompiler.features_desc_detail_6}}</p>
+                </div>
+
+
+
+            </div>
+            <div class="how-to">
+                <div class="how-to-text">
+                    <h2 class="how-to-h2">{{site.data.java_decompiler.how_to_heading}}<h2>
+                            <ul class="unordered-list">
+                                <li>
+                                    <span></span>
+                                    <p class="how-to-p">{{site.data.java_decompiler.how_to_para}}</p>
+                                </li>
+                                {% for step in site.data.java_decompiler.how_to_steps %}
+                                <li>
+                                    <span><img src="img/file-upload/check-selected.svg.svg" alt="checkbox"></span>
+                                    <p class="steps">{{step}}</p>
+                                </li>
+                                {% endfor %}
+                            </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="rating-div">
+        <div class="rating-container">
+            rating
+        <div>
+
+    </div> -->
+    <div class="faq">
+        <div class="faq-container">
+            <h2 class="faq-h2">Frequently Asked Questions</h2>
+            <ul class="faq-list">
+
+                {% for faq in site.data.java_decompiler.faqs %}
+                <li>
+                    <h3 class="faq-h3" itemprop="name">{{faq.question}}<em style="transform: rotate(-135deg);">
+                            <i></i></em>
+                    </h3>
+                    <div style="display: block;">
+                        <p itemprop="text">{{faq.answer}}</p>
+                    </div>
+                </li>
+                <hr>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+    <!-- supported Feature -->
+    <div class="row mx-0 justify-content-center col-md-offset-1 supported">
+        <div class="col-md-8">
+            <h2 class="sup-h2">Supported Features</h2>
+            <ul class="sup-ul row col" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
+                <li class="sup-li col-md-3" itemprop="name">
+                    <a itemprop="url" href="/#">
+                        <span class="sup-span">feature 1</span>
+                    </a>
+                </li>
+                <li class="sup-li col-md-3" itemprop="name">
+                    <a itemprop="url" href="/#">
+
+                        <span class="sup-span">feature 2</span>
+                    </a>
+                </li>
+                <li class="sup-li col-md-3" itemprop="name">
+                    <a itemprop="url" href="/#">
+
+                        <span class="sup-span">feature 3</span>
+                    </a>
+                </li>
+                <li class="sup-li col-md-3" itemprop="name">
+                    <a itemprop="url" href="/#">
+
+                        <span class="sup-span">feature 4</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <!-- Modal Popup when file is wrong -->
+    <div class="modal__wrapper">
+        <div class="modal__container">
+            <div class="modal-header">
+                <img src="./img/logo.png" width="40px" alt="">
+            </div>
+            <div class="modal-body">
+                <div class="fileType">
+                    <img src="./img/remove.png" width="40px" alt="">
+                    <div class="title mb-3" style="font-size: 24px; font-weight: 500; color:#000;">Unable to open a file</div>
+                     Unable to open file
+                     <b id="unableFileName"></b>
+                     That might be because the file is not supported or is damaged.
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="close" class="stop btn btn-primary" style="padding: 6px 50px;">
+                    OK</button>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+
+
+
+
+    <script>
+        let input = document.getElementById('file')
+
+        // Select your input type file and store it in a variable
+        const pre = document.getElementById('pre');
+        const download = document.getElementById('download');
+        const name = document.getElementById('name');
+        const main = document.getElementById('main');
+        const downloadResetButton = document.querySelector('.download-reset-button');
+        let extracted = document.getElementById("extracted")
+        let uploader = document.getElementById("uploader")
+        let del = document.getElementById("delete")
+        let unableFileName = document.getElementById("unableFileName")
+
+
+        
+    // modal
+    const trigger = document.querySelector('#trigger')
+    const modalWrapper = document.querySelector('.modal__wrapper')
+    const closeBtn = document.querySelector('.stop')
+
+        //drag and drop
+        let dropContainer = document.getElementById('dropContainer')
+        dropContainer.ondragover = function (evt) {
+            evt.preventDefault();
+        };
+        dropContainer.ondrop = function (evt) {
+            evt.preventDefault()
+            input.files = evt.dataTransfer.files;
+            upload()
+        }
+
+        // upload button
+        document.getElementById("uploadFile").addEventListener("click", function () {
+            input.click()
+        });
+
+        const upload = async () => {
+            let file = input.files[0]
+            let s = file.name.split(".")
+            let endFileName = s[s.length - 1]
+            try {
+                let URL = `https://appscms.com/decompilerapi?type=CLASS`
+                const formData = new FormData();
+                formData.append("data", file);
+
+
+                main.innerHTML = `<div class="loader">
+                    <img src='loading.gif' width="40px">
+                    </div>`
+                let response = await fetch(URL, {
+                    method: 'POST',
+                    headers: {
+                        "type": "CLASS",
+                    },
+                    body: formData
+
+                })
+                main.innerHTML = ''
+                response.text().then((data) => {
+                    // Decode the String
+                    if (endFileName == "class") {
+                        let change = file.name.replace("class", "java")
+                        name.innerText = change
+                        var decodedStringAtoB = atob(data);
+                        pre.innerHTML = `${decodedStringAtoB}`
+
+                        const url = window.URL
+                            .createObjectURL(new Blob([decodedStringAtoB]));
+                        del.style.display = "block"
+                        document.getElementById("upload-icon-section").style.display = "none"
+                        document.getElementById("dropContainer").style.background = "#fff"
+                        document.getElementById("dropContainer").style.padding = "0px"
+                        document.getElementById("dropContainer").style.border = "0px"
+                        document.querySelector(".DownloadFiles").style.display = "block"
+                        extracted.style.display = "block"
+                        uploader.style.background = "#fff"
+                        download.href = url;
+                        download.setAttribute('download', `${change}`);
+                        // download.click();
+                    }
+                    else {
+                        openModal()
+                        unableFileName.innerText =  file.name + "."
+                    }
+                })
+                // })
+            }
+            catch (error) {
+                console.log(error)
+            }
+        };
+
+        //restart function
+        function restart() {
+            document.querySelector(".DownloadFiles").style.display = "none"
+            document.getElementById("upload-icon-section").style.display = "block"
+            document.getElementById("dropContainer").style.background = "#11304e2e"
+            document.getElementById("dropContainer").style.padding = "35px 20px 150px 20px"
+            document.getElementById("dropContainer").style.border = "1px solid rgba(0,0,0,.125)"
+            extracted.style.display = "none"
+            uploader.style.background = "#974fff"
+        }
+
+
+        // Modal POPUP when user upload wrong files
+    // SOME MODAL FUNCTIONS HERE
+    closeBtn.addEventListener('click', function () {
+        closeModal()
+    })
+
+    modalWrapper.addEventListener('click', function (e) {
+        if (e.target !== this) return
+        closeModal()
+    })
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            closeModal()
+        }
+    })
+
+    function openModal() {
+        modalWrapper.classList.add('active')
+    }
+    function closeModal() {
+        modalWrapper.classList.remove('active')
+    }
+
+    </script>
+</body>
+
+</html>

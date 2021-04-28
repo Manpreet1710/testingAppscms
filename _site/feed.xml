@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-28T16:38:24+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Appscms - CMS for Mobile Apps</title><subtitle>Appcms is a modern, cloud-based content &amp; translation management system for all of your native mobile apps, enabling you to change strings in your app without Playstore release.</subtitle><entry><title type="html">3 Ways to run a .JAR file</title><link href="http://localhost:4000/blog/3-ways-to-run-a.jar-file" rel="alternate" type="text/html" title="3 Ways to run a .JAR file" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/3-ways-to-run-a.jar-file</id><content type="html" xml:base="http://localhost:4000/blog/3-ways-to-run-a.jar-file">&lt;h1 id=&quot;3-ways-to-run-a-jar-file&quot;&gt;&lt;strong&gt;3 Ways to run a .JAR file&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;To be honest ‘.JAR files’ are one of the most common ‘friends’ in any developer’s life! Being a developer you are more familiar with them than any other; as it’s something you see, use, and utilize in Your own day-to-day life. But still, sometimes you may face some problems during running the .JAR file you are handling. Now, If you are one of those seeking an absolute solution to this; this blog post is for you!&lt;/p&gt;
+
+&lt;p&gt;In this blog post, we will tell you 3 working ways to run your .JAR file without any problem! So, without wasting any time let’s jump into our topic; starting from Type-1. Here we go!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/e631e9ff25602221c18217d773298238-vector-graphics-linux.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;type-1--using-java-runtime-environment-on-pc&quot;&gt;&lt;strong&gt;Type 1- Using Java Runtime environment on PC&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Now if you do not have it already, make sure you download and install Java Runtime Environment on your PC, as it is essential to run any .JAR file.&lt;/p&gt;
+
+&lt;p&gt;Once you download and install this, you can easily run any .JAR file on your PC but keep in mind it is only applicable if the .JAR file you are opening is executable, if it is not then you can simply view this file within the Java Runtime Environment instead.&lt;/p&gt;
+
+&lt;p&gt;Now, after this amazing solution if your problem is solved, congratulations on that! But if you are looking for something more convenient for you, let’s move on to our next solution, Type-2.&lt;/p&gt;
+
+&lt;h2 id=&quot;type-2---using-java-instead&quot;&gt;&lt;strong&gt;Type 2 - Using Java instead&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;If the .JAR file is executable then you can open it using an archive program, such as WinRAR or 7-Zip too. But, if you want to open it in Java, follow the sub-steps given below :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Right Click on the .JAR file to open the selection menu and click on ‘Open with’.&lt;/li&gt;
+  &lt;li&gt;When the ‘Open with’ window pops up, select the ‘Browse’ option in there to open the ‘File Explorer’ window.&lt;/li&gt;
+  &lt;li&gt;Now, find the Java executable file on your computer hard drive that is the java.exe file. A quick tip is a file is often located in the “Program Files\Java” or “Program Files (x86)\Java” folder, more like within a possible sub-folder below the Java folder present there.&lt;/li&gt;
+  &lt;li&gt;Once you find the file, select that java.exe file and click on the ‘OK’ button.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s how it is done, now you can get the expected results.&lt;/p&gt;
+
+&lt;p&gt;So, by far we have seen 2 quite great ways for running your .JAR file successfully! Now, we hope that by far your problem is solved still, if you want another solution to keep in handy; we will tell you the last Type-3.&lt;/p&gt;
+
+&lt;h2 id=&quot;type-3--using-command-prompt&quot;&gt;&lt;strong&gt;Type 3- Using Command prompt&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Another very underrated way of opening a .JAR file is using a ‘command prompt’ command for it, it is simply replacing yourfile.jar name with the name of your own JAR file.&lt;/p&gt;
+
+&lt;p&gt;The command looks like :&lt;/p&gt;
+
+&lt;p&gt;java -jar yourfile.jar&lt;/p&gt;
+
+&lt;p&gt;And that’s how you can open a .JAR file using the command prompt.&lt;/p&gt;
+
+&lt;p&gt;And, here we go! In this blog post, we have told you about 3 amazing ways to run your .JAR file, as detailed and step-by-step as possible and we believe that it will definitely help you with your problem! And as a curious brain if you are interested in .JAR files and wanted to know more about them, check out our other posts on it. Not just that, you will find many more to explore on our website so give it a minute and check it out! On the other hand, thank you so much for tuning into this blog post, we really do appreciate your visit and if you have a message for us the comment box is all yours! Thank you once again, and we hope we will see you in another blog post of Appscms.com! See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">3 Ways to run a .JAR file</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/how-to-open-jar-files-on-windows-10.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/how-to-open-jar-files-on-windows-10.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why is the .JAR file not opening? | Reason and solution</title><link href="http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution" rel="alternate" type="text/html" title="Why is the .JAR file not opening? | Reason and solution" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution</id><content type="html" xml:base="http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution">&lt;h1 id=&quot;why-is-the-jar-file-not-opening&quot;&gt;&lt;strong&gt;Why is the .JAR file not opening?&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h3 id=&quot;reason-and-solution-for-you&quot;&gt;&lt;strong&gt;Reason and solution for you…&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;When it comes to .JAR files, we can understand that sometimes they just don’t go well, for example sometimes they just don’t open! As a developer, it may be very frustrating and unmotivating, but no worries! Today we are here to tell you what actually went wrong with your .JAR file that results in it not opening, and trust us this blog post will give you so many facts that you will never worry anymore about thinking about why my .JAR file is not working? So, without any further due let’s jump into our topic…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/maxresdefault.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reason-1---the-java-run-time-environment-is-not-properly-set-to-run-jar-files&quot;&gt;&lt;strong&gt;Reason 1 - The Java Run-Time Environment is not properly set to run .JAR files&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;This may be one of the very common reasons for a .JAR file to not open. Luckily there are a couple of easy solutions for fixing this problem on your own. When we try to open a .jar file, what happens most of the time is that Windows will ask what program to use. Most of us simply choose the Java.exe, but this has the problem of stripping –jar from the program’s execution path. Basically you cannot set the required complex command to open .jar files by using “Open With…” in Windows 10 of your PC.&lt;/p&gt;
+
+&lt;p&gt;So now, normally what happens is that we associate the .jar file to open with java.exe, and double-click on the executable .jar, then a command prompt window will open for a split second and close, and the program does not launch. And here’s how you get an unopened .JAR file!&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-&quot;&gt;&lt;strong&gt;Solution :&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;To fix this what we need to do is re-associate the .jar file with the Java binary. Here is a step-by-step procedure on how to do it with some tips.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First of all make sure you are updated with the latest Java Runtime Environment, if not please do so.&lt;/li&gt;
+  &lt;li&gt;Now, navigate to your Java installation folder, go inside the /bin/ folder, right-click on Java.exe and set it to “Run as Administrator”.&lt;/li&gt;
+  &lt;li&gt;After this, press Windows + X keys and select “Command Prompt (Admin)” or Powershell (Admin) and type ‘cmd’.&lt;/li&gt;
+  &lt;li&gt;Now, type the following commands into the prompt (replace the C:\Program Files\etc with your actual Java installation folder, for example, C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe) :&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;ftype jarfileterm=cmd /s /k “”C:\Program Files\Java\jre7\bin\java.exe” -jar “%1″ %*” assoc .jar=jarfileterm&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Or if in case you want the command prompt to stay open after launching the .jar file (for debugging purposes), use the following code instead of the previous one:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;ftype jarfileterm=cmd /s /k “”C:\Program Files\Java\jre7\bin\java.exe” -jar “%1″ %*” assoc .jar=jarfileterm&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And now, we suggest you try to launch the .JAR file that was not opening. Depending on which of the steps above we told you to take, the java executable should either launch or launch with a persistent command prompt behind it (which will fill up with Java calls from the app, useful for debugging purposes). And, that’s how you will be able to open a .JAR file that was not opening, and you know why it was doing that so. But, wait. If your problem is not solved yet, don’t sweat it! We have another solution for you and it will definitely work! Stay tuned for the next reason.&lt;/p&gt;
+
+&lt;h2 id=&quot;reason-2---windows-registry-is-not-calling-jre-java-runtime-environment-properly&quot;&gt;&lt;strong&gt;Reason 2 - Windows Registry is not calling JRE (Java Runtime Environment) properly&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Now, as we have already worked with the command prompt and still if your .JAR file is not running; and the steps did not work for you, we will need to tweak your registry.&lt;/p&gt;
+
+&lt;p&gt;Follow the steps below in the solution and you may be able to solve the problem…&lt;/p&gt;
+
+&lt;h3 id=&quot;solution--1&quot;&gt;&lt;strong&gt;Solution :&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First of all, do a simple thing. Just right-click on your Start button and do a search for “Regedit”, when it pops up open it.&lt;/li&gt;
+  &lt;li&gt;Now, pay attention and expand the HKEY_CLASSES_ROOT folder, and scroll down until you find the folders “jar_auto_file” and “jarfileterm”; you will find them right somewhere there.&lt;/li&gt;
+  &lt;li&gt;After that, expand the path as follows : &lt;strong&gt;jar_auto_file &amp;gt; Shell &amp;gt; Open &amp;gt; Command&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Now, you will see a key named “Default”. Just right-click on the “Default” key and choose the “Modify” option.&lt;/li&gt;
+  &lt;li&gt;Now in the “Value data” box that will pop up in the “Edit string” window, paste the ‘ftype’ command you entered earlier in the command prompt, and press OK.&lt;/li&gt;
+  &lt;li&gt;Similarly, do the same procedure for the jarfileterm folder (you need to expand &lt;strong&gt;jarfileterm &amp;gt; Shell &amp;gt; Open &amp;gt; Command&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, we recommend you to exit Regedit and try to open your .JAR file now! It should open by now successfully. And that’s how we can say you are able to open your ‘not-running’ .JAR file now, with the addition of gaining some knowledge about why it was happening in the first place!&lt;/p&gt;
+
+&lt;p&gt;We hope you liked this blog post and it brings value to your time, there are many other interesting blog posts for developers on our site; check them out too. If you have any suggestions, questions, queries, or compliments the comment box is all yours! We will love to hear from you, suggest to us what you like to know more from us. On that note, we hope to see you in another blog post of Appscms.com. See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Why is the .JAR file not opening?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/maxresdefault-1.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/maxresdefault-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to Open a .JAR file on your PC</title><link href="http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc" rel="alternate" type="text/html" title="How to Open a .JAR file on your PC" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc</id><content type="html" xml:base="http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc">&lt;h1 id=&quot;how-to-open-a-jar-file-on-your-pc&quot;&gt;&lt;strong&gt;How to Open a .JAR file on your PC&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;Many of the times we struggle to do simple yet very important tasks in our day to day life; being a developer is not an exception for it either. You may face technical problems at work and today we are discussing one of the very common problems that you may face, that is ‘How to Open a .JAR file’.&lt;/p&gt;
+
+&lt;p&gt;If you’re facing this problem this blog post is for you! Now we are guiding you Step by step, to get the solution for your question: How should one open a .JAR file on a PC? But before that, let’s get to know more about what a .JAR file actually is, to get further knowledge and understanding of the subject…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/oip.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-jar-file&quot;&gt;&lt;strong&gt;&lt;em&gt;What is a .JAR File&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;.JAR file is a collection of multiple files as one single file, it is basically a short form of ‘Java Archive’; so easy-peasy a Java Archive file is known as a .JAR file.&lt;/p&gt;
+
+&lt;p&gt;Now, if you think about why they made this in the first place? Well, as you know compressing a normal file and creating a .zip file from it make it easier to distribute data over the internet, similarly .JAR file AKA Java archives are an easier way to distribute Java applications.&lt;/p&gt;
+
+&lt;p&gt;If you know a little about Unix, Linux then you can think .JAR as similar to a .tar archive.&lt;/p&gt;
+
+&lt;p&gt;Now, if we get a little deeper into it, you should know that .JAR files not just store a collection of multiple files it is more like some .JAR files contain files that make them work as standalone apps and others hold programs libraries for other programs for their use.&lt;/p&gt;
+
+&lt;p&gt;They store Java programs and games in a single file. That is, some Java-capable mobile devices might use those .JAR files as game files, and at the same time, some web browsers hold their ‘themes’ and ‘add-ons’ in the .JAR format.&lt;/p&gt;
+
+&lt;p&gt;And as we told you, JAR files are .ZIP compressed files, which are often used to store things like .class files, a manifest file, and application resources like images, sound clips, and security certificates too. They can hold even thousands of files in a compressed format in them, that’s why it’s easy to share and move .JAR files.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How will you distinguish between an executable and non-executable file?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, just keep in mind If double-clicking the .JAR file does not result in the file being run, it’s likely not an executable file and cannot run in this manner of action. But don’t worry we are discussing how you can see a non-executable .JAR file content in the next points.&lt;/p&gt;
+
+&lt;p&gt;So, next time when you see a .JAR file, you know more about it than usual don’t you?&lt;/p&gt;
+
+&lt;p&gt;Now, without wasting time let’s move on to the next main topic of this log post how can we open them?&lt;/p&gt;
+
+&lt;p&gt;Let’s Jump into it!&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-open-a-jar-file-&quot;&gt;&lt;strong&gt;How to Open a .JAR file :&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;The no. 1 solution for this question will be by using decompression softwares for .JAR file; unarguably they are a more easier, faster and quite convenient way to do so. Now, we are going to guide you through the step by step process of opening a .JAR file in your Windows PC using decompression software, stay tuned with it till the end…&lt;/p&gt;
+
+&lt;h2 id=&quot;open-a-jar-file-using-decompression-softwares&quot;&gt;&lt;strong&gt;Open a .JAR file using decompression softwares&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;To view a non-executable .JAR file contents, that is to view a .JAR file compressed with .ZIP; you can obtain compression/decompression software that works with jar files. There are many available for free like 7-Zip, WinRAR, PeaZip and jZip.&lt;/p&gt;
+
+&lt;p&gt;The steps after this are as below sub-points :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Once you successfully installed one of this software, run that particular software.&lt;/li&gt;
+  &lt;li&gt;Now, simply open the .JAR file by double-clicking on it, and now just extract the files contained in it.&lt;/li&gt;
+  &lt;li&gt;After the files are getting extracted, you can view all the individual files by simply double-clicking them one by one.&lt;/li&gt;
+  &lt;li&gt;Many of those files are probably text files, but others may require additional software to view them, so make sure to have them or to download them as necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s how you can see compressed .JAR file contents using decompression softwares.&lt;/p&gt;
+
+&lt;p&gt;Now, as we discussed the perfect way of opening a .JAR file as deeply and step by step as possible, we hope that you won’t find any trouble opening your .JAR file; still, if you have any query’s additional information, doubts, or any experience and ideas you want to share with us; the comment box is all yours! We will love to talk with you so comment down below! And we will meet you in another blog post of Appscms.com, with some more awesome facts and contents for you guys, see ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">How to Open a .JAR file on your PC</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/how-to-open-jar-files.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/how-to-open-jar-files.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Best .apk decompilers</title><link href="http://localhost:4000/blog/best.apk-decompilers" rel="alternate" type="text/html" title="Best .apk decompilers" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/best.apk-decompilers</id><content type="html" xml:base="http://localhost:4000/blog/best.apk-decompilers">&lt;h1 id=&quot;best-apk-decompilers&quot;&gt;&lt;strong&gt;Best .apk decompilers&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;.apk files are very common for all android users, as they are the very essential part of the whole existence of an app on your smartphone. Sometimes, as a developer you may come across some circumstances where you need to decompile or get the source code of the .apk file for further use; and in this blog post, we are going to discuss the same topic. What are .apk decompilers and What are the Best .apk decompilers out there.&lt;/p&gt;
+
+&lt;p&gt;So, first, let’s get to the point of what are the .apk decompilers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/android-points-2011.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;apk-decompilers-&quot;&gt;&lt;strong&gt;.apk decompilers :&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;The term decompiler is most commonly applied to a program that translates executable programs into source code which when compiled, will produce an executable program, whose behavior is the same as the original program. It is basically the opposite of a compiler, which takes a source file and makes an executable program. So hence,&lt;/p&gt;
+
+&lt;p&gt;.apk decompiler is nothing but a program that can obtain the source codes from the pre-created android programs.&lt;/p&gt;
+
+&lt;p&gt;As a Developer or just a curious mind, you may come across some apps or games on the play store that you almost fall in love with, and wonder what could be the amazing source code of the .apk file of that application. And if this is you, the .apk decompilers are made for you!&lt;/p&gt;
+
+&lt;p&gt;So, now as we are talking about .apk decompilers let’s give you some information about their pros and cons…&lt;/p&gt;
+
+&lt;p&gt;As they are the .apk file decompilers, it’s really easy that you can’t use them for any other type of files like .jar, .exe or any other to decompile. They are strictly used for .apk files which are made to work with android; and they only support that system. Of course, there is an exception for this when it comes to online services, but this one is specifically for downloaded versions of .apk decompilers, which most of the peoples prefer to use.&lt;/p&gt;
+
+&lt;p&gt;Now, another point as an advantage is as we mentioned earlier you can actually view source codes of one of your favorite apps without any more wondering, it makes you a better developer in general; and to be honest all decompilers play a very important role in a developers life, .apk decompilers are a great addition to that!&lt;/p&gt;
+
+&lt;p&gt;Now, we really hope that you know a little bit more about the .apk decompilers now; so let’s move on to our main topic that is;&lt;/p&gt;
+
+&lt;p&gt;The Best .apk decompilers are available right now.&lt;/p&gt;
+
+&lt;p&gt;Here in the list below, we are mentioning some of the top .apk decompilers available in the market with a little bit more information about each of them including its availability, system type, and many more! So, stay tuned for the best one.&lt;/p&gt;
+
+&lt;h2 id=&quot;best-apk-decompilers-&quot;&gt;&lt;em&gt;Best .apk decompilers :&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Now, first of all, let’s differentiate them on the basis of the user interface, so you understand better. Let’s start with the ‘Open source .apk decompilers’…&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Open source .apk decompilers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As per name you can use them for any device for any source code.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;JADX - Dex to Java compiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Jadx decompiles .class and .jar files, but also it produces Java source code from Android Dex and .apk files. According to us, JADX can be one of the most trusted .apk decompilers in the market right now. When it comes to .apk decompilers in open source you can definitely count on JADX for sure.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Bytecode tool&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Bytecode tool is another good example of an open-source .apk decompiler. Bytecode tool is quite new but if we rate it on reliability it will definitely come as one of the top .apk decompilers. you can definitely think about giving it a try.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Apktool&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Apktool is a free and open-source APK builder software app filed under programming software and made available by Brut for Windows. It also has an inbuilt feature of .apk file decompiling for the convenience of developers. So, if you are a developer creating an app Apktool can be a better .apk decompiler for you.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;ApkToolPlus&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ApkToolPlus is a visual cross-platform and an .apk file analysis tool. It can decompile, compile, and also sign an .apk file. It also has features for your code protection like; Dex encryption, anti-reverse, preventing secondary packaging, etc. It can also be a great .apk decompiler for you.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Androguard&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Androguard is a tool and python library to interact with Android Files. As Android files come in the form of Android Packages (.apk files) or Dalvik Executable (.dex) files, Androguard is a perfect .apk decompiler. Androguard has tools to read Android’s binary format for .xml files (axml) and is also suited with a decompiler for .dex. If you are going to experiment with a few, you should definitely give it a try.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;APK studio&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;APK Studio is a renowned open-source .apk decompiler. It is a cross-platform Qt-based IDE for reverse-engineering Android application packages. It features a friendly IDE-like layout including a code editor with syntax highlighting support for ‘.smali’ extension code files. It definitely completes the criteria to be recommended.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s move on to the next type of .apk decompilers, ‘Online .apk decompilers’…&lt;/p&gt;
+
+&lt;h2 id=&quot;ii-online-apk-decompilers&quot;&gt;&lt;strong&gt;II. Online .apk decompilers&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;##&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;APK DECOMPILER APP&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This website decompiles the code from .apk files and extracts all the other assets in the file. This site uses open-source .apk decompilers called JADX and Apktool, which we mentioned in the previous type for this extraction. Good thing is, as it’s online you don’t need to download any major thing for this operation. If you are looking for a quick on the spot solution, it can be a good option for you.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;APK Decompiler Tools&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;APK.Tools is a website providing smartphone software downloads; it also includes an .apk decompiler tool. Similar to APK DECOMPILER APP it also works on some open-source .apk decompilers and you just need to drag and drop your available .apk file and you will get a quick solution handy; worth giving a try right?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Apktool – Reverse engineer Android apk files&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this platform, they state that ‘The resources in any Android APK file are compressed and stored in the binary format’; which is good in sense of retrieving it back. Apktool is an instrument for reverse engineering used by developers. It can be used for closed, binary Android apps. It can decode resources to their original form.&lt;/p&gt;
+
+&lt;p&gt;You can use this website to extract and research assets and the manifest file. It is one of our recommended ones.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Decompiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Similar to the other this one is also an online .apk decompiling service. This is sponsored by redhat. It decompiles all types of files like Python, Java, and of course .apk. You can see that on their website. Like the others in this list, it also has all the basic ‘Online .apk decompiler’ features and you can easily use it. It is a simple yet quite useful website for many reasons; as a developer, you should definitely put it in your bookmarks. Must give it a try.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Android APK Decompiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This site uses a perfect open-source .apk and .dex decompiler called JADX, which we discussed in the previous types of decompilers. As JADX decompiles .class and .jar files, but also it produces Java source code from Android .dex and .apk files. As this site uses the JADX for this decompilation, you can expect quite good results from it. When it comes to the online .apk decompilers, the ‘Android APK Decompiler’ is worth giving a shot!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Online Apk decompiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This website will decompile the code embedded in .apk files and extract all the other assets in the file. This site provides a user interface to extract source code from .class and .jar ‘binary’ files. It is the last and definitely not the least option in the online .apk decompilers list as it also works pretty well in terms of decompilation purpose. You should think about it by visiting the website itself.&lt;/p&gt;
+
+&lt;p&gt;Now, as we are all done with the online .apk decompilers let’s move on to the .apk decompilers you can download for your PC permanently. Let’s check them out…&lt;/p&gt;
+
+&lt;h2 id=&quot;iii-apk-decompilers-for-pc-windows-mac-or-linux&quot;&gt;&lt;strong&gt;III. .apk decompilers for PC: Windows, Mac, or Linux.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;##&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;APK Easy Tool 1.56 / 1.57 beta-1&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Apk Easy Tool is a lightweight application that enables you to manage, sign, compile, and decompile the APK files for the apps you are working on. It is an offline, downloadable tool for your PC to work effectively as an app developer. If you wanted to download software for .apk decompilation APK Easy Tool 1.56/1,57 beta-1 is a good tool for you. Give it a try, and tell us about it in the comments!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Android App Decompiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Android App Decompiler is a useful tool to extract and decompile Android .apk files on your PC offline; as you can download it. Just like the APK Easy Tool 1.56, you can use it effectively on any PC. Now, as a decompiler it has all the necessary features; also the authority is updating the versions frequently, so if you download it you can definitely expect some updates on the way. Still, it is worth giving a try as good work software.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;JEB Decompiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you want to cut down on costly reverse engineering time this one is definitely for you. With one of the fastest decompiling speeds, It decompiles obfuscated .apk, examines Java code, and debugs closed-source apps in minutes. It’s the modular back-end, coupled with a powerful UI front-end for desktop platforms which allow it to perform refactoring operations and scripting to automate complex tasks. We are definitely putting it in our recommended lists!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;AndroChef Java decompiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;AndroChef Java Decompiler is Windows and Mac decompiler for class, jar, apk. class files. As we have also introduced it in another blog post, we are quite sure about this one. AndroChef Java Decompiler is able to decompile the most complex code binaries, producing accurate source code, good for .apk files. This is effective to make your Mac work faster and clean the unnecessary files effortlessly. Because it’s available for Mac, Linux and Windows we definitely recommend giving it a shot!&lt;/p&gt;
+
+&lt;h2 id=&quot;iv-apk-decompiler-apps-for-android&quot;&gt;&lt;strong&gt;IV. .apk decompiler apps for Android&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;##&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;APK DECOMPILER APP&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this application, as expected, we can decompile an .apk on our android supported smartphone. Due to the ability to get quite handy as it is a mobile app, it is definitely worth being on this list.&lt;/p&gt;
+
+&lt;p&gt;In this application, you will have permission to access photos, media, and files for your external storage if it is a case for you so. Just select .apk from your external storage and it will decompile the selected application when given a command. Then Abstract the .apk. The .zip file will be saved in your external storage.&lt;/p&gt;
+
+&lt;p&gt;From this application, you will see the decompiler .apk source code just on your smartphone. Cool right? It’s available on the Google play store.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Show Java – A Java Decompiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Show Java – A Java Decompiler is another easy to use source navigator with built-in media &amp;amp; code viewer for an .apk file; which comes in the form of an android app. It displays code in a clean-syntax-highlighted form with zoom &amp;amp; line-wrap. In this, the decompiled source can easily be copied from the SD card of your smartphone (source is stored in show-java folder in the SD card).&lt;/p&gt;
+
+&lt;p&gt;You can also share the decompiled source easily with the built-in archive and share mechanism present in this app.&lt;/p&gt;
+
+&lt;p&gt;Another good thing is it runs in the background easily without crashing. For the pro developers, it also has its own ‘Ad-Free Pro version’ available through In-App purchase. It is available on all major app stores and definitely cut through to come to this list.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;APK Extractor – Apk Decompiler&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It is another android app version for an .apk decompiler named APK Extractor. Though it’s the last one and quite new, we should not underestimate it at all. It probably has one of the easiest user interfaces when it comes to comparing with other apps. It is used to decompile the source code back from .apk just like others but seems easier here.&lt;/p&gt;
+
+&lt;p&gt;The procedure for its work is like :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Select the app from the installed list or select .apk file from the storage of the smartphone.&lt;/li&gt;
+  &lt;li&gt;Select the decompiler as editor.&lt;/li&gt;
+  &lt;li&gt;And it will decompile the selected .apk file right away, after the extraction you can get the source code of .apk file you have selected.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And, that’s it! You will have a decompiled code for the .apk file on your smartphone. Think about using it for your own!&lt;/p&gt;
+
+&lt;p&gt;And, now hence we are all done with the Best .apk decompilers; according to their types and usage! Which one do you think will suit you the best? Tell us in the comment box below! If you have any other suggestions, questions, queries, or even compliments you can definitely tell us there, we will love to hear from you! And on that note, we hope to see you in another blog post on our website Appscms.com. Until then, have good luck finding the best decompiler for you from these suggestions from us! Hope you will like other blog posts too! See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Best .apk decompilers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/decompile-android-apk-files-tools.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/decompile-android-apk-files-tools.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Best Java Decompilers</title><link href="http://localhost:4000/blog/best-java-decompilers" rel="alternate" type="text/html" title="Best Java Decompilers" /><published>2020-12-04T00:00:00+05:30</published><updated>2020-12-04T00:00:00+05:30</updated><id>http://localhost:4000/blog/best-java-decompilers</id><content type="html" xml:base="http://localhost:4000/blog/best-java-decompilers">&lt;h1 id=&quot;best-java-decompilers&quot;&gt;&lt;strong&gt;Best Java Decompilers&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;Java decompilers are one of the quite normally used terms in today’s technological world of development. Every new age developer needs one as it is one of the important gears in the programmer lifestyle. Now, as we talk about Java decompilers let’s get to know a little bit more about the term Decompiler itself.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/best-java-decompilers.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The term decompiler is most commonly applied to a program which translates executable programs into source code which when compiled, will produce an executable program, whose behavior is the same as the original program. It is basically the opposite of a compiler, which takes a source file and makes an executable program.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds too complicated? No worries, just remember that Decompilers are the ones who are going to create source codes for your pre-created programs.&lt;/p&gt;
+
+&lt;p&gt;Decompilers are usually unable to perfectly reconstruct the original source code, and as such, will frequently produce obfuscated code. But, still, decompilers remain an important tool in the reverse engineering of computer software.&lt;/p&gt;
+
+&lt;p&gt;Why? How? And How will this benefit you? Well, we will figure out all of this in this blog post, so stay tuned until the end; and let’s jump into our Topic!&lt;/p&gt;
+
+&lt;h2 id=&quot;java-decompilers-&quot;&gt;&lt;strong&gt;Java Decompilers :&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Now, Java Decompilers are basically no other than the decompilers designed for the Java language and its users. They relate basically to all the Java programming language work.&lt;/p&gt;
+
+&lt;p&gt;They are designed in such a way that it is capable of converting a .class file into a Java source code. In addition, it will not give the exact java source code from which the .class file is generated, which is an advantage.&lt;/p&gt;
+
+&lt;p&gt;However, most of the code will be the same. A Java decompiler is considered to be extremely helpful in case you have lost the source code.&lt;/p&gt;
+
+&lt;p&gt;You can use a Java decompiler to look into the code of predefined Java classes like HashMap, HashSet, ArrayList, and many more.&lt;/p&gt;
+
+&lt;p&gt;You can also find out how Sun/Oracle java developers wrote the java classes which are currently used by billions of devices around the world!! Amazing right?&lt;/p&gt;
+
+&lt;p&gt;Today there are many Java Decompilers in the market. Many of them provide offline services; there are also some advanced Java decompiler online software. Anyone can easily download java decompiler applications and software from the internet in order to get the work done. Let’s find out some of the best Java decompilers that you can use for yourself.&lt;/p&gt;
+
+&lt;p&gt;So, This is our recommendation list of the best java decompilers on the internet today. We tried to list those who are friendly to work with and have a good user interface.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-jd-project&quot;&gt;&lt;strong&gt;1) JD Project&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;JD Project is one of the most frequently used best java decompilers offline. It is developed to decompile Java 5 and beyond, which currently goes up to Java 10. It comes in the list of Java 10 decompilers. Also can be used as Java 6decompiler, Java 7 decompiler, Java 8 decompiler, and of course Java 10 decompiler too. It is available for Windows, Mac, and Linux and is the best eclipse Java decompiler and IntelliJ Java decompiler as it provides a plugin for each platform separately. This proves to be extremely useful during the debugging process as a Java decompiler tool.&lt;/p&gt;
+
+&lt;p&gt;It uses the JD- GUI. This is easy to use and an interactive graphical interface. That’s why it is known as Java decompiler JD GUI.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-cavaj-java-decompiler&quot;&gt;&lt;strong&gt;2) Cavaj Java Decompiler&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;This is another great tool for converting bytecode to Java source code; that is the best Java decompiler. If you are a Windows user, then Cavaj is the best option available for you out there as a Java decompiler. It is simple to use and decompiles any given Java class file. One major drawback of this application is that it lacks Syntax Highlighting. It is also not available for Mac and Linux operating software. In short, this is a standard strict Windows application that is used as the best Java decompiler Cavaj.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-dj-java-decompiler&quot;&gt;&lt;strong&gt;3) DJ Java Decompiler&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;This is another standard Windows Application as the best Java decompiler. It is available for Windows XP, Windows 2003, Windows Vista, Windows 7, Windows 8, Windows 8.1, and Windows 10. In short, it is the Java decompiler Windows. It can easily decompile complex Java applets and binaries to produce accurate source code. There are drag and drop features for smooth working, so you can decompile .class files on your computer’s hard disk or on a network drive that you have connected.&lt;/p&gt;
+
+&lt;p&gt;If you want a sustainable Java decompiler to go for Java decompiler DJ.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-jbvd&quot;&gt;&lt;strong&gt;4) JBVD&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;JBVD stands for Java Bytecode Viewer and Decompiler. It is based on the Javassist open source library. This application is available only for Windows users that is Java decompiler Windows. It supports all Windows platforms though. It is one of the most powerful bytecode viewer and decompiler. Of course, this program needs Java to be installed on your computer to work. JBVD can thus be used both as a Java viewer and a decompiler. So, if you’re looking for a good Windows decompiler try out Java decompiler JBVD.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-androchef-java-decompiler&quot;&gt;&lt;strong&gt;5) AndroChef Java Decompiler&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;If you are on the lookout for a Java decompiler to view and analyze bytecode then AndroChef Java decompiler should be your preferred option. It is capable of easily converting Java .class files and applets into Java source code. It is simple and easy to use, however it is only available on the Windows Operating System.AndroidChef Java decompiler supports Windows XP, Windows 2003, Windows Vista, Windows 7, Windows 8, 8.1, and 10. With Androchef, you can decompile apk, dex, jar, and in addition AndroChef successfully decompiled java6, java 7 and java 8 .jar and .class files. It’s simple and easy. So, if you want a Java decompiler who can do it all, give a try to Java decompiler AndroChef.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-procyon&quot;&gt;&lt;strong&gt;6) Procyon&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;It is one of the most popular open-source Java decompilers. One of its most amazing features is the ability to deal with Java 8. Procyon can handle all those features which were launched with Java 5 to the latest version of Java. Not only this but it has an advantage over others, in that it can manage Java Dialect upgrade from JDK 1.5 to all the previous versions. This functionality is usually missing in other Java decompilers. Due to this, Procyon can be used as an alternative where other java versions fail. It can also easily deal with other features such as local classes, annotations, Enum declarations, and Lambdas in Java 8.&lt;/p&gt;
+
+&lt;p&gt;Procyon-decompiler is a standalone front-end for the Java decompiler included in Procyon-compiler tools. All of its dependencies are embedded in the .JAR file for easy redistribution for users. With all this, you can definitely give a try to Java decompiler Procyon.&lt;/p&gt;
+
+&lt;h3 id=&quot;7-cfr-decompiler&quot;&gt;&lt;strong&gt;7) CFR Decompiler&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;In this Java decompiler, CFR stands for Class File Reader. This is another such decompiler that was developed to deal with the latest features and updates in Java programming. It is written in Java 6; Although running on Java 6, it is advanced enough to support the major highlights of Java 8. It can easily decompile the latest Java features such as Lambdas and Switch Statement. This means if you are using Java 8, you can be at peace with yourself. The best part of this Java decompiler is that it is an open-source decompiler with a wide scope of customization according to its user’s needs. It is quite effective and quick in functioning. In addition, it has a command-line tool that makes the decompiling process faster and even more efficient. On that note, we hope that you will have a great experience with Java decompiler CFR if you choose to go with it.&lt;/p&gt;
+
+&lt;h3 id=&quot;8-jad&quot;&gt;&lt;strong&gt;8) JAD&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Like all others mentioned, Jad is a Java decompiler, i.e. program that reads one or more Java class files and converts them into Java source files which can be compiled again. Jad is a 100% pure C++ program and it generally works several times faster than other Java decompilers. Jad doesn’t use the Java runtime for its functioning, therefore no special setup is required (like changes to the CLASSPATH variable). Jad can easily be used for recovering lost source codes; for exploring the sources of Java runtime libraries; as a Java disassembler; and also as a Java source code cleaner and beautifier in advance. In addition to that Jad becomes unique because of its Fast decompilation and simple setup. And it’s free for non-commercial use too! So, if you’re looking for a good one go for Java decompiler Jad.&lt;/p&gt;
+
+&lt;p&gt;So, In Conclusion, Which is the best Java Decompiler?&lt;/p&gt;
+
+&lt;p&gt;If you are looking out for the best Java decompiler then you can try out any of the ones mentioned above. Just download them and try them out. You could share your experience in the comments below and even if you are aware of other amazing decompilers, then you could share those too.&lt;/p&gt;
+
+&lt;p&gt;Now, for all the dear readers here’s bonus information who stick till the end; Getting to know more about decompilers, we should know more about their Installation process, and here is how you can install your Java decompiler on eclipse; check it out…:)&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-java-for-eclipse&quot;&gt;&lt;strong&gt;Installing Java for Eclipse&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;As there is no built-in Java decompiler for Eclipse; during using Java on eclipse we need to use Java decompiler from outside. For that, there are freely available external plugins which can be installed in Eclipse to create a built-in decompilation option. Java Decompiler project is one such plugin. So, In this Post, We’ll list down the steps required to install the JD-Eclipse plugin for your PC.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1--install-jd-eclipse-plugin-on-your-pc&quot;&gt;&lt;em&gt;Step 1 – Install JD-Eclipse plugin on your PC&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;Open Eclipse and click on Help, go to ‘Install New Software’ In the available software window, now click on the link of ‘Available Software Sites’. In that window click on the ‘Add’ button; A pop-up window will appear.&lt;/p&gt;
+
+&lt;p&gt;In the pop-up window, provide any name to the site and paste the update site URL as &lt;a href=&quot;http://jd.benow.ca/jd-eclipse/update&quot; title=&quot;http://jd.benow.ca/jd-eclipse/update&quot;&gt;http://jd.benow.ca/jd-eclipse/update&lt;/a&gt; and click on ‘Ok’.&lt;/p&gt;
+
+&lt;p&gt;In the Available Software window, select the newly created site from the drop-down and wait. Eclipse will fetch the list of plugins available for installation for that site, where we will find the JD-Eclipse Plugin.&lt;/p&gt;
+
+&lt;p&gt;Select all the packages and click Next. Accept the license agreement and click Finish to begin the installation of the plugin.&lt;/p&gt;
+
+&lt;p&gt;Restart Eclipse after the installation is finished.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2--set-jd-eclipse-as-default-class-editor&quot;&gt;&lt;em&gt;Step 2 – Set JD-Eclipse as default class editor&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now, In the eclipse menu bar click on Window and go to Preferences.&lt;/p&gt;
+
+&lt;p&gt;In the Preferences windows, go to General; there click on Editors and select File Associations. In the right pane, select .class without a source as the file type.&lt;/p&gt;
+
+&lt;p&gt;In the Associated editors: section below, click on the Add button. In the pop-up window which opens up, select Internal editors and in the list below it, select the Class File Editor and click on the OK button&lt;/p&gt;
+
+&lt;p&gt;Select the Class File Editor it is identified by the coffee-cup icon; and click on the Default button. This makes JD-Eclipse the default decompiler for class files without source.&lt;/p&gt;
+
+&lt;p&gt;Now, simply double-click on any .class file and JD-Eclipse will decompile it for you. You can also place debug points in the decompiled classes while debugging your applications.&lt;/p&gt;
+
+&lt;p&gt;And That’s how you are all set with your Java decompiler Gear on your PC, We hope that this article will help you to choose the best Java decompiler that will suit you and your work style.&lt;/p&gt;
+
+&lt;p&gt;Tell us in the comments was this article helpful, what will you like to add up in this and surely what will you like to know more about that we can write and help you so; Thank you so much for being our reader and we will definitely see you in another blog post of Applanding! See ya!!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Best Java Decompilers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/java-decompiler-2.png" /><media:content medium="image" url="http://localhost:4000/uploads/java-decompiler-2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Increasing use base by localizing your app</title><link href="http://localhost:4000/blog/increasing-use-base-by-localizing-your-app" rel="alternate" type="text/html" title="Increasing use base by localizing your app" /><published>2020-12-01T00:00:00+05:30</published><updated>2020-12-01T00:00:00+05:30</updated><id>http://localhost:4000/blog/increasing-use-base-by-localizing-your-app</id><content type="html" xml:base="http://localhost:4000/blog/increasing-use-base-by-localizing-your-app">&lt;p&gt;Developing an app is a process, but to make it usable by the global audience is a different game altogether. According to &lt;a href=&quot;https://www.gsma.com/mobileeconomy/&quot;&gt;GSMA Intelligence&lt;/a&gt; , there are already more than 4.8 unique mobile users worldwide, and this number is projected to grow up to 5.7 billion by 2020. Chances are high that your potential app users do not speak your language. A chunk of the mobile users are located in Asia and Pacific regions, and on a global level only around 15% of the users speak English as their first or second language. So, where do these downloads come from?&lt;/p&gt;
+
+&lt;p&gt;According to 56.2% global app consumers, the ability to access an app in their native language is more important than the pricing of the app. It’s growing demand is bringing various mobile app development companies to think about it. Therefore, localization has become a vital strategy for any mobile app with a goal to have an increased consumer base.&lt;/p&gt;
+
+&lt;p&gt;The mobile economy is booming: over 340k apps are downloaded from app stores every minute. Acquainting yourself with the mobile app localization will therefore give a boost to your revenue chart. If you are reading this, you are probably doing this or considering it. Let’s see how:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Increase your customer base&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the well known companies have reached great heights today, due to their app localization game. Let us take the example of Facebook, Twitter, Pokemon Go and Weather channel amongst others who have successfully devised the app localization strategy and this has done wonders to their brand!&lt;/p&gt;
+
+&lt;p&gt;Here is an infographic to show the statistics that have contributed to making Mobile App Localization one of the main sources of company’s revenue generation. This should definitely give you some solid reasons to think about the benefits of your app localization.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/benefits-of-mobile-app-localization-for-android-and-iphones-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Access to a constantly growing base of new customers is indeed a valuable asset for your business. With proper localization, mobile apps have considerably lowered the cultural barriers and tend to evoke interest in a varied customer base.&lt;/p&gt;
+
+&lt;p&gt;The key to the success of localization of your app also lies in the correct translation of your key content. For businesses that do not have much revenue on disposal for these translations could start by localizing certain elements of the product first page (for example- app name, description, video and screenshots).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fastrack entry to new markets&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Localized app store listing along with a strong app optimization strategy provides an easy and fast access to the global market. App developers could try out by making the app available for multiple countries first in order to test if a particular market is interesting and have a potential value for the growth of the business.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Improvised user engagement and satisfaction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It is true that English is spoken as one of the world’s main languages but many customers would love to see the product content and notifications in their local languages. Localized apps will ensure better experience and understanding of your product. More the users- better for your business.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Variability&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/rsz_edith.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a &lt;a href=&quot;https://www.gamasutra.com/blogs/LarsDoucet/20140813/223350/Was_Localizing_Defenders_Quest_Worth_It.php&quot;&gt;case study&lt;/a&gt; on how Defender’s Quest brought about a peak in its sales figure after localizing its app in six languages ie. English, Czech, German, Korean, Japanese and Russian.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/rsz_edit_this.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Between Android and iOS platforms, there are more than 300 apps and the market is still growing. Every local store is on the lookout of apps that would entice local users. There are a number of success stories based on localization of their app. Blue tea games, the parent of Mavenhall, released their game in various local languages and got features in App’s Store ‘ Best new game’ category in over 120 countries.&lt;/p&gt;
+
+&lt;p&gt;Let’s take an example of Evernote. The app put in a little extra effort in localizing their app to suit the Chinese clientele and it paid off generously. They even uploaded customized screenshots of elements in Chinese language, along with changing the description content as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/rsz_just_edit_this.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, app developers also have to be very careful in maintaining the cultural integrity - lest it offend customers. For example if the app developers are thinking about launching a beauty app catering to the Middle Eastern clientele, the model images used for the US based clientele will not work in this case and therefore require change.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Increased revenue&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Diversifying the apps in various local languages will therefore bring in more revenue and profits as the user base would increase drastically.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to implement mobile app localization?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Deciding which language to choose- Figuring out which language your app will be localized in should be your foremost priority. You can do this by simply Google searching the most used language on the internet and finding out which language is used by most paid users of app.&lt;/li&gt;
+  &lt;li&gt;Deciding which nation to target- Analyze the user acquisition performance report in the stores to find out countries you have not localized to, but are seeing many visits from. These visits can indicate an interest in your application from that country and can be seen as an opportunity to surge installs through localizing.&lt;/li&gt;
+  &lt;li&gt;Doing ASO of a localized app- Convert your keywords in localized languages, then change the app name, make additional changes like changing the content above the image.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When it comes to implementing changes in the app and localizing it to fit the right market, one has to be very careful, as everything from the format to noun usages - changes! Furthermore, one also needs to pay heed to the country laws which is being targeted for the app launch.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mobile app localization tools&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lokalise&lt;/li&gt;
+  &lt;li&gt;Crowdin&lt;/li&gt;
+  &lt;li&gt;PhraseApp&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Here is a short checklist on mobile app localization:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Study your target market: make a research to find out the similar apps, navigate at what your competitors are doing, what are your customers’ buying habits in this region and what price they’ll be ready to pay for your product.&lt;/li&gt;
+  &lt;li&gt;Find out what devices are most used in this locale and what app stores dominate the market.&lt;/li&gt;
+  &lt;li&gt;Do App Store Optimization for your target stores and find out the best visibility and conversion strategy for this market.&lt;/li&gt;
+  &lt;li&gt;Prepare and adapt your UI so it can support foreign characters, vertical scripts or RTL languages if needed. Make sure your app supports user-generated text in any languages, independently from the user interface.&lt;/li&gt;
+  &lt;li&gt;Proof-read the localized content with a native speaker and check the graphics, too – sometimes irrelevant images can fail to transmit the right message to your users.&lt;/li&gt;
+  &lt;li&gt;Always test your localized app on all devices and platforms to ensure it’s coherent and has no errors or bugs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The earlier you prepare for it- the more cost effective your app localization process shall be. Appscms provides a simple enough solution for app developers to change their content on their user’s mobile apps without them having to upgrade the app. Hence Appscms will be of use to app developers to experiment with their multiple languages- instantly! All you need to do is just integrate our SDK in your app. Do you know someone who could benefit from our services? Our team is eager to connect with businesses in any industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“At Appscms, we make your mobile apps dynamic”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Developing an app is a process, but to make it usable by the global audience is a different game altogether. According to GSMA Intelligence , there are already more than 4.8 unique mobile users worldwide, and this number is projected to grow up to 5.7 billion by 2020. Chances are high that your potential app users do not speak your language. A chunk of the mobile users are located in Asia and Pacific regions, and on a global level only around 15% of the users speak English as their first or second language. So, where do these downloads come from?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/benefits-of-mobile-app-localization-for-android-and-iphones.png" /><media:content medium="image" url="http://localhost:4000/uploads/benefits-of-mobile-app-localization-for-android-and-iphones.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Experimenting with text - ideas for app developers”</title><link href="http://localhost:4000/blog/experimenting-with-text-ideas-for-app-developers" rel="alternate" type="text/html" title="Experimenting with text - ideas for app developers”" /><published>2020-11-26T00:00:00+05:30</published><updated>2020-11-26T00:00:00+05:30</updated><id>http://localhost:4000/blog/experimenting-with-text-ideas-for-app-developers</id><content type="html" xml:base="http://localhost:4000/blog/experimenting-with-text-ideas-for-app-developers">&lt;p&gt;Is your company a new startup or an established company struggling to get targeted traffic on your website and mobile application? According to research , 45%of large business organizations struggle to successfully develop their mobile application. Why? The struggle isn’t that the companies do not understand the importance of developing an application, but some other organizational hiccups that block the path to implement the ideas successfully. Recently, we have seen many disruptive successes by companies who have fully utilized the development of mobile applications. Over the years, we have come across plenty of companies who have successfully implemented their ideas and brought their app to life!&lt;/p&gt;
+
+&lt;p&gt;So what’s the recipe for high impact success? Well, truly there is no one-size-fits-all recipe. Ideas that work for company A may not be compatible with company B!&lt;/p&gt;
+
+&lt;p&gt;But before you start, you must analyse your limits. One of the biggest misconceptions among C suite executives is that they think that all developers are the same- the one who can develop a website could also successfully develop an app! This is wrong!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/rsz_ed.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“&lt;em&gt;If you give a good idea to a mediocre team, they will screw it up. If you give a mediocre idea to a brilliant team, they will either fix it or throw it away and come up with something better”&lt;/em&gt; Ed Catmull, Pixar Animation.&lt;/p&gt;
+
+&lt;p&gt;Often successful mobile struggle because they are too focussed on their current success than to worry about what’s next.Businesses should view mobile application development as an avenue to innovate,improve and open up new opportunities.For businesses to truly flourish in today’s highly competitive market and hit that conversion rate figure they’ve always aimed for, it’s imperative for them to build a scalable experimentation culture .Below are few reasons that successful companies build apps that fail—and advice to ensure that your app doesn’t suffer:-&lt;/p&gt;
+
+&lt;p&gt;Want to improve conversions?.The magic of A/B testing brought about by a culture of experimentation can increase conversions therefore bringing more revenue on the plate. A/B testing tool may be used to determine the effectiveness of icons, screenshots, descriptions, store search results, directions, prices, headlines, and more.&lt;/p&gt;
+
+&lt;p&gt;A/B testing isn’t difficult . The idea is to start by creating a hypothesis and then to run experiments to see if the idea works or not. It starts by segmenting the audience into two groups and seeing what components affect the user interaction on the app. This technique is used to identify the best possible user experience and to deliver the best results. For example, Sony had experimented with their calls to action on their banner ads and replaced the word ‘Customize your VAIO’ with’ Make it personal’ and found that the conversion rates increased by 6% and the customer engagement on shopping cart by 21.5%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/why-should-you-a-b-test-1024x352.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to run A/B testing tool ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Perform research - Whatever you’re testing should lead to a greater goal leading to higher conversion rates. Ideally, A/B testing will help you solve an issue with your app and drive your business goals to success.&lt;/li&gt;
+  &lt;li&gt;Determine your variants- Identify what you want to compare? It may be an element of design, copy, or function.&lt;/li&gt;
+  &lt;li&gt;Perform the Test- Once you’ve formulated your hypothesis and identified the element that you want to A/B test, you need to create two variations of the landing page. (Let’s call them x and y.)&lt;/li&gt;
+  &lt;li&gt;They should be exactly the same, the only difference being the element that you want to test i.e element of design, copy, or function.&lt;/li&gt;
+  &lt;li&gt;Identify your audience and drive them to these pages (directing 50% of visitors to page x and the other 50% to page y). Depending on how many installs each version generates you can determine the winner.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;SplitMetrics&lt;/em&gt; collects all of the analytical data and lets you know which variation won and gives you a comprehensive report on how users interacted with your app page.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/uploads/rsz_ed3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Make Changes Based on Results.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Prepare for Follow-Up Tests.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Benefits of A/B testing for mobile app developers&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Higher conversion rates.&lt;/li&gt;
+      &lt;li&gt;Decision making based on data and metrics.&lt;/li&gt;
+      &lt;li&gt;Gain a better understanding of the user behavior.&lt;/li&gt;
+      &lt;li&gt;Better use of resources.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Learning from mistakes.&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;4 A/B Testing success stories&lt;/strong&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;1.Grene Redesigned its Mini Cart and Saw a 2x Increase in Overall Purchase Quantity- Grene is a highly recognized eCommerce brand headquartered in Poland that sells a variety of agriculture-related products. Over the years, the eCommerce giant has run many successful A/B tests, one of which was revamping their mini cart page to add prominence to in-page elements.&lt;/p&gt;
+
+        &lt;p&gt;&lt;img src=&quot;/uploads/ed4png.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;img src=&quot;/uploads/rsz_ed5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+        &lt;p&gt;2.HubSpot’s Mobile Calls-to-Action- HubSpot uses several different calls-to-action in its blog posts. However, on mobile, these CTAs might seem intrusive. That’s why HubSpot tested mobile CTAs.So, HubSpot decided to test four variants.&lt;/p&gt;
+
+        &lt;p&gt;&lt;img src=&quot;/uploads/rsz_ed6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+        &lt;p&gt;Overall, Variant D saw an increase of 14.6%.&lt;/p&gt;
+
+        &lt;p&gt;3.WorkZone Increased its Leads Through Its Testimonials Page By 34%- WorkZone is a US-based software company. They realized that the customer testimonial logos were overshadowing the form, therefore distracting visitors from filling it. They decided to change customer testimonial logos, from their original color to black and white, and see whether the change would help increase the number of demo requests.&lt;/p&gt;
+
+        &lt;p&gt;&lt;img src=&quot;/uploads/rsz_ed6-1.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/uploads/rsz_1ed7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+        &lt;p&gt;After running the test for about 22 days, WorkZone found that the variation outperformed the control. It projected a 34% increase in form submissions and marked a 99% statistical significance.&lt;/p&gt;
+
+        &lt;p&gt;After running the test for about 22 days, WorkZone found that the variation outperformed the control. It projected a 34% increase in form submissions and marked a 99% statistical significance.&lt;/p&gt;
+
+        &lt;p&gt;4.PayU Increased its Conversions by 5.8% - PayU is an Indian-origin fin-tech company that provides an exclusive range of financial solutions for local and cross border merchants in emerging markets. As a payment facilitator, it is important for them to use a user friendly check out process therefore eliminating all plausible elements that may hamper its smooth running. To streamline everything, PayU decided to make minor changes on its Checkout page form on the basis of the data gathered and run an A/B test to validate their hypothesis.&lt;/p&gt;
+
+        &lt;p&gt;&lt;img src=&quot;/uploads/rsz_ed8.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/uploads/rsz_ed9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+        &lt;p&gt;The result was that simply by eliminating the email address field from their checkout page, they were able to increase the conversion rate by 5.8%.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;strong&gt;Quirky examples for app developers&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;A good brief is like an overall view of your project. It captures minute details and informs the development company what your project is about. An excellent brief for your app development project should start with:-&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/uploads/inner-images-01.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Telling about yourself- An overview of the inception of your project, goals and vision.&lt;/p&gt;
+
+    &lt;p&gt;Detail oriented market research- No matter how wonderful your idea is, if your app is likely to transform the mobile industry, a thorough market research needs to be conducted.&lt;/p&gt;
+
+    &lt;p&gt;Purpose of your app- Communicate clearly what, why and how your app solves the problems&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/uploads/inner-images-04-1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+App functionality- A brief overview about the technical design of your app.The functionality of your app will decide how your product will turn out.&lt;/p&gt;
+
+    &lt;p&gt;User navigation - Outline how the user is supposed to navigate within your app.&lt;/p&gt;
+
+    &lt;p&gt;Content creation- A crucial factor indeed. You must ensure what goes into your app- document , audio, visual- everything!&lt;/p&gt;
+
+    &lt;p&gt;Visual appeal-Outlining the design process and specifying how you want your ideas to come to reality is fundamental not only for the designer but also for the success of your app.&lt;/p&gt;
+
+    &lt;p&gt;Update and improvise on your application- If you think your journey ends just by launching your dream app in the market- think again. Regular updates improve app visibility . Keep improving your app by taking user feedback.&lt;/p&gt;
+
+    &lt;p&gt;Lastly, choose an ideal platform&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Get ability to experiment with your mobile apps dynamically, using Appscms&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;At Appscms, we help you with-&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Over the air string update&lt;/li&gt;
+      &lt;li&gt;Effective multilingual translation&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Appscms provides a simple enough solution for app developers- instantly!.We make apps dynamic and hence can help app developers with this kind of experimentation - without their users having to upgrade the app.Do you know someone who could benefit from our services? Our team is eager to connect with businesses in any industry.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;&lt;em&gt;“At Appscms, we make your mobile apps dynamic”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>ankita</name></author><summary type="html">Is your company a new startup or an established company struggling to get targeted traffic on your website and mobile application? According to research , 45%of large business organizations struggle to successfully develop their mobile application. Why? The struggle isn’t that the companies do not understand the importance of developing an application, but some other organizational hiccups that block the path to implement the ideas successfully. Recently, we have seen many disruptive successes by companies who have fully utilized the development of mobile applications. Over the years, we have come across plenty of companies who have successfully implemented their ideas and brought their app to life!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/n.png" /><media:content medium="image" url="http://localhost:4000/uploads/n.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Grammatical mistakes which will kill your brand</title><link href="http://localhost:4000/blog/grammatical-mistakes-which-will-kill-your-brand" rel="alternate" type="text/html" title="Grammatical mistakes which will kill your brand" /><published>2020-11-26T00:00:00+05:30</published><updated>2020-11-26T00:00:00+05:30</updated><id>http://localhost:4000/blog/grammatical-mistakes-which-will-kill-your-brand</id><content type="html" xml:base="http://localhost:4000/blog/grammatical-mistakes-which-will-kill-your-brand">&lt;p&gt;When people first see your commercials, website or email from your company within a few seconds they form an irreversible idea about your company, its products and the website. Everyone who has spent a considerable amount of time on social media sites has perhaps noticed how the standards of grammar and spelling has been lowered. The random mistakes have made us heavily dependent on auto correct usage.For business owners and app developers the grammatical mistakes have a larger effect. If your message isn’t clear and you inadvertently misuse apostrophe and comma,potential customers will notice- react and cause you to lose your sales.&lt;/p&gt;
+
+&lt;p&gt;The importance of grammar therefore, can’t be underestimated. Despite depending heavily on auto correct and various grammar correction tools, mistakes are bound to happen. Grammatical mistakes on social media sites are particularly tricky- for when your message goes live, there is nothing much you can do to fix it! Constant corrections on your website or on your mobile apps will certainly hurt your brand’s credibility. Whether it is a social media tweet, newsletter or any marketing message is sure to get messed up if your grammar is incorrect! For example, something as simple as comma splice could force your readers to re read the message again. Clarity - therefore is of utmost importance.&lt;/p&gt;
+
+&lt;p&gt;Won’t you be skeptical to associate yourself with a brand that doesn’t proofread the contents before publishing? It sure shall raise doubts about the professionalism and attention to detail. Companies are therefore expected to create error free content, and when they don’t- it is bound to receive a backlash!&lt;/p&gt;
+
+&lt;p&gt;MailChimp has highlighted the fact that ‘About 15% of the world’s population lives with a disability. That’s one billion people. Of those billion people, 285 million are visually impaired and may use a screen reader to access web content.These assistive devices use page elements to navigate web and email content, and read text aloud.For those living with disabilities, accessible content isn’t just about convenience, it’s about necessity’.&lt;/p&gt;
+
+&lt;p&gt;This certainly gives the message that your audience should be able to access your content without any problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Misused words&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Entities of all kinds have been impacted by incorrect grammar—even the federal government. In 1872, President Ulysses S. Grant passed a tariff act in which “fruit plants, tropical, and semi-tropical for the purpose of propagation” were exempt from the tariff. Somehow an extra comma was inserted, so the new law read “fruit, plants, tropical and semi-tropical…”. This error cost the federal government approximately $2 million (roughly $40 million in today’s dollars after adjusting for inflation).&lt;/p&gt;
+
+&lt;p&gt;Welsh engineering firm Taylor and Sons were impacted when a British business registry announced the firm had closed its doors, when, in fact, it was Taylor &amp;amp; Son (singular) that ceased operations. Over 250 employees had lost their jobs.&lt;/p&gt;
+
+&lt;p&gt;“Your” vs “You’re” - These words are often misused in a comical way.&lt;/p&gt;
+
+&lt;p&gt;Example: You are the best intern we hired.&lt;/p&gt;
+
+&lt;p&gt;Your marketing skills are impressive!&lt;/p&gt;
+
+&lt;p&gt;“Two”, “too” and “to” - While to is a verb, two represents a number!&lt;/p&gt;
+
+&lt;p&gt;Example: He wanted to go to the bank&lt;/p&gt;
+
+&lt;p&gt;She asked for two packets of bread.&lt;/p&gt;
+
+&lt;p&gt;I too wanted to have an ice cream.&lt;/p&gt;
+
+&lt;p&gt;“Affect” vs “Effect”- Affect is a verb and Effect is a noun.&lt;/p&gt;
+
+&lt;p&gt;Example: Bad weather affected our plans.&lt;/p&gt;
+
+&lt;p&gt;“Ensure” vs “Insure” - To ensure is to guarantee. To insure means to provide protection.&lt;/p&gt;
+
+&lt;p&gt;Example: We ensured all the doors and windows were locked.&lt;/p&gt;
+
+&lt;p&gt;Seems wanted to insure her new Ipad.&lt;/p&gt;
+
+&lt;p&gt;“Whether” vs “Weather”- Another word for if. Natural phenomenon.&lt;/p&gt;
+
+&lt;p&gt;Example: I wondered whether to take an umbrella or not.&lt;/p&gt;
+
+&lt;p&gt;Oh look at the weather outside!&lt;/p&gt;
+
+&lt;p&gt;“Loan” vs “Lend”- Loan is a noun. Lend is a verb.&lt;/p&gt;
+
+&lt;p&gt;Example: Shital asked for a loan.&lt;/p&gt;
+
+&lt;p&gt;Could you lend me your notebook?&lt;/p&gt;
+
+&lt;p&gt;“Lay” vs “lie”- Lay is used when the object is being acted upon.&lt;/p&gt;
+
+&lt;p&gt;Example: The teacher said ‘lay the book on the table’.&lt;/p&gt;
+
+&lt;p&gt;She went to lie down.&lt;/p&gt;
+
+&lt;p&gt;“There”, “Their”, “They’re”-&lt;/p&gt;
+
+&lt;p&gt;Example: Look there.&lt;/p&gt;
+
+&lt;p&gt;It is their house.&lt;/p&gt;
+
+&lt;p&gt;They’re going to play badminton this weekend.&lt;/p&gt;
+
+&lt;p&gt;“Its” vs “it’s”-&lt;/p&gt;
+
+&lt;p&gt;Example: It’s going to rain.&lt;/p&gt;
+
+&lt;p&gt;Nature renews on its own.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Punctuation mistakes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Commas- The usage of commas is a critical one. In the past several companies have spent millions on lawsuits related to written policies and procedures in which the comma was missing, thus changing the meaning of the sentence.&lt;/p&gt;
+
+&lt;p&gt;Incorrect: The suit was available in red green and yellow.&lt;/p&gt;
+
+&lt;p&gt;Correct: The suit was available in red, green and yellow.&lt;/p&gt;
+
+&lt;p&gt;Comma splice- Occurs when period should have been used.It creates one joint sentence instead of two separate ones.&lt;/p&gt;
+
+&lt;p&gt;Incorrect: I don’t know the difference it was never explained to me.&lt;/p&gt;
+
+&lt;p&gt;Correct: I don’t know the difference. It was never explained to me.&lt;/p&gt;
+
+&lt;p&gt;Colon- Used to begin a quotation.&lt;/p&gt;
+
+&lt;p&gt;Incorrect: Kamala said Harish you are a gentleman.&lt;/p&gt;
+
+&lt;p&gt;Correct: Kamala said “Harish you are a gentleman”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other grammatical mistakes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Writing a sentence using all capital words.&lt;/p&gt;
+
+&lt;p&gt;Using too many adverbs.&lt;/p&gt;
+
+&lt;p&gt;Wrong usage of active and passive voice in a sentence.&lt;/p&gt;
+
+&lt;p&gt;Not using proper punctuations in the sentence.&lt;/p&gt;
+
+&lt;p&gt;Therefore, it is important to check your work for grammatical or spelling errors before you publish them. A brand is likely to lose more customers if it is unable to effectively communicate with its audience.As the saying goes “It is better to be sure than sorry”.A grammar corrector tool is a handy tool often used by bloggers, writers, essayists and businessmen. These tools often come in handy to quickly check a piece of work and fix the grammatical errors. Unlike the MSWord spell check option, a wide range of both free as well as paid tools are available online to make editing easy. Grammar correctors are intended to fix spelling, grammatical errors, fix hard to understand passages and work on misplaced and misused apostrophe or word in a document. Alternatively, the best way to stay error free is to read your content aloud or to have it reviewed by your peers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Get ability to change strings in mobile apps dynamically, using Appscms&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On social media the rules are relaxed and writing mixed up are either forgiven or forgotten ,but marketing communications like - emails, web pages, newsletters with spelling and grammatical mistakes not only create hurdles for effective communication but also raise questions on the brands credibility. Therefore it is important for brands not to make these silly errors!&lt;/p&gt;
+
+&lt;p&gt;At Appscms, we help you with- Over the air string update- Instant update, hassle free! Effective translation- Multilingual availability, just a click away! All you need to do is just integrate our SDK in your app.&lt;/p&gt;
+
+&lt;p&gt;Appscms provides a simple enough solution for app developers to change their content on their user’s mobile apps without them having to upgrade the app.Hence Appscms will be of use to app developers to change content - like spelling or grammatical errors on their app instantly! Do you know someone who could benefit from our services? Our team is eager to connect with businesses in any industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“At Appscms, we make your apps dynamic”&lt;/strong&gt;&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">When people first see your commercials, website or email from your company within a few seconds they form an irreversible idea about your company, its products and the website. Everyone who has spent a considerable amount of time on social media sites has perhaps noticed how the standards of grammar and spelling has been lowered. The random mistakes have made us heavily dependent on auto correct usage.For business owners and app developers the grammatical mistakes have a larger effect. If your message isn’t clear and you inadvertently misuse apostrophe and comma,potential customers will notice- react and cause you to lose your sales.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/g.png" /><media:content medium="image" url="http://localhost:4000/uploads/g.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Embarrassing spelling mistakes, #5 will make you ROFL / LOL</title><link href="http://localhost:4000/blog/embarrassing-spelling-mistakes-5-will-make-you-rofl-lol" rel="alternate" type="text/html" title="Embarrassing spelling mistakes, #5 will make you ROFL / LOL" /><published>2020-11-25T00:00:00+05:30</published><updated>2020-11-25T00:00:00+05:30</updated><id>http://localhost:4000/blog/embarrassing-spelling-mistakes-5-will-make-you-rofl-lol</id><content type="html" xml:base="http://localhost:4000/blog/embarrassing-spelling-mistakes-5-will-make-you-rofl-lol">&lt;p&gt;&lt;img src=&quot;/uploads/tenor.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It could arguably be a satisfying mischief to spot someone else’s spelling mistake! We instantly put on our grammar nazi caps and act like some pompous know it all.While internet terminologies like ttyl, wtf and lol are changing the way people communicate both online and offline, there is still enough room for a case to be made on the importance of spelling and grammar. Well, making errors is perfectly natural- as humans. There is no shortage of spelling mistakes around us right from words like ‘bonerless steaks’ to ‘pay before existing the restaurant’. While these errors look quite funny it could potentially be embarrassing and harmful for brands.&lt;/p&gt;
+
+&lt;p&gt;That is why we have collected #35 embarrassing spelling mistake errors to give you a subtle reminder to review before you publish!!&lt;/p&gt;
+
+&lt;p&gt;#Shoplifters will be prostituted&lt;/p&gt;
+
+&lt;p&gt;#Shamed by you English&lt;/p&gt;
+
+&lt;p&gt;#Go slow, accident porn area&lt;/p&gt;
+
+&lt;p&gt;#School two easy for kids&lt;/p&gt;
+
+&lt;p&gt;#Handel is broken&lt;/p&gt;
+
+&lt;p&gt;#Mc Donalds :Hiring smiling faces for afternoon shits&lt;/p&gt;
+
+&lt;p&gt;#Private parking- Illegally parked cars will be fine&lt;/p&gt;
+
+&lt;p&gt;#Please pay your parking fee before existing&lt;/p&gt;
+
+&lt;p&gt;#Mini Dognuts&lt;/p&gt;
+
+&lt;p&gt;#Student get first hand job experience&lt;/p&gt;
+
+&lt;p&gt;#When you hug a guy and you smell his colon&lt;/p&gt;
+
+&lt;p&gt;#Fortune cookie note- You will get admiration from your pears&lt;/p&gt;
+
+&lt;p&gt;#No pubic restroom&lt;/p&gt;
+
+&lt;p&gt;#Richard Howard scuba diva&lt;/p&gt;
+
+&lt;p&gt;#Caution: Heavy erection under process&lt;/p&gt;
+
+&lt;p&gt;#Your the best teacher ever&lt;/p&gt;
+
+&lt;p&gt;#Take 1 capsule by mouth every 12 hours with wood&lt;/p&gt;
+
+&lt;p&gt;#Mc Donalds: Now hiring smiling feces&lt;/p&gt;
+
+&lt;p&gt;#Bon Ape tit&lt;/p&gt;
+
+&lt;p&gt;#Executive bored room&lt;/p&gt;
+
+&lt;p&gt;#30 degrees, warming up not ass cold&lt;/p&gt;
+
+&lt;p&gt;#No regerts&lt;/p&gt;
+
+&lt;p&gt;#Infectious disease/ STD - Genital wards&lt;/p&gt;
+
+&lt;p&gt;#I raped her in a towel(wrapped)&lt;/p&gt;
+
+&lt;p&gt;#Sotp&lt;/p&gt;
+
+&lt;p&gt;# At a bakery-Please use tongue or tissue paper, while making your selection&lt;/p&gt;
+
+&lt;p&gt;#Same juice brand with three different spellings- Original, Orignal, Orginal&lt;/p&gt;
+
+&lt;p&gt;#I will miss the friends I have boned with for years!&lt;/p&gt;
+
+&lt;p&gt;#Good Guys classic burger - Anus beef, Lettuce and Tomato sauce (eww)&lt;/p&gt;
+
+&lt;p&gt;#Ladies, after using the toilet, make sure that you flash. Let’s keep our toilets clean.&lt;/p&gt;
+
+&lt;p&gt;#15 best things about our pubic schools (Southbendon.com)&lt;/p&gt;
+
+&lt;p&gt;#Take one capsule by mouth three hours before ded&lt;/p&gt;
+
+&lt;p&gt;#No celery phones!&lt;/p&gt;
+
+&lt;p&gt;#VSweat tea&lt;/p&gt;
+
+&lt;p&gt;#No smoking aloud&lt;/p&gt;
+
+&lt;p&gt;Three quarters of people (75 percent) admitted they would be embarrassed by a spelling mistake on their CV, however fatal errors have occurred as Oxford Open Learning discovers.&lt;/p&gt;
+
+&lt;p&gt;Emma, a video director from York recalled a simple spelling mistake on her CV that left her red faced: “I spelt ‘minute’ wrong on my film CV when I was a young post-grad, the CV was titled ‘Art Director – 8 minuet short’. It worked out okay though as they thought I specialised in dance videos because of having ‘minuet’ in the title so I got a job from it. My agency let me know shortly after and I almost died. So embarrassing.”&lt;/p&gt;
+
+&lt;p&gt;If your business has errors on the website, newsletter, social media or advertisements it could hurt your credibility and consumers could find you less favorable. On an average it takes &lt;em&gt;6 seconds&lt;/em&gt; to capture a user’s attention to these mistakes. In 2017 President Trump seemed to tag the wrong woman on twitter and social media went splits! Taking aim at Theresa May’s rebuke at his actions, he ended tagging a woman from Bognor - Theresa May Scrivener. Trump’s school boy error was met with amusement and left many Brits wondering.&lt;/p&gt;
+
+&lt;p&gt;Post US election result, Donald Trump sent out another misspelled tweet before replacing it with the correct one - as he waited to hear if he would remain President. Instead of writing ‘polls’ he wrote ‘poles’ in his tweet! It is indeed amazing how the former US President managed to make such errors. Now you see how a misplacement of letters could give a new meaning to your text.&lt;/p&gt;
+
+&lt;p&gt;Oxford Open Learning Trust has come up with a list of most difficult words to spell:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Haemorrhage&lt;/li&gt;
+  &lt;li&gt;Manoeuvre&lt;/li&gt;
+  &lt;li&gt;Conscientious&lt;/li&gt;
+  &lt;li&gt;Desiccate&lt;/li&gt;
+  &lt;li&gt;Conscience&lt;/li&gt;
+  &lt;li&gt;Nauseous&lt;/li&gt;
+  &lt;li&gt;Embarrassment&lt;/li&gt;
+  &lt;li&gt;Pronunciation&lt;/li&gt;
+  &lt;li&gt;Mischievous&lt;/li&gt;
+  &lt;li&gt;Minuscule&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Charles Duncombe from tightsplease.co.uk mentioned how misspelled words put off customers from trusting the credibility of the website. He further mentioned that the effect of such amateur mistakes was evident after his revenue initially dropped and then shot up, once he fixed the error on his website. It’s not only spellings, but also grammar that people notice- verbs, nouns, prepositions and all!&lt;/p&gt;
+
+&lt;p&gt;Therefore it is important to check your spelling or grammatical mistakes as:-&lt;/p&gt;
+
+&lt;p&gt;1. It limits the chances that your message will be misunderstood or misinterpreted.&lt;/p&gt;
+
+&lt;p&gt;2. It reflects your credibility, intelligence and reliability.&lt;/p&gt;
+
+&lt;p&gt;3. It also indicates that you care about how you do business.&lt;/p&gt;
+
+&lt;p&gt;Even though Spellchecker is a widely used valuable tool, it sometimes fails to capture the nuances of homophones(words pronounced the same as another word but has different spelling and meaning). We are all human and bound to make mistakes but these mistakes could cause your company its repute and sales. Your content will fail to generate the traffic, ranking and leads you were expecting. Will such mistakes be forgotten soon? Perhaps if you have larger brand presence and take caution to rectify such errors. But, if your band publishes such mistakes again? It will only end up making your company look- foolish.&lt;/p&gt;
+
+&lt;p&gt;Some quick tips to ensure that such error doesn’t happen again -&lt;/p&gt;
+
+&lt;p&gt;1.Spell check and proofread&lt;/p&gt;
+
+&lt;p&gt;2.Use peer review&lt;/p&gt;
+
+&lt;p&gt;3.Read it from bottom up&lt;/p&gt;
+
+&lt;p&gt;4.Read your work aloud&lt;/p&gt;
+
+&lt;p&gt;5.Use some online tool&lt;/p&gt;
+
+&lt;p&gt;Mary Norris(Australian women’s rights activist) has been quoted saying that“The English language is full of words that are just waiting to be misspelled, and the world is full of sticklers, ready to pounce.”_ Building up a loyal, engaged community of clients will go a long way into reaping benefits. And clients never like to waste their time on cheap content. The old saying goes, ‘bad news, travels fast’. Ultimately, people can love you or hate you depending on how you project your brand.Therefore, it is important to be as accurate as possible while dealing with potential clients as your reputation and bottom line depend on it.&lt;/p&gt;
+
+&lt;p&gt;At Appscms, we help you with-&lt;/p&gt;
+
+&lt;p&gt;Over the air string update- Instant update, hassle free!&lt;/p&gt;
+
+&lt;p&gt;Effective translation- Multilingual availability, just a click away!&lt;/p&gt;
+
+&lt;p&gt;All you need to do is just integrate our SDK in your app&lt;/p&gt;
+
+&lt;p&gt;Appscms provides a simple enough solution for app developers to change their content on their user’s mobile apps without them having to upgrade the app.Hence Appscms will be of use to app developers to change content - like spelling or grammatical errors on their app instantly! Do you know someone who could benefit from our services? Our team is eager to connect with businesses in any industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/trump-theresa-_759.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“At Appscms, we make your mobile apps dynamic”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reference used - Hrdirector.com , boredpanda&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/output-4.png" /><media:content medium="image" url="http://localhost:4000/uploads/output-4.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Common spelling mistakes in english, which will kill your brand-First impressions count!</title><link href="http://localhost:4000/blog/common-spelling-mistakes-in-english-which-will-kill-your-brand-first-impressions-count" rel="alternate" type="text/html" title="Common spelling mistakes in english, which will kill your brand-First impressions count!" /><published>2020-11-20T00:00:00+05:30</published><updated>2020-11-20T00:00:00+05:30</updated><id>http://localhost:4000/blog/common-spelling-mistakes-in-english-which-will-kill-your-brand-first-impressions-count</id><content type="html" xml:base="http://localhost:4000/blog/common-spelling-mistakes-in-english-which-will-kill-your-brand-first-impressions-count">&lt;p&gt;&lt;strong&gt;Common spelling mistakes in english, which will kill your brand-First impressions count&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/how-typos-impact-your-brands-reputation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When people first see your commercials, website or email from your company within a few seconds they form an irreversible idea about your company, its products and the website. Everyone who has spent a considerable amount of time on social media sites has perhaps noticed how the standards of grammar and spelling has been lowered. It seems that everyone from your boss to your grandparents have started using abbreviations like “u” instead of “you” and “tmw” instead of “tomorrow” and terms like lol and btw showcase how the usage of language is changing. The random typo mistakes have made us heavily dependent on auto correct usage.For business owners and marketeers the errors in spelling mistakes have a larger effect. If your message isn’t clear and you inadvertently misuse apostrophe and comma,potential customers will notice, react and cause you to lose your sales. First impressions count!&lt;/p&gt;
+
+&lt;p&gt;Have a look at this, from a major US insurance company’s product page (2014):&lt;/p&gt;
+
+&lt;p&gt;“Teen Driver Discount: Parents and teens have enough to worry about when a teenager is learning how to drive; getting a teen auto insurance shouldn’t be one of them. Learn about our teen driver discounts that can keep your rates down while &lt;em&gt;rewardring&lt;/em&gt; your teen for responsible driving.”&lt;/p&gt;
+
+&lt;p&gt;This is where a reader may think, if a company can’t get basic spelling right, what else would they be screwing up?. Misspellings in your webcopy are a sure way to damage the credibility of your business.&lt;/p&gt;
+
+&lt;p&gt;Well, it’s just human nature to make mistakes. The expansion and growth of the internet means that everyone is creating and publishing more content than ever. The sheer volume of social media posts, articles, blogs, images, videos and much more mean that there could be a potential for error. In addition there is also immense pressure to generate large amounts of content that not only echo the voice of your brand but also fit the tone and voice of the given platform. Many customers or consumers will perhaps not take notice if the mistakes are minor. However, larger errors could indeed damage your credibility as an organization as well as a marketeer. After all, many people tend to harshly judge others by their spelling and grammatical mistakes! Many people also associate spelling mistakes on websites with negative aspects and regard them as spam- specially if such mistakes in content appear from websites or brands that claim to have unique expertise in the area- thereby completely invalidating the message!&lt;/p&gt;
+
+&lt;p&gt;Statistically, 54% of websites contain spelling mistakes and a single spelling mistake on a site can cause conversion rates to drop by as much as 72%. Let us take a small example of a sportsman- Sportsmen that compete at the highest excellence tend to perfect everything right from diet, rigorous workout routine, to the specific goals ruled out within their given sport. Similarly, to be a competitive business, the idea of the professional sportsman can be used as a similitude as far as having a competitive edge goes. Perfecting your spelling and business website, much like a sportsman, is a crucial part of being a competitive business.&lt;/p&gt;
+
+&lt;p&gt;The education of the general public is rising, and so are their expectations of error free content. Vast majority of literate adult consumers will certainly notice any errors on your webpage, therefore making it very difficult to market cheap written contents.Not to mention the public backlash and embarrassment it can cause! Utilizing spell checks or getting it peer reviewed could be a possible idea to avoid such errors. An article by the BBC reported nearly a decade ago that spelling mistakes in the UK cost businesses millions of dollars in sales in 2011.&lt;/p&gt;
+
+&lt;p&gt;As a business you have certainly invested a considerable amount of capital to create a presence for your brand and errors like these can surely shoot you in the foot. Error in spellings on your website can also affect the search engine optimization- as search engines won’t be able to recognise keywords if they are misspelled.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We have listed a variety of free and paid tools for you below to assist you in correcting the error&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammarly&lt;/td&gt;
+      &lt;td&gt;$11.66 per month (1-year plan billed as one payment of $139.95)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ginger Online&lt;/td&gt;
+      &lt;td&gt;$7.49 per month (1-year plan billed as one payment of $89.88).$6.66 per month (2-years plan billed as one payment of $159.84).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;After the deadline&lt;/td&gt;
+      &lt;td&gt;Free plan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hemingway&lt;/td&gt;
+      &lt;td&gt;$19.99 lifetime (one-time payment)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jetpack&lt;/td&gt;
+      &lt;td&gt;INR 1,560 billed yearly&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Language tool&lt;/td&gt;
+      &lt;td&gt;$13.00 per month (quarterly plan billed as one payment of $39).$4.92 per month (1-year plan billed as one payment of $59).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scribens&lt;/td&gt;
+      &lt;td&gt;Free plan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;It is therefore important to ensure that the keywords on your website are written error free. This will allow you to effectively reach your target audience through the keywords and your website will appear as professional as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;List of common spelling mistakes while writing a content for website&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Charles Duncombe, CEO of a $20 million-per-year online retail group, wondered why his online hosiery site was underperforming.He discovered a spelling mistake in a prominent line on a product page, where the word ‘Tights’ was spelt ‘Tihgts’. Though it looked like a minor spelling error, it reduced his sales upto 44% and once this was fixed the conversion rate rose to 80%.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;OkTrends&lt;/em&gt;, the research arm of &lt;em&gt;OkCupid&lt;/em&gt;, published an article having analysed over half a million first contacts on their dating website, looking at keywords and phrases. Simple punctuation mistakes – writing &lt;em&gt;cant&lt;/em&gt; instead of &lt;em&gt;can’t&lt;/em&gt; – slashed the response rate from 32% to just 8%. Indeed a catastrophic 75% drop in response.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;alot&lt;/td&gt;
+      &lt;td&gt;a lot or allot&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;alterior&lt;/td&gt;
+      &lt;td&gt;ulterior&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;athiest&lt;/td&gt;
+      &lt;td&gt;atheist&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;beggining&lt;/td&gt;
+      &lt;td&gt;beginning&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Chairman chairperson&lt;/p&gt;
+
+&lt;p&gt;Program programme&lt;/p&gt;
+
+&lt;p&gt;Get ability to change strings in mobile apps dynamically, using Appscms&lt;/p&gt;
+
+&lt;p&gt;At Appscms, we help you with-&lt;/p&gt;
+
+&lt;p&gt;Over the air string update- Instant update, hassle free!&lt;/p&gt;
+
+&lt;p&gt;Effective translation- Multilingual availability, just a click away!&lt;/p&gt;
+
+&lt;p&gt;All you need to do is just integrate our SDK in your app&lt;/p&gt;
+
+&lt;p&gt;Appscms provides a simple enough solution for app developers to change their content on their user’s mobile apps without them having to upgrade the app.Hence Appscms will be of use to app developers to change content - like spelling or grammatical errors on their app instantly! Do you know someone who could benefit from our services? Our team is eager to connect with businesses in any industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“At Appscms, we make your mobile apps dynamic”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Common spelling mistakes in english, which will kill your brand-First impressions count</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/output-3.png" /><media:content medium="image" url="http://localhost:4000/uploads/output-3.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

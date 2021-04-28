@@ -1,0 +1,121 @@
+I"'<p><img src="/uploads/key-skills-of-successful-mobile-app-developers.jpg" alt="" /></p>
+
+<p>Is your company a new startup or an established company struggling to get targeted traffic on your website and mobile application? According to research , 45%of large business organizations struggle to successfully develop their mobile application. Why? The struggle isn’t that the companies do not understand the importance of developing an application, but some other organizational hiccups that block the path to implement the ideas successfully. Recently, we have seen many disruptive successes by companies who have fully utilized the development of mobile applications. Over the years, we have come across plenty of companies who have successfully implemented their ideas and brought their app to life!</p>
+
+<p>So what’s the recipe for high impact success? Well, truly there is no one-size-fits-all recipe. Ideas that work for company A may not be compatible with company B!</p>
+
+<p>But before you start, you must analyse your limits. One of the biggest misconceptions among C suite executives is that they think that all developers are the same- the one who can develop a website could also successfully develop an app! This is wrong!</p>
+
+<p><img src="/uploads/image4.png" alt="" /></p>
+
+<p>“<em>If you give a good idea to a mediocre team, they will screw it up. If you give a mediocre idea to a brilliant team, they will either fix it or throw it away and come up with something better”</em> Ed Catmull, Pixar Animation.</p>
+
+<p>Often successful mobile struggle because they are too focussed on their current success than to worry about what’s next.Businesses should view mobile application development as an avenue to innovate,improve and open up new opportunities.For businesses to truly flourish in today’s highly competitive market and hit that conversion rate figure they’ve always aimed for, it’s imperative for them to build a scalable experimentation culture .Below are few reasons that successful companies build apps that fail—and advice to ensure that your app doesn’t suffer:-</p>
+
+<p>Want to improve conversions?.The magic of A/B testing brought about by a culture of experimentation can increase conversions therefore bringing more revenue on the plate. A/B testing tool may be used to determine the effectiveness of icons, screenshots, descriptions, store search results, directions, prices, headlines, and more.</p>
+
+<p>A/B testing isn’t difficult . The idea is to start by creating a hypothesis and then to run experiments to see if the idea works or not. It starts by segmenting the audience into two groups and seeing what components affect the user interaction on the app. This technique is used to identify the best possible user experience and to deliver the best results. For example, Sony had experimented with their calls to action on their banner ads and replaced the word ‘Customize your VAIO’ with’ Make it personal’ and found that the conversion rates increased by 6% and the customer engagement on shopping cart by 21.5%.</p>
+
+<p><img src="/uploads/why-should-you-a-b-test-1024x352.jpg" alt="" /></p>
+
+<p><strong>How to run A/B testing tool ?</strong></p>
+
+<ul>
+  <li>Perform research - Whatever you’re testing should lead to a greater goal leading to higher conversion rates. Ideally, A/B testing will help you solve an issue with your app and drive your business goals to success.</li>
+  <li>Determine your variants- Identify what you want to compare? It may be an element of design, copy, or function.</li>
+  <li>Perform the Test- Once you’ve formulated your hypothesis and identified the element that you want to A/B test, you need to create two variations of the landing page. (Let’s call them x and y.)</li>
+  <li>They should be exactly the same, the only difference being the element that you want to test i.e element of design, copy, or function.</li>
+  <li>Identify your audience and drive them to these pages (directing 50% of visitors to page x and the other 50% to page y). Depending on how many installs each version generates you can determine the winner.</li>
+  <li>
+    <p><em>SplitMetrics</em> collects all of the analytical data and lets you know which variation won and gives you a comprehensive report on how users interacted with your app page.</p>
+
+    <p><img src="/uploads/stor-re.png" alt="" />Make Changes Based on Results.</p>
+  </li>
+  <li>
+    <p>Prepare for Follow-Up Tests.</p>
+
+    <p><strong>Benefits of A/B testing for mobile app developers</strong></p>
+    <ul>
+      <li>Higher conversion rates.</li>
+      <li>Decision making based on data and metrics.</li>
+      <li>Gain a better understanding of the user behavior.</li>
+      <li>Better use of resources.</li>
+      <li>
+        <p>Learning from mistakes.</p>
+
+        <p><strong>4 A/B Testing success stories</strong></p>
+      </li>
+      <li>
+        <p>1.Grene Redesigned its Mini Cart and Saw a 2x Increase in Overall Purchase Quantity- Grene is a highly recognized eCommerce brand headquartered in Poland that sells a variety of agriculture-related products. Over the years, the eCommerce giant has run many successful A/B tests, one of which was revamping their mini cart page to add prominence to in-page elements.</p>
+
+        <p><img src="/uploads/image-1.jpg" alt="" /></p>
+
+        <p><img src="/uploads/image-2.jpg" alt="" /></p>
+
+        <p>2.HubSpot’s Mobile Calls-to-Action- HubSpot uses several different calls-to-action in its blog posts. However, on mobile, these CTAs might seem intrusive. That’s why HubSpot tested mobile CTAs.So, HubSpot decided to test four variants.</p>
+
+        <p><img src="/uploads/g.PNG" alt="" /></p>
+
+        <p>Overall, Variant D saw an increase of 14.6%.</p>
+
+        <p>3.WorkZone Increased its Leads Through Its Testimonials Page By 34%- WorkZone is a US-based software company. They realized that the customer testimonial logos were overshadowing the form, therefore distracting visitors from filling it. They decided to change customer testimonial logos, from their original color to black and white, and see whether the change would help increase the number of demo requests.</p>
+
+        <p><img src="/uploads/subb.PNG" alt="" /></p>
+
+        <p><img src="/uploads/subb2.PNG" alt="" /></p>
+
+        <p>After running the test for about 22 days, WorkZone found that the variation outperformed the control. It projected a 34% increase in form submissions and marked a 99% statistical significance.</p>
+
+        <p>After running the test for about 22 days, WorkZone found that the variation outperformed the control. It projected a 34% increase in form submissions and marked a 99% statistical significance.</p>
+
+        <p>4.PayU Increased its Conversions by 5.8% - PayU is an Indian-origin fin-tech company that provides an exclusive range of financial solutions for local and cross border merchants in emerging markets. As a payment facilitator, it is important for them to use a user friendly check out process therefore eliminating all plausible elements that may hamper its smooth running. To streamline everything, PayU decided to make minor changes on its Checkout page form on the basis of  the data gathered and run an A/B test to validate their hypothesis.</p>
+
+        <p><img src="/uploads/c.PNG" alt="" /></p>
+
+        <p><img src="/uploads/cn.PNG" alt="" /></p>
+
+        <p>The result was that simply by eliminating the email address field from their checkout page, they were able to increase the conversion rate by 5.8%.</p>
+      </li>
+    </ul>
+
+    <p><strong>Quirky examples for app developers</strong></p>
+
+    <p>A good brief is like an overall view of your project. It captures minute details and informs the development company what your project is about. An excellent brief for your app development project should start with:-</p>
+
+    <p><img src="/uploads/inner-images-01.png" alt="" /></p>
+
+    <p>Telling about yourself- An overview of the inception of your project, goals and vision.</p>
+
+    <p>Detail oriented market research- No matter how wonderful your idea is, if your app is likely to transform the mobile industry, a thorough market research needs to be conducted.</p>
+
+    <p>Purpose of your app- Communicate clearly what, why and how your app solves the problems</p>
+
+    <p><img src="/uploads/inner-images-04-1.png" alt="" /><br />
+App functionality- A brief overview about the technical design of your app.The functionality of your app will decide how your product will turn out.</p>
+
+    <p>User navigation - Outline how the user is supposed to navigate within your app.</p>
+
+    <p>Content creation- A crucial factor indeed. You must ensure what goes into your app- document , audio, visual- everything!</p>
+
+    <p>Visual appeal-Outlining the design process and specifying how you want your ideas to come to reality is fundamental not only for the designer but also for the success of your app.</p>
+
+    <p>Update and improvise on your application- If you think your journey ends just by launching your dream app in the market- think again. Regular updates improve app visibility . Keep improving your app by taking user feedback.</p>
+
+    <p>Lastly, choose an ideal platform</p>
+
+    <p><img src="/uploads/selection-of-an-ideal-platform.png" alt="" /></p>
+
+    <p><strong>Get ability to experiment with your mobile apps dynamically, using Appscms</strong></p>
+
+    <p>At Appscms, we help you with-</p>
+    <ul>
+      <li>Over the air string update</li>
+      <li>Effective multilingual translation</li>
+    </ul>
+
+    <p>Appscms provides a simple enough solution for app developers- instantly!.We make apps dynamic and hence can help app developers with this kind of experimentation - without their users having to upgrade the app.Do you know someone who could benefit from our services? Our team is eager to connect with businesses in any industry.</p>
+
+    <p><strong><em>“At Appscms, we make your mobile apps dynamic”</em></strong></p>
+  </li>
+</ul>
+:ET
