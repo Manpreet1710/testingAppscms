@@ -613,7 +613,7 @@
             let file = input.files[0]
             let fileName = file.name
             try {
-                let URL = `/presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
                 let response = fetch(URL, {
                     method: 'POST',
                 }).then((res)=> res.json()).
@@ -622,7 +622,7 @@
                     // let getOutputUrl = data.body.getOutputUrl
                     let putInputUrl = data.body.putInputUrl
                     // let putOutputUrl = data.body.putOutputUrl
-                    console.log(putInputUrl)
+                    console.log(data)
                     putInputUrlUpload(file,putInputUrl)
                 })
             }
@@ -632,11 +632,11 @@
         }
 
         const putInputUrlUpload = (file,putInputUrl) => {
-            let URL = putInputUrl
+            let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
 
-            let res = fetch(`/${URL}`, {
+            let res = fetch(`$/app{URL}`, {
                 method: 'PUT',
                 body: formData
             })
