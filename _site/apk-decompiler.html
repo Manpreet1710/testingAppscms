@@ -31,7 +31,6 @@
 </head>
 
 <body>
-
     <!-- start Header Area -->
     <header id="header">
         <div class="container-fluid">
@@ -168,7 +167,6 @@
 
 
             </div>
-
             <div class="how-to">
                 <div class="how-to-text">
                     <h2 class="how-to-h2">How to decompile APK online:<h2>
@@ -615,15 +613,17 @@
             let file = input.files[0]
             let fileName = file.name
             try {
-                let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `/presignedurl?fileName=${fileName}&fileType=apk`
                 let response = fetch(URL, {
                     method: 'POST',
                 }).then((res)=> res.json()).
                 then((data)=>{
-                    let getInputUrl = data.body.getInputUrl
-                    let getOutputUrl = data.body.getOutputUrl
+                    // let getInputUrl = data.body.getInputUrl
+                    // let getOutputUrl = data.body.getOutputUrl
                     let putInputUrl = data.body.putInputUrl
-                    let putOutputUrl = data.body.putOutputUrl
+                    // let putOutputUrl = data.body.putOutputUrl
+                    console.log(data)
+                    console.log(getOutputUrl)
                     putInputUrlUpload(file,putInputUrl)
                 })
             }

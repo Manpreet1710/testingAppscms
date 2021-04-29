@@ -51,13 +51,13 @@
   status = 200
 
 [[redirects]]
-  from = "/decompilerapi*"
+  from = "/presignedurl*"
   to = "https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl:splat"
   force = true
   status = 200
 
 [[redirects]]
-  from = "/decompilerapi*"
-  to = "https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler:splat"
+  from = "/decompiler*"
+  to = "https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler"
   force = true
   status = 200
