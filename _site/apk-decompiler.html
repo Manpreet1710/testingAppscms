@@ -624,7 +624,7 @@
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file, putInputUrl)
+                    putInputUrlUpload(file,getInputUrl,getOutputUrl, putInputUrl,putOutputUrl)
                 })
             }
             catch (error) {
@@ -632,7 +632,7 @@
             }
         }
 
-        const putInputUrlUpload = async (file, putInputUrl) => {
+        const putInputUrlUpload = async (file,getInputUrl,getOutputUrl, putInputUrl,putOutputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
