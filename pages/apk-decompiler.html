@@ -289,8 +289,6 @@ permalink: apk-decompiler
             let fileName = file.name
             try {
                 let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
-
-
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -301,8 +299,6 @@ permalink: apk-decompiler
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
                     putInputUrlUpload(file, putInputUrl)
-                    getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
-
                 })
             }
             catch (error) {
@@ -310,7 +306,7 @@ permalink: apk-decompiler
             }
         }
 
-        const putInputUrlUpload = (file, putInputUrl) => {
+        const putInputUrlUpload = async (file, putInputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
@@ -319,38 +315,30 @@ permalink: apk-decompiler
                     <img src='loading.gif' width="40px">
                     </div>`
 
-            let res = fetch(`/app${URL}`, {
+            let res = await fetch(`/app${URL}`, {
                 method: 'PUT',
                 body: formData
             })
 
             main.innerHTML = ''
-            console.log(res)
-        }
 
-        const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
             let url = ` https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
-
-            let res2 = await fetch(url, {
-                method: 'POST',
-                body: {
-                    "getURL": getInputUrl,
-                    "putURL": putOutputUrl
-                }
-            })
-            if (res2) {
-                console.log(true)
-                document.getElementById("myAnchor").href = getOutputUrl
-                zip.createReader(new zip.BlobReader(getOutputUrl), function (reader) {
-                    reader.getEntries(function (entries) {
-                        console.log(entries)
-                    })
+            if (res) {
+                let res2 = fetch(url, {
+                    method: 'POST',
+                    body: {
+                        "getURL": getInputUrl,
+                        "putURL": putOutputUrl
+                    }
                 })
-
+                if (res2) {
+                    console.log(true)
+                    document.getElementById("myAnchor").href = getOutputUrl
+                }
             }
 
         }
-    
+
 
 
 
@@ -415,7 +403,7 @@ permalink: apk-decompiler
         // };
 
         //restart function
-       
+
         // function restart() {
         //                 document.querySelector(".DownloadFiles").style.display = "none"
         //                 document.getElementById("upload-icon-section").style.display = "block"
