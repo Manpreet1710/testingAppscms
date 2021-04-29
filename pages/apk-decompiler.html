@@ -293,14 +293,14 @@ permalink: apk-decompiler
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
-                
                 response.json().then((data)=>{
                     let getInputUrl = data.body.getInputUrl
                     let getOutputUrl = data.body.getOutputUrl
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    UrlUpload(file,getInputUrl,getOutputUrl,putInputUrl,putOutputUrl)
+                    putInputUrlUpload(file,putInputUrl)
+                    getOutputUrl(getInputUrl,getOutputUrl,putOutputUrl)
                 })
             }
             catch (error) {
@@ -308,7 +308,7 @@ permalink: apk-decompiler
             }
         }
 
-        const UrlUpload = async (file,getInputUrl,getOutputUrl,putInputUrl,putOutputUrl) => {
+        const putInputUrlUpload = async (file,putInputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
@@ -321,8 +321,11 @@ permalink: apk-decompiler
                 method: 'PUT',
                 body: formData
             })
+            main.innerHTML = ''
             console.log(res)
-        
+        }
+
+        const getOutputUrl = async (getInputUrl,getOutputUrl,putOutputUrl) =>{
             let url = ` https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
             let res2 = await fetch(url, {
                 method: 'POST',
@@ -331,11 +334,10 @@ permalink: apk-decompiler
                     "putURL": putOutputUrl
                 }
             })
-            main.innerHTML = ''
-                if(res2){
+             if(res2){
                     console.log(true)
                     document.getElementById("myAnchor").href = getOutputUrl
-                }
+             }
 
         }
     
