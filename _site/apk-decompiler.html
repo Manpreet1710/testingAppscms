@@ -630,8 +630,8 @@
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file,putInputUrl)
-                    getOutputUrl(getInputUrl,getOutputUrl,putOutputUrl)
+                    putInputUrlUpload(file,putInputUrl,getInputUrl,getOutputUrl,putOutputUrl)
+                   
                 })
             }
             catch (error) {
@@ -639,16 +639,17 @@
             }
         }
 
-        const putInputUrlUpload = async (file,putInputUrl) => {
+        const putInputUrlUpload = (file,putInputUrl,getInputUrl,getOutputUrl,putOutputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
 
-            let res = await fetch(`/app${URL}`, {
+            let res = fetch(`/app${URL}`, {
                 method: 'PUT',
                 body: formData
             })
             console.log(res)
+            getOutputUrl(getInputUrl,getOutputUrl,putOutputUrl)
         }
 
         const getOutputUrl = (getInputUrl,getOutputUrl,putOutputUrl) =>{
@@ -660,6 +661,7 @@
                     "putURL": putOutputUrl
                 }
             })
+            main.innerHTML = ''
              if(res2){
                     console.log(true)
                     document.getElementById("myAnchor").href = getOutputUrl
