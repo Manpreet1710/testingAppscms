@@ -649,10 +649,10 @@
                 body: formData
             })
             console.log(res)
-            getOutputUrl(getInputUrl,getOutputUrl,putOutputUrl)
+            getOutputUrlUpload(getInputUrl,getOutputUrl,putOutputUrl)
         }
 
-        const getOutputUrl = (getInputUrl,getOutputUrl,putOutputUrl) =>{
+        const getOutputUrlUpload = (getInputUrl,getOutputUrl,putOutputUrl) =>{
             let url = ` https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
             let res2 = fetch(url, {
                 method: 'POST',
