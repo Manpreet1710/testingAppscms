@@ -319,11 +319,12 @@ permalink: apk-decompiler
                     <img src='loading.gif' width="40px">
                     </div>`
 
-
             let res = fetch(`/app${URL}`, {
                 method: 'PUT',
                 body: formData
             })
+
+            main.innerHTML = ''
             console.log(res)
         }
 
@@ -337,7 +338,6 @@ permalink: apk-decompiler
                     "putURL": putOutputUrl
                 }
             })
-            main.innerHTML = ''
             if (res2) {
                 console.log(true)
                 document.getElementById("myAnchor").href = getOutputUrl
