@@ -610,25 +610,25 @@
         });
 
         zip.workerScriptsPath = "/zipjs/"
-        const upload =  async () => {
+        const upload = async () => {
             let file = input.files[0]
             let fileName = file.name
             try {
                 let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
-                
+
 
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
-                response.json().then((data)=>{
+                response.json().then((data) => {
                     let getInputUrl = data.body.getInputUrl
                     let getOutputUrl = data.body.getOutputUrl
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file,putInputUrl)
-                    getOutputUrlUpload(getInputUrl,getOutputUrl,putOutputUrl)
-                   
+                    putInputUrlUpload(file, putInputUrl)
+                    getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
+
                 })
             }
             catch (error) {
@@ -636,10 +636,15 @@
             }
         }
 
-        const putInputUrlUpload = (file,putInputUrl) => {
+        const putInputUrlUpload = (file, putInputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
+
+            main.innerHTML = `<div class="loader">
+                    <img src='loading.gif' width="40px">
+                    </div>`
+
 
             let res = fetch(`/app${URL}`, {
                 method: 'PUT',
@@ -648,12 +653,9 @@
             console.log(res)
         }
 
-        const getOutputUrlUpload =  async (getInputUrl,getOutputUrl,putOutputUrl) =>{
+        const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
             let url = ` https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
-            main.innerHTML = `<div class="loader">
-                    <img src='loading.gif' width="40px">
-                    </div>`
-                    
+
             let res2 = await fetch(url, {
                 method: 'POST',
                 body: {
@@ -662,12 +664,77 @@
                 }
             })
             main.innerHTML = ''
-             if(res2){
-                    console.log(true)
-                    document.getElementById("myAnchor").href = getOutputUrl
-             }
+            if (res2) {
+                console.log(true)
+                document.getElementById("myAnchor").href = getOutputUrl
+
+                zip.createReader(new zip.BlobReader(getOutputUrl), function (reader) {
+                    reader.getEntries(function (entries) {
+                        extractingDone.innerText = "Archive  successfully extracted"
+                        extracted.style.display = 'block'
+                        Main_filename.style.display = "block"
+                        document.getElementById("upload-icon-section").style.display = "none"
+                        document.getElementById("uploader").style.background = "#fff"
+                        document.getElementById("dropContainer").style.background = "#fff"
+                        document.querySelector(".download-reset-button").style.display = "block"
+
+
+                        // Build tree recursively
+                        dataArray = []
+                        for (i = 0; i < entries.length; i++) {
+                            directory = entries[i].directory
+                            filename = entries[i].filename.trim()
+                            filename = removeTrailingSlash(filename)
+                            data = {}
+                            split = filename.split('/')
+                            id = filename
+
+                            if (directory) {
+                                if (!filename.includes('/')) {
+                                    // Root directory
+                                    parent = '#'
+                                    text = filename
+                                    data.state = { opened: 'boolean' }
+                                } else {
+                                    text = split[split.length - 1] // For ORG/META-INF/ name will be META-INF (last element )
+                                    parent = filename.substring(0, filename.length - text.length)
+                                }
+                            } else {
+                                if (!filename.includes('/')) {
+                                    // Root directory
+                                    parent = '#'
+                                    text = filename
+                                    data.icon = './img/file-upload/html.png'
+                                } else {
+                                    text = split[split.length - 1] // META-INF/MANIFEST.MF name will be MANIFEST.MF (last element )
+                                    data.icon = './img/file-upload/file.png'
+                                    parent = filename.substring(0, filename.length - text.length)
+                                }
+                            }
+
+                            data.parent = removeTrailingSlash(parent)
+                            data.id = removeTrailingSlash(id)
+                            data.text = removeTrailingSlash(text)
+
+                            dataArray.push(data)
+                        }
+                        function removeTrailingSlash(str) {
+                            str = str.trim()
+                            if (str.endsWith('/')) {
+                                return str.substring(0, str.length - 1)
+                            }
+                            return str
+                        }
+
+                        // JSTREE CALLING and Integrate json data in jstree...
+                        $('#extracted').jstree({
+                            core: {
+                                data: dataArray,
+                            },
+                        })
+                    })
         }
-    
+
 
 
 
@@ -732,38 +799,38 @@
 
         //restart function
         function restart() {
-            document.querySelector(".DownloadFiles").style.display = "none"
-            document.getElementById("upload-icon-section").style.display = "block"
-            document.getElementById("dropContainer").style.background = "#11304e2e"
-            // document.getElementById("dropContainer").style.padding = "35px 20px 150px 20px"
-            // document.getElementById("dropContainer").style.border = "1px solid rgba(0,0,0,.125)"
-            uploader.style.background = "#974fff"
-        }
+                        document.querySelector(".DownloadFiles").style.display = "none"
+                        document.getElementById("upload-icon-section").style.display = "block"
+                        document.getElementById("dropContainer").style.background = "#11304e2e"
+                        // document.getElementById("dropContainer").style.padding = "35px 20px 150px 20px"
+                        // document.getElementById("dropContainer").style.border = "1px solid rgba(0,0,0,.125)"
+                        uploader.style.background = "#974fff"
+                    }
 
 
         // Modal POPUP when user upload wrong files
         // SOME MODAL FUNCTIONS HERE
         closeBtn.addEventListener('click', function () {
-            closeModal()
-        })
+                        closeModal()
+                    })
 
         modalWrapper.addEventListener('click', function (e) {
-            if (e.target !== this) return
-            closeModal()
-        })
+                        if (e.target !== this) return
+                        closeModal()
+                    })
 
         document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') {
-                closeModal()
-            }
-        })
+                        if (e.key === 'Escape') {
+                            closeModal()
+                        }
+                    })
 
         function openModal() {
-            modalWrapper.classList.add('active')
-        }
+                        modalWrapper.classList.add('active')
+                    }
         function closeModal() {
-            modalWrapper.classList.remove('active')
-        }
+                        modalWrapper.classList.remove('active')
+                    }
     </script>
 </body>
 
