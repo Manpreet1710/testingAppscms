@@ -616,10 +616,6 @@
             try {
                 let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
                 
-                main.innerHTML = `<div class="loader">
-                    <img src='loading.gif' width="40px">
-                    </div>`
-                    
 
                 let response = await fetch(URL, {
                     method: 'POST',
@@ -630,7 +626,8 @@
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file,putInputUrl,getInputUrl,getOutputUrl,putOutputUrl)
+                    putInputUrlUpload(file,putInputUrl)
+                    getOutputUrlUpload(getInputUrl,getOutputUrl,putOutputUrl)
                    
                 })
             }
@@ -639,7 +636,7 @@
             }
         }
 
-        const putInputUrlUpload = (file,putInputUrl,getInputUrl,getOutputUrl,putOutputUrl) => {
+        const putInputUrlUpload = (file,putInputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
@@ -649,12 +646,15 @@
                 body: formData
             })
             console.log(res)
-            getOutputUrlUpload(getInputUrl,getOutputUrl,putOutputUrl)
         }
 
-        const getOutputUrlUpload = (getInputUrl,getOutputUrl,putOutputUrl) =>{
+        const getOutputUrlUpload =  async (getInputUrl,getOutputUrl,putOutputUrl) =>{
             let url = ` https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
-            let res2 = fetch(url, {
+            main.innerHTML = `<div class="loader">
+                    <img src='loading.gif' width="40px">
+                    </div>`
+                    
+            let res2 = await fetch(url, {
                 method: 'POST',
                 body: {
                     "getURL": getInputUrl,
