@@ -615,6 +615,8 @@
             let fileName = file.name
             try {
                 let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
+
+
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -624,7 +626,7 @@
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file,getInputUrl,getOutputUrl, putInputUrl,putOutputUrl)
+                    putInputUrlUpload(file, putInputUrl,getInputUrl, getOutputUrl, putOutputUrl)
                 })
             }
             catch (error) {
@@ -632,7 +634,7 @@
             }
         }
 
-        const putInputUrlUpload = async (file,getInputUrl,getOutputUrl, putInputUrl,putOutputUrl) => {
+        const putInputUrlUpload = (file, putInputUrl,getInputUrl, getOutputUrl, putOutputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
@@ -641,30 +643,38 @@
                     <img src='loading.gif' width="40px">
                     </div>`
 
-            let res = await fetch(`/app${URL}`, {
+            let res = fetch(`/app${URL}`, {
                 method: 'PUT',
                 body: formData
             })
-
             main.innerHTML = ''
+            getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
+        }
 
+        const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
             let url = ` https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
-            if (res) {
-                let res2 = fetch(url, {
-                    method: 'POST',
-                    body: {
-                        "getURL": getInputUrl,
-                        "putURL": putOutputUrl
-                    }
-                })
-                if (res2) {
-                    console.log(true)
-                    document.getElementById("myAnchor").href = getOutputUrl
+
+            let res2 = await fetch(url, {
+                method: 'POST',
+                body: {
+                    "getURL": getInputUrl,
+                    "putURL": putOutputUrl
                 }
+            })
+           
+            if (res2) {
+                console.log(true)
+                document.getElementById("myAnchor").href = getOutputUrl
+                zip.createReader(new zip.BlobReader(getOutputUrl), function (reader) {
+                    reader.getEntries(function (entries) {
+                        console.log(entries)
+                    })
+                })
+
             }
 
         }
-
+    
 
 
 
@@ -729,7 +739,7 @@
         // };
 
         //restart function
-
+       
         // function restart() {
         //                 document.querySelector(".DownloadFiles").style.display = "none"
         //                 document.getElementById("upload-icon-section").style.display = "block"
