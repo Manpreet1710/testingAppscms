@@ -62,6 +62,7 @@ permalink: apk-decompiler
         <p style="background:#F5F5F5;" class="mt-3" id="sub_filename"></p>
     </div>
 
+    <a href="" id="myAnchor">Download Zip</a>
     <div id="uploader" class="uploader">
         <div class="inner-box" id="dropContainer">
             <div class="dropzone">
@@ -326,6 +327,7 @@ permalink: apk-decompiler
             }).then((response)=>{
                 if(response){
                     console.log(true)
+                    document.getElementById("myAnchor").href = getOutputUrl
                 }
             })
 
