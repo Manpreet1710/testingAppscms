@@ -310,7 +310,7 @@ permalink: apk-decompiler
             const formData = new FormData();
             formData.append("data", file);
 
-            let res = fetch(`$/app{URL}`, {
+            let res = fetch(`/app${URL}`, {
                 method: 'PUT',
                 body: formData
             })
