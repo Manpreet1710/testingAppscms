@@ -57,7 +57,9 @@
   status = 200
 
 [[redirects]]
-  from = "/decompiler*"
-  to = "https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler"
+  from = "/https://decompilers.s3.ap-northeast-1.amazonaws.com*"
+  to = "https://decompilers.s3.ap-northeast-1.amazonaws.com/:splat"
   force = true
   status = 200
+
+  

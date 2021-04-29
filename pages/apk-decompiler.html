@@ -296,8 +296,7 @@ permalink: apk-decompiler
                     // let getOutputUrl = data.body.getOutputUrl
                     let putInputUrl = data.body.putInputUrl
                     // let putOutputUrl = data.body.putOutputUrl
-                    console.log(data)
-                    console.log(getOutputUrl)
+                    console.log(putInputUrl)
                     putInputUrlUpload(file,putInputUrl)
                 })
             }
@@ -311,7 +310,7 @@ permalink: apk-decompiler
             const formData = new FormData();
             formData.append("data", file);
 
-            let res = fetch(URL, {
+            let res = fetch(`/${URL}`, {
                 method: 'PUT',
                 body: formData
             })
