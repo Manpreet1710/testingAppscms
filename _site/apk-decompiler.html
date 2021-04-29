@@ -618,12 +618,12 @@
                     method: 'POST',
                 }).then((res)=> res.json()).
                 then((data)=>{
-                    // let getInputUrl = data.body.getInputUrl
-                    // let getOutputUrl = data.body.getOutputUrl
+                    let getInputUrl = data.body.getInputUrl
+                    let getOutputUrl = data.body.getOutputUrl
                     let putInputUrl = data.body.putInputUrl
-                    // let putOutputUrl = data.body.putOutputUrl
+                    let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file,putInputUrl)
+                    UrlUpload(file,getInputUrl,getOutputUrl,putInputUrl,putOutputUrl)
                 })
             }
             catch (error) {
@@ -631,7 +631,7 @@
             }
         }
 
-        const putInputUrlUpload = (file,putInputUrl) => {
+        const UrlUpload = (file,getInputUrl,getOutputUrl,putInputUrl,putOutputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
@@ -641,23 +641,21 @@
                 body: formData
             })
             console.log(res)
-        }
         
-            // let url = ` https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
-            // let re = fetch(url, {
-            //     method: 'POST',
-            //     body: {
-            //         "getURL": getInputUrl,
-            //         "putURL": putOutputUrl
-            //     }
-            // })
-            // // console.log(re)
+            let url = ` https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
+            let re = fetch(url, {
+                method: 'POST',
+                body: {
+                    "getURL": getInputUrl,
+                    "putURL": putOutputUrl
+                }
+            }).then((response)=>{
+                if(response){
+                    console.log(true)
+                }
+            })
 
-            // if(re.data){
-            //     console.log(true)
-            // }else{
-            //     console.log(false)
-            // }
+        }
     
 
 

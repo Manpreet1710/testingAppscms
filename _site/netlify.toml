@@ -51,12 +51,6 @@
   status = 200
 
 [[redirects]]
-  from = "/presignedurl*"
-  to = "https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl:splat"
-  force = true
-  status = 200
-
-[[redirects]]
   from = "/app*"
   to = "https://decompilers.s3.ap-northeast-1.amazonaws.com/:splat"
   force = true
