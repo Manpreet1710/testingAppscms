@@ -284,15 +284,21 @@ permalink: apk-decompiler
         });
 
         zip.workerScriptsPath = "/zipjs/"
-        const upload = () => {
+        const upload =  async () => {
             let file = input.files[0]
             let fileName = file.name
             try {
                 let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
-                let response = fetch(URL, {
+                
+                main.innerHTML = `<div class="loader">
+                    <img src='loading.gif' width="40px">
+                    </div>`
+                    
+                let response = await fetch(URL, {
                     method: 'POST',
-                }).then((res)=> res.json()).
-                then((data)=>{
+                })
+                
+                response.json().then((data)=>{
                     let getInputUrl = data.body.getInputUrl
                     let getOutputUrl = data.body.getOutputUrl
                     let putInputUrl = data.body.putInputUrl
