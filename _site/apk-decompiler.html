@@ -615,8 +615,6 @@
             let fileName = file.name
             try {
                 let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
-
-
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -634,7 +632,7 @@
             }
         }
 
-        const putInputUrlUpload = (file, putInputUrl,getInputUrl, getOutputUrl, putOutputUrl) => {
+        const putInputUrlUpload = async (file, putInputUrl,getInputUrl, getOutputUrl, putOutputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
@@ -643,7 +641,7 @@
                     <img src='loading.gif' width="40px">
                     </div>`
 
-            let res = fetch(`/app${URL}`, {
+            let res = await fetch(`/app${URL}`, {
                 method: 'PUT',
                 body: formData
             })
@@ -665,14 +663,7 @@
             if (res2) {
                 console.log(true)
                 document.getElementById("myAnchor").href = getOutputUrl
-                zip.createReader(new zip.BlobReader(getOutputUrl), function (reader) {
-                    reader.getEntries(function (entries) {
-                        console.log(entries)
-                    })
-                })
-
             }
-
         }
     
 
