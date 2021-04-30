@@ -664,6 +664,7 @@
             if (res2.status == 200) {
                 console.log(true)
             }else{
+                document.querySelector(".DownloadFiles").style.display = "block"
                 document.getElementById("myAnchor").href = getOutputUrl
                 del.style.display = "block"
             }
