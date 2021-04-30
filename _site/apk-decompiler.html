@@ -614,6 +614,9 @@
             let file = input.files[0]
             let fileName = file.name
             try {
+                main.innerHTML = `<div class="loader">
+                    <img src='loading.gif' width="40px">
+                    </div>`
                 let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
@@ -637,10 +640,6 @@
             const formData = new FormData();
             formData.append("data", file);
 
-            main.innerHTML = `<div class="loader">
-                    <img src='loading.gif' width="40px">
-                    </div>`
-
             let res = await fetch(`/app${URL}`, {
                 method: 'PUT',
                 body: formData
@@ -663,9 +662,10 @@
                 }
             })
            
-            console.log(res2)
-            if (res2) {
+            console.log(res2.status)
+            if (res2.status == 200) {
                 console.log(true)
+            }else{
                 document.getElementById("myAnchor").href = getOutputUrl
             }
         }
