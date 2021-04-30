@@ -80,16 +80,15 @@
     <!--downloading content  -->
     <div class="DownloadFiles">
         <div class="d-flex">
-            <h2 id="Main_filename"></h2>
+            <!-- <h2 id="Main_filename"></h2> -->
             <a class="btn" id="delete" onclick="restart()">Try again</a>
             <div class="downloadresetbutton">
-                <a href="" id="download">Download Zip</a>
+                <a href="" id="myAnchor">Download Zip</a>
             </div>
         </div>
         <p style="background:#F5F5F5;" class="mt-3" id="sub_filename"></p>
     </div>
 
-    <a href="" id="myAnchor">Download Zip</a>
     <div id="uploader" class="uploader">
         <div class="inner-box" id="dropContainer">
             <div class="dropzone">
@@ -661,113 +660,20 @@
                     "putURL": putOutputUrl
                 }
             })
-           
             console.log(res2.status)
             if (res2.status == 200) {
                 console.log(true)
             }else{
                 document.getElementById("myAnchor").href = getOutputUrl
+                del.style.display = "block"
             }
         }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // main.innerHTML = ''
-
-        //  https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler?type=apk
-        // main.innerHTML = `<div class="loader">
-        //     <img src='loading.gif' width="40px">
-        //     </div>`
-
-        // response.text().then((data) => {
-        //     let s = file.name.split(".")
-        //     let endFileName = s[s.length - 1]
-
-        //     if (endFileName == "apk") {
-        //         del.style.display = "block"
-        //         document.getElementById("upload-icon-section").style.display = "none"
-        //         document.getElementById("dropContainer").style.background = "#fff"
-        //         document.getElementById("dropContainer").style.border = "none"
-        //         document.querySelector(".DownloadFiles").style.display = "block"
-        //         uploader.style.background = "#fff"
-        //         let filename = file.name.replace("apk", "zip")
-        //         name.innerHTML = file.name
-        //         sub_filename.innerHTML = file.name
-
-        //         downloads.addEventListener("click", () => {
-        //             downloads.setAttribute("href", "data:text/plain;base64," + data)
-        //             downloads.setAttribute("download", filename)
-        //         })
-        //     }
-        // else {
-        //     openModal()
-        //     unableFileName.innerText = file.name + "."
-        // }
-        // })
-        // }
-        //     catch (error) {
-        //         console.log(error)
-        //     }
-        // };
 
         //restart function
-       
-        // function restart() {
-        //                 document.querySelector(".DownloadFiles").style.display = "none"
-        //                 document.getElementById("upload-icon-section").style.display = "block"
-        //                 document.getElementById("dropContainer").style.background = "#11304e2e"
-        //                 // document.getElementById("dropContainer").style.padding = "35px 20px 150px 20px"
-        //                 // document.getElementById("dropContainer").style.border = "1px solid rgba(0,0,0,.125)"
-        //                 uploader.style.background = "#974fff"
-        //             }
+        function restart() {
+            document.querySelector(".DownloadFiles").style.display = "none"
+        }
 
-
-        // // Modal POPUP when user upload wrong files
-        // // SOME MODAL FUNCTIONS HERE
-        // closeBtn.addEventListener('click', function () {
-        //                 closeModal()
-        //             })
-
-        // modalWrapper.addEventListener('click', function (e) {
-        //                 if (e.target !== this) return
-        //                 closeModal()
-        //             })
-
-        // document.addEventListener('keydown', function (e) {
-        //                 if (e.key === 'Escape') {
-        //                     closeModal()
-        //                 }
-        //             })
-
-        // function openModal() {
-        //                 modalWrapper.classList.add('active')
-        //             }
-        // function closeModal() {
-        //                 modalWrapper.classList.remove('active')
-        //             }
     </script>
 </body>
 
