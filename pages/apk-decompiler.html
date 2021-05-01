@@ -318,7 +318,6 @@ permalink: apk-decompiler
                 method: 'PUT',
                 body: formData
             })
-            main.innerHTML = ''
             getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
         }
 
@@ -332,7 +331,7 @@ permalink: apk-decompiler
                     "putURL": putOutputUrl
                 }
             })
-            console.log(res2.status)
+            main.innerHTML = ''
             if (res2.status == 200) {
                 console.log(true)
                 document.querySelector(".DownloadFiles").style.display = "block"

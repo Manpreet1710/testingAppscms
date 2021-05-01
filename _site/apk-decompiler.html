@@ -644,7 +644,6 @@
                 method: 'PUT',
                 body: formData
             })
-            main.innerHTML = ''
             getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
         }
 
@@ -658,7 +657,7 @@
                     "putURL": putOutputUrl
                 }
             })
-            console.log(res2.status)
+            main.innerHTML = ''
             if (res2.status == 200) {
                 console.log(true)
                 document.querySelector(".DownloadFiles").style.display = "block"
