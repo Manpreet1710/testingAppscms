@@ -616,7 +616,7 @@
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
-                let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `presignedurl?fileName=${fileName}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -648,10 +648,7 @@
         }
 
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-
-            console.log(getInputUrl)
-            console.log(putOutputUrl)
-            let url = `https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler`
+            let url = `decompilerapi`
 
             let res2 = await fetch(url, {
                 method: 'POST',
@@ -663,6 +660,9 @@
             console.log(res2.status)
             if (res2.status == 200) {
                 console.log(true)
+                document.querySelector(".DownloadFiles").style.display = "block"
+                document.getElementById("myAnchor").href = getOutputUrl
+                del.style.display = "block"
             }else{
                 document.querySelector(".DownloadFiles").style.display = "block"
                 document.getElementById("myAnchor").href = getOutputUrl
@@ -673,6 +673,8 @@
         //restart function
         function restart() {
             document.querySelector(".DownloadFiles").style.display = "none"
+            input.innerHTML = ""
+            input.value = ""
         }
 
     </script>

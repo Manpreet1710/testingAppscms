@@ -322,9 +322,6 @@ permalink: apk-decompiler
         }
 
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-
-            console.log(getInputUrl)
-            console.log(putOutputUrl)
             let url = `decompilerapi`
 
             let res2 = await fetch(url, {
@@ -337,6 +334,9 @@ permalink: apk-decompiler
             console.log(res2.status)
             if (res2.status == 200) {
                 console.log(true)
+                document.querySelector(".DownloadFiles").style.display = "block"
+                document.getElementById("myAnchor").href = getOutputUrl
+                del.style.display = "block"
             }else{
                 document.querySelector(".DownloadFiles").style.display = "block"
                 document.getElementById("myAnchor").href = getOutputUrl
@@ -347,6 +347,8 @@ permalink: apk-decompiler
         //restart function
         function restart() {
             document.querySelector(".DownloadFiles").style.display = "none"
+            input.innerHTML = ""
+            input.value = ""
         }
 
     </script>
