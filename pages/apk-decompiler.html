@@ -291,7 +291,7 @@ permalink: apk-decompiler
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
-                let URL = `presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `presignedurl?fileName=${fileName.AppendTimeStamp()}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
