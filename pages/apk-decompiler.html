@@ -322,13 +322,15 @@ permalink: apk-decompiler
         }
 
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `decompiler?type=apk`
+            let url = `decompiler/Staging/decompiler/?type=apk`
+            console.log(url)
 
             let res2 = await fetch(url, {
                 method: 'POST',
                 body: {
                     "getURL": getInputUrl,
-                    "putURL": putOutputUrl
+                    "putURL": putOutputUrl,
+                    "Hellow": "World"
                 }
             })
             main.innerHTML = ''
