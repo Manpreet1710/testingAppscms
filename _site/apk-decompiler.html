@@ -648,14 +648,15 @@
         }
 
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `decompiler/Staging/decompiler/?type=apk`
+            let url = `https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler/?type=apk`
             console.log(url)
 
             let res2 = await fetch(url, {
                 method: 'POST',
                 body: {
                     "getURL": getInputUrl,
-                    "putURL": putOutputUrl
+                    "putURL": putOutputUrl,
+                    "Hellow": "World"
                 }
             })
             main.innerHTML = ''
