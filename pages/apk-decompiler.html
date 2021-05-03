@@ -325,11 +325,15 @@ permalink: apk-decompiler
             let url = `https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler?type=apk`
             console.log(url)
 
+            var postData = {
+  name: 'test',
+  value: 'test'
+}
+
+
             let res2 = await fetch(url, {
                 method: 'POST',
-                body: {
-                    "Hellow": "World"
-                }
+                body: postData
             })
             main.innerHTML = ''
             if (res2.status == 200) {
