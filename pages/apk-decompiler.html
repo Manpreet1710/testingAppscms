@@ -291,7 +291,7 @@ permalink: apk-decompiler
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
-                let URL = `presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -301,7 +301,7 @@ permalink: apk-decompiler
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file, putInputUrl,getInputUrl, getOutputUrl, putOutputUrl)
+                    putInputUrlUpload(file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
                 })
             }
             catch (error) {
@@ -309,7 +309,7 @@ permalink: apk-decompiler
             }
         }
 
-        const putInputUrlUpload = async (file, putInputUrl,getInputUrl, getOutputUrl, putOutputUrl) => {
+        const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("data", file);
@@ -318,22 +318,22 @@ permalink: apk-decompiler
                 method: 'PUT',
                 body: formData
             })
+
             getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
         }
+           
 
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
             let url = `https://l4pxjwen45.execute-api.ap-northeast-1.amazonaws.com/Staging/decompiler?type=apk`
-            console.log(url)
-
-            var postData = {
-  name: 'test',
-  value: 'test'
-}
-
+         
+            let data = {
+                "getURL": getInputUrl ,
+                "putURL": putOutputUrl 
+            }
 
             let res2 = await fetch(url, {
                 method: 'POST',
-                body: postData
+                body: JSON.stringify(data)
             })
             main.innerHTML = ''
             if (res2.status == 200) {
@@ -341,7 +341,7 @@ permalink: apk-decompiler
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
-            }else{
+            } else {
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
