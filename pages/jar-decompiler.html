@@ -275,91 +275,74 @@ permalink: jar-decompiler
         zip.workerScriptsPath = "/zipjs/"
         const upload = async () => {
             let file = input.files[0]
+            let fileName = file.name
             try {
-                let URL = `https://appscms.com/decompilerapi?type=JAR`
-                const formData = new FormData();
-                formData.append("data", file);
-
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
+                let URL = `presignedurl?fileName=${fileName}&fileType=jar`
                 let response = await fetch(URL, {
                     method: 'POST',
-                    headers: {
-                        "type": "JAR",
-                    },
-                    body: formData
                 })
-                main.innerHTML = ''
-
-                response.text().then((data) => {
-
-
-                    let s = file.name.split(".")
-                    let endFileName = s[s.length - 1]
-
-                    if (endFileName == "jar") {
-                        del.style.display = "block"
-                        document.getElementById("upload-icon-section").style.display = "none"
-                        document.getElementById("dropContainer").style.background = "#fff"
-                        document.getElementById("dropContainer").style.border = "none"
-                        document.querySelector(".DownloadFiles").style.display = "block"
-                        uploader.style.background = "#fff"
-                        let filename = file.name.replace("jar", "zip")
-                        name.innerHTML = file.name
-                        sub_filename.innerHTML = file.name
-
-                        downloads.addEventListener("click", () => {
-                            downloads.setAttribute("href", "data:text/plain;base64," + data)
-                            downloads.setAttribute("download", filename)
-                        })
-                    }
-                    else {
-                        openModal()
-                        unableFileName.innerText = file.name + "."
-                    }
+                response.json().then((data) => {
+                    let getInputUrl = data.body.getInputUrl
+                    let getOutputUrl = data.body.getOutputUrl
+                    let putInputUrl = data.body.putInputUrl
+                    let putOutputUrl = data.body.putOutputUrl
+                    console.log(data)
+                    putInputUrlUpload(file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
                 })
             }
             catch (error) {
                 console.log(error)
             }
-        };
+        }
+
+        const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
+            let URL = putInputUrl.slice(51)
+            const formData = new FormData();
+            formData.append("data", file);
+
+            let res = await fetch(`/app${URL}`, {
+                method: 'PUT',
+                body: formData
+            })
+
+            getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
+        }
+           
+
+        const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
+            let url = `decompiler?type=jar`
+         
+            let data = {
+                "getURL": getInputUrl ,
+                "putURL": putOutputUrl 
+            }
+
+            let res2 = await fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(data)
+            })
+            main.innerHTML = ''
+            if (res2.status == 200) {
+                console.log(true)
+                document.querySelector(".DownloadFiles").style.display = "block"
+                downloads.href = getOutputUrl
+                del.style.display = "block"
+            } else {
+                document.querySelector(".DownloadFiles").style.display = "block"
+                downloads.href = getOutputUrl
+                del.style.display = "block"
+            }
+        }
 
         //restart function
         function restart() {
             document.querySelector(".DownloadFiles").style.display = "none"
-            document.getElementById("upload-icon-section").style.display = "block"
-            document.getElementById("dropContainer").style.background = "#11304e2e"
-            // document.getElementById("dropContainer").style.padding = "35px 20px 150px 20px"
-            // document.getElementById("dropContainer").style.border = "1px solid rgba(0,0,0,.125)"
-            uploader.style.background = "#974fff"
+            input.innerHTML = ""
+            input.value = ""
         }
-
-
-        // Modal POPUP when user upload wrong files
-        // SOME MODAL FUNCTIONS HERE
-        closeBtn.addEventListener('click', function () {
-            closeModal()
-        })
-
-        modalWrapper.addEventListener('click', function (e) {
-            if (e.target !== this) return
-            closeModal()
-        })
-
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') {
-                closeModal()
-            }
-        })
-
-        function openModal() {
-            modalWrapper.classList.add('active')
-        }
-        function closeModal() {
-            modalWrapper.classList.remove('active')
-        }
-
 
 
     </script>
