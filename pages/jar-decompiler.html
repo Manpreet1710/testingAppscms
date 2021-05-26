@@ -310,14 +310,15 @@ permalink: jar-decompiler
 
             getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
         }
-           
+
 
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `decompiler?type=jar`
-         
+            let url = `decompiler2`
+
             let data = {
-                "getURL": getInputUrl ,
-                "putURL": putOutputUrl 
+                "getURL": getInputUrl,
+                "putURL": putOutputUrl,
+                "type": "jar"
             }
 
             let res2 = await fetch(url, {

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-06T08:55:36+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Appscms - CMS for Mobile Apps</title><subtitle>Appcms is a modern, cloud-based content &amp; translation management system for all of your native mobile apps, enabling you to change strings in your app without Playstore release.</subtitle><entry><title type="html">3 Ways to run a .JAR file</title><link href="http://localhost:4000/blog/3-ways-to-run-a.jar-file" rel="alternate" type="text/html" title="3 Ways to run a .JAR file" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/3-ways-to-run-a.jar-file</id><content type="html" xml:base="http://localhost:4000/blog/3-ways-to-run-a.jar-file">&lt;h1 id=&quot;3-ways-to-run-a-jar-file&quot;&gt;&lt;strong&gt;3 Ways to run a .JAR file&lt;/strong&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-26T22:46:13+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Appscms - CMS for Mobile Apps</title><subtitle>Appcms is a modern, cloud-based content &amp; translation management system for all of your native mobile apps, enabling you to change strings in your app without Playstore release.</subtitle><entry><title type="html">3 Ways to run a .JAR file</title><link href="http://localhost:4000/blog/3-ways-to-run-a.jar-file" rel="alternate" type="text/html" title="3 Ways to run a .JAR file" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/3-ways-to-run-a.jar-file</id><content type="html" xml:base="http://localhost:4000/blog/3-ways-to-run-a.jar-file">&lt;h1 id=&quot;3-ways-to-run-a-jar-file&quot;&gt;&lt;strong&gt;3 Ways to run a .JAR file&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;To be honest ‘.JAR files’ are one of the most common ‘friends’ in any developer’s life! Being a developer you are more familiar with them than any other; as it’s something you see, use, and utilize in Your own day-to-day life. But still, sometimes you may face some problems during running the .JAR file you are handling. Now, If you are one of those seeking an absolute solution to this; this blog post is for you!&lt;/p&gt;
 
@@ -39,110 +39,7 @@
 
 &lt;p&gt;And that’s how you can open a .JAR file using the command prompt.&lt;/p&gt;
 
-&lt;p&gt;And, here we go! In this blog post, we have told you about 3 amazing ways to run your .JAR file, as detailed and step-by-step as possible and we believe that it will definitely help you with your problem! And as a curious brain if you are interested in .JAR files and wanted to know more about them, check out our other posts on it. Not just that, you will find many more to explore on our website so give it a minute and check it out! On the other hand, thank you so much for tuning into this blog post, we really do appreciate your visit and if you have a message for us the comment box is all yours! Thank you once again, and we hope we will see you in another blog post of Appscms.com! See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">3 Ways to run a .JAR file</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/how-to-open-jar-files-on-windows-10.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/how-to-open-jar-files-on-windows-10.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why is the .JAR file not opening? | Reason and solution</title><link href="http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution" rel="alternate" type="text/html" title="Why is the .JAR file not opening? | Reason and solution" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution</id><content type="html" xml:base="http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution">&lt;h1 id=&quot;why-is-the-jar-file-not-opening&quot;&gt;&lt;strong&gt;Why is the .JAR file not opening?&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;h3 id=&quot;reason-and-solution-for-you&quot;&gt;&lt;strong&gt;Reason and solution for you…&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;When it comes to .JAR files, we can understand that sometimes they just don’t go well, for example sometimes they just don’t open! As a developer, it may be very frustrating and unmotivating, but no worries! Today we are here to tell you what actually went wrong with your .JAR file that results in it not opening, and trust us this blog post will give you so many facts that you will never worry anymore about thinking about why my .JAR file is not working? So, without any further due let’s jump into our topic…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/uploads/maxresdefault.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;reason-1---the-java-run-time-environment-is-not-properly-set-to-run-jar-files&quot;&gt;&lt;strong&gt;Reason 1 - The Java Run-Time Environment is not properly set to run .JAR files&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;This may be one of the very common reasons for a .JAR file to not open. Luckily there are a couple of easy solutions for fixing this problem on your own. When we try to open a .jar file, what happens most of the time is that Windows will ask what program to use. Most of us simply choose the Java.exe, but this has the problem of stripping –jar from the program’s execution path. Basically you cannot set the required complex command to open .jar files by using “Open With…” in Windows 10 of your PC.&lt;/p&gt;
-
-&lt;p&gt;So now, normally what happens is that we associate the .jar file to open with java.exe, and double-click on the executable .jar, then a command prompt window will open for a split second and close, and the program does not launch. And here’s how you get an unopened .JAR file!&lt;/p&gt;
-
-&lt;h3 id=&quot;solution-&quot;&gt;&lt;strong&gt;Solution :&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;To fix this what we need to do is re-associate the .jar file with the Java binary. Here is a step-by-step procedure on how to do it with some tips.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;First of all make sure you are updated with the latest Java Runtime Environment, if not please do so.&lt;/li&gt;
-  &lt;li&gt;Now, navigate to your Java installation folder, go inside the /bin/ folder, right-click on Java.exe and set it to “Run as Administrator”.&lt;/li&gt;
-  &lt;li&gt;After this, press Windows + X keys and select “Command Prompt (Admin)” or Powershell (Admin) and type ‘cmd’.&lt;/li&gt;
-  &lt;li&gt;Now, type the following commands into the prompt (replace the C:\Program Files\etc with your actual Java installation folder, for example, C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe) :&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;ftype jarfileterm=cmd /s /k “”C:\Program Files\Java\jre7\bin\java.exe” -jar “%1″ %*” assoc .jar=jarfileterm&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Or if in case you want the command prompt to stay open after launching the .jar file (for debugging purposes), use the following code instead of the previous one:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;ftype jarfileterm=cmd /s /k “”C:\Program Files\Java\jre7\bin\java.exe” -jar “%1″ %*” assoc .jar=jarfileterm&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;And now, we suggest you try to launch the .JAR file that was not opening. Depending on which of the steps above we told you to take, the java executable should either launch or launch with a persistent command prompt behind it (which will fill up with Java calls from the app, useful for debugging purposes). And, that’s how you will be able to open a .JAR file that was not opening, and you know why it was doing that so. But, wait. If your problem is not solved yet, don’t sweat it! We have another solution for you and it will definitely work! Stay tuned for the next reason.&lt;/p&gt;
-
-&lt;h2 id=&quot;reason-2---windows-registry-is-not-calling-jre-java-runtime-environment-properly&quot;&gt;&lt;strong&gt;Reason 2 - Windows Registry is not calling JRE (Java Runtime Environment) properly&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Now, as we have already worked with the command prompt and still if your .JAR file is not running; and the steps did not work for you, we will need to tweak your registry.&lt;/p&gt;
-
-&lt;p&gt;Follow the steps below in the solution and you may be able to solve the problem…&lt;/p&gt;
-
-&lt;h3 id=&quot;solution--1&quot;&gt;&lt;strong&gt;Solution :&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;First of all, do a simple thing. Just right-click on your Start button and do a search for “Regedit”, when it pops up open it.&lt;/li&gt;
-  &lt;li&gt;Now, pay attention and expand the HKEY_CLASSES_ROOT folder, and scroll down until you find the folders “jar_auto_file” and “jarfileterm”; you will find them right somewhere there.&lt;/li&gt;
-  &lt;li&gt;After that, expand the path as follows : &lt;strong&gt;jar_auto_file &amp;gt; Shell &amp;gt; Open &amp;gt; Command&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Now, you will see a key named “Default”. Just right-click on the “Default” key and choose the “Modify” option.&lt;/li&gt;
-  &lt;li&gt;Now in the “Value data” box that will pop up in the “Edit string” window, paste the ‘ftype’ command you entered earlier in the command prompt, and press OK.&lt;/li&gt;
-  &lt;li&gt;Similarly, do the same procedure for the jarfileterm folder (you need to expand &lt;strong&gt;jarfileterm &amp;gt; Shell &amp;gt; Open &amp;gt; Command&lt;/strong&gt;).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Now, we recommend you to exit Regedit and try to open your .JAR file now! It should open by now successfully. And that’s how we can say you are able to open your ‘not-running’ .JAR file now, with the addition of gaining some knowledge about why it was happening in the first place!&lt;/p&gt;
-
-&lt;p&gt;We hope you liked this blog post and it brings value to your time, there are many other interesting blog posts for developers on our site; check them out too. If you have any suggestions, questions, queries, or compliments the comment box is all yours! We will love to hear from you, suggest to us what you like to know more from us. On that note, we hope to see you in another blog post of Appscms.com. See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Why is the .JAR file not opening?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/maxresdefault-1.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/maxresdefault-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to Open a .JAR file on your PC</title><link href="http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc" rel="alternate" type="text/html" title="How to Open a .JAR file on your PC" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc</id><content type="html" xml:base="http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc">&lt;h1 id=&quot;how-to-open-a-jar-file-on-your-pc&quot;&gt;&lt;strong&gt;How to Open a .JAR file on your PC&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;Many of the times we struggle to do simple yet very important tasks in our day to day life; being a developer is not an exception for it either. You may face technical problems at work and today we are discussing one of the very common problems that you may face, that is ‘How to Open a .JAR file’.&lt;/p&gt;
-
-&lt;p&gt;If you’re facing this problem this blog post is for you! Now we are guiding you Step by step, to get the solution for your question: How should one open a .JAR file on a PC? But before that, let’s get to know more about what a .JAR file actually is, to get further knowledge and understanding of the subject…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/uploads/oip.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-a-jar-file&quot;&gt;&lt;strong&gt;&lt;em&gt;What is a .JAR File&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;.JAR file is a collection of multiple files as one single file, it is basically a short form of ‘Java Archive’; so easy-peasy a Java Archive file is known as a .JAR file.&lt;/p&gt;
-
-&lt;p&gt;Now, if you think about why they made this in the first place? Well, as you know compressing a normal file and creating a .zip file from it make it easier to distribute data over the internet, similarly .JAR file AKA Java archives are an easier way to distribute Java applications.&lt;/p&gt;
-
-&lt;p&gt;If you know a little about Unix, Linux then you can think .JAR as similar to a .tar archive.&lt;/p&gt;
-
-&lt;p&gt;Now, if we get a little deeper into it, you should know that .JAR files not just store a collection of multiple files it is more like some .JAR files contain files that make them work as standalone apps and others hold programs libraries for other programs for their use.&lt;/p&gt;
-
-&lt;p&gt;They store Java programs and games in a single file. That is, some Java-capable mobile devices might use those .JAR files as game files, and at the same time, some web browsers hold their ‘themes’ and ‘add-ons’ in the .JAR format.&lt;/p&gt;
-
-&lt;p&gt;And as we told you, JAR files are .ZIP compressed files, which are often used to store things like .class files, a manifest file, and application resources like images, sound clips, and security certificates too. They can hold even thousands of files in a compressed format in them, that’s why it’s easy to share and move .JAR files.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How will you distinguish between an executable and non-executable file?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Well, just keep in mind If double-clicking the .JAR file does not result in the file being run, it’s likely not an executable file and cannot run in this manner of action. But don’t worry we are discussing how you can see a non-executable .JAR file content in the next points.&lt;/p&gt;
-
-&lt;p&gt;So, next time when you see a .JAR file, you know more about it than usual don’t you?&lt;/p&gt;
-
-&lt;p&gt;Now, without wasting time let’s move on to the next main topic of this log post how can we open them?&lt;/p&gt;
-
-&lt;p&gt;Let’s Jump into it!&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-open-a-jar-file-&quot;&gt;&lt;strong&gt;How to Open a .JAR file :&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;The no. 1 solution for this question will be by using decompression softwares for .JAR file; unarguably they are a more easier, faster and quite convenient way to do so. Now, we are going to guide you through the step by step process of opening a .JAR file in your Windows PC using decompression software, stay tuned with it till the end…&lt;/p&gt;
-
-&lt;h2 id=&quot;open-a-jar-file-using-decompression-softwares&quot;&gt;&lt;strong&gt;Open a .JAR file using decompression softwares&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;To view a non-executable .JAR file contents, that is to view a .JAR file compressed with .ZIP; you can obtain compression/decompression software that works with jar files. There are many available for free like 7-Zip, WinRAR, PeaZip and jZip.&lt;/p&gt;
-
-&lt;p&gt;The steps after this are as below sub-points :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Once you successfully installed one of this software, run that particular software.&lt;/li&gt;
-  &lt;li&gt;Now, simply open the .JAR file by double-clicking on it, and now just extract the files contained in it.&lt;/li&gt;
-  &lt;li&gt;After the files are getting extracted, you can view all the individual files by simply double-clicking them one by one.&lt;/li&gt;
-  &lt;li&gt;Many of those files are probably text files, but others may require additional software to view them, so make sure to have them or to download them as necessary.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That’s how you can see compressed .JAR file contents using decompression softwares.&lt;/p&gt;
-
-&lt;p&gt;Now, as we discussed the perfect way of opening a .JAR file as deeply and step by step as possible, we hope that you won’t find any trouble opening your .JAR file; still, if you have any query’s additional information, doubts, or any experience and ideas you want to share with us; the comment box is all yours! We will love to talk with you so comment down below! And we will meet you in another blog post of Appscms.com, with some more awesome facts and contents for you guys, see ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">How to Open a .JAR file on your PC</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/how-to-open-jar-files.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/how-to-open-jar-files.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Best .apk decompilers</title><link href="http://localhost:4000/blog/best.apk-decompilers" rel="alternate" type="text/html" title="Best .apk decompilers" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/best.apk-decompilers</id><content type="html" xml:base="http://localhost:4000/blog/best.apk-decompilers">&lt;h1 id=&quot;best-apk-decompilers&quot;&gt;&lt;strong&gt;Best .apk decompilers&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;And, here we go! In this blog post, we have told you about 3 amazing ways to run your .JAR file, as detailed and step-by-step as possible and we believe that it will definitely help you with your problem! And as a curious brain if you are interested in .JAR files and wanted to know more about them, check out our other posts on it. Not just that, you will find many more to explore on our website so give it a minute and check it out! On the other hand, thank you so much for tuning into this blog post, we really do appreciate your visit and if you have a message for us the comment box is all yours! Thank you once again, and we hope we will see you in another blog post of Appscms.com! See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">3 Ways to run a .JAR file</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/how-to-open-jar-files-on-windows-10.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/how-to-open-jar-files-on-windows-10.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Best .apk decompilers</title><link href="http://localhost:4000/blog/best.apk-decompilers" rel="alternate" type="text/html" title="Best .apk decompilers" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/best.apk-decompilers</id><content type="html" xml:base="http://localhost:4000/blog/best.apk-decompilers">&lt;h1 id=&quot;best-apk-decompilers&quot;&gt;&lt;strong&gt;Best .apk decompilers&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;.apk files are very common for all android users, as they are the very essential part of the whole existence of an app on your smartphone. Sometimes, as a developer you may come across some circumstances where you need to decompile or get the source code of the .apk file for further use; and in this blog post, we are going to discuss the same topic. What are .apk decompilers and What are the Best .apk decompilers out there.&lt;/p&gt;
 
@@ -330,7 +227,110 @@
 
 &lt;p&gt;And, that’s it! You will have a decompiled code for the .apk file on your smartphone. Think about using it for your own!&lt;/p&gt;
 
-&lt;p&gt;And, now hence we are all done with the Best .apk decompilers; according to their types and usage! Which one do you think will suit you the best? Tell us in the comment box below! If you have any other suggestions, questions, queries, or even compliments you can definitely tell us there, we will love to hear from you! And on that note, we hope to see you in another blog post on our website Appscms.com. Until then, have good luck finding the best decompiler for you from these suggestions from us! Hope you will like other blog posts too! See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Best .apk decompilers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/decompile-android-apk-files-tools.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/decompile-android-apk-files-tools.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Best Java Decompilers</title><link href="http://localhost:4000/blog/best-java-decompilers" rel="alternate" type="text/html" title="Best Java Decompilers" /><published>2020-12-04T00:00:00+05:30</published><updated>2020-12-04T00:00:00+05:30</updated><id>http://localhost:4000/blog/best-java-decompilers</id><content type="html" xml:base="http://localhost:4000/blog/best-java-decompilers">&lt;h1 id=&quot;best-java-decompilers&quot;&gt;&lt;strong&gt;Best Java Decompilers&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;And, now hence we are all done with the Best .apk decompilers; according to their types and usage! Which one do you think will suit you the best? Tell us in the comment box below! If you have any other suggestions, questions, queries, or even compliments you can definitely tell us there, we will love to hear from you! And on that note, we hope to see you in another blog post on our website Appscms.com. Until then, have good luck finding the best decompiler for you from these suggestions from us! Hope you will like other blog posts too! See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Best .apk decompilers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/decompile-android-apk-files-tools.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/decompile-android-apk-files-tools.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to Open a .JAR file on your PC</title><link href="http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc" rel="alternate" type="text/html" title="How to Open a .JAR file on your PC" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc</id><content type="html" xml:base="http://localhost:4000/blog/how-to-open-a.jar-file-on-your-pc">&lt;h1 id=&quot;how-to-open-a-jar-file-on-your-pc&quot;&gt;&lt;strong&gt;How to Open a .JAR file on your PC&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;Many of the times we struggle to do simple yet very important tasks in our day to day life; being a developer is not an exception for it either. You may face technical problems at work and today we are discussing one of the very common problems that you may face, that is ‘How to Open a .JAR file’.&lt;/p&gt;
+
+&lt;p&gt;If you’re facing this problem this blog post is for you! Now we are guiding you Step by step, to get the solution for your question: How should one open a .JAR file on a PC? But before that, let’s get to know more about what a .JAR file actually is, to get further knowledge and understanding of the subject…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/oip.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-jar-file&quot;&gt;&lt;strong&gt;&lt;em&gt;What is a .JAR File&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;.JAR file is a collection of multiple files as one single file, it is basically a short form of ‘Java Archive’; so easy-peasy a Java Archive file is known as a .JAR file.&lt;/p&gt;
+
+&lt;p&gt;Now, if you think about why they made this in the first place? Well, as you know compressing a normal file and creating a .zip file from it make it easier to distribute data over the internet, similarly .JAR file AKA Java archives are an easier way to distribute Java applications.&lt;/p&gt;
+
+&lt;p&gt;If you know a little about Unix, Linux then you can think .JAR as similar to a .tar archive.&lt;/p&gt;
+
+&lt;p&gt;Now, if we get a little deeper into it, you should know that .JAR files not just store a collection of multiple files it is more like some .JAR files contain files that make them work as standalone apps and others hold programs libraries for other programs for their use.&lt;/p&gt;
+
+&lt;p&gt;They store Java programs and games in a single file. That is, some Java-capable mobile devices might use those .JAR files as game files, and at the same time, some web browsers hold their ‘themes’ and ‘add-ons’ in the .JAR format.&lt;/p&gt;
+
+&lt;p&gt;And as we told you, JAR files are .ZIP compressed files, which are often used to store things like .class files, a manifest file, and application resources like images, sound clips, and security certificates too. They can hold even thousands of files in a compressed format in them, that’s why it’s easy to share and move .JAR files.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How will you distinguish between an executable and non-executable file?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, just keep in mind If double-clicking the .JAR file does not result in the file being run, it’s likely not an executable file and cannot run in this manner of action. But don’t worry we are discussing how you can see a non-executable .JAR file content in the next points.&lt;/p&gt;
+
+&lt;p&gt;So, next time when you see a .JAR file, you know more about it than usual don’t you?&lt;/p&gt;
+
+&lt;p&gt;Now, without wasting time let’s move on to the next main topic of this log post how can we open them?&lt;/p&gt;
+
+&lt;p&gt;Let’s Jump into it!&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-open-a-jar-file-&quot;&gt;&lt;strong&gt;How to Open a .JAR file :&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;The no. 1 solution for this question will be by using decompression softwares for .JAR file; unarguably they are a more easier, faster and quite convenient way to do so. Now, we are going to guide you through the step by step process of opening a .JAR file in your Windows PC using decompression software, stay tuned with it till the end…&lt;/p&gt;
+
+&lt;h2 id=&quot;open-a-jar-file-using-decompression-softwares&quot;&gt;&lt;strong&gt;Open a .JAR file using decompression softwares&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;To view a non-executable .JAR file contents, that is to view a .JAR file compressed with .ZIP; you can obtain compression/decompression software that works with jar files. There are many available for free like 7-Zip, WinRAR, PeaZip and jZip.&lt;/p&gt;
+
+&lt;p&gt;The steps after this are as below sub-points :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Once you successfully installed one of this software, run that particular software.&lt;/li&gt;
+  &lt;li&gt;Now, simply open the .JAR file by double-clicking on it, and now just extract the files contained in it.&lt;/li&gt;
+  &lt;li&gt;After the files are getting extracted, you can view all the individual files by simply double-clicking them one by one.&lt;/li&gt;
+  &lt;li&gt;Many of those files are probably text files, but others may require additional software to view them, so make sure to have them or to download them as necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s how you can see compressed .JAR file contents using decompression softwares.&lt;/p&gt;
+
+&lt;p&gt;Now, as we discussed the perfect way of opening a .JAR file as deeply and step by step as possible, we hope that you won’t find any trouble opening your .JAR file; still, if you have any query’s additional information, doubts, or any experience and ideas you want to share with us; the comment box is all yours! We will love to talk with you so comment down below! And we will meet you in another blog post of Appscms.com, with some more awesome facts and contents for you guys, see ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">How to Open a .JAR file on your PC</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/how-to-open-jar-files.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/how-to-open-jar-files.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why is the .JAR file not opening? | Reason and solution</title><link href="http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution" rel="alternate" type="text/html" title="Why is the .JAR file not opening? | Reason and solution" /><published>2020-12-07T00:00:00+05:30</published><updated>2020-12-07T00:00:00+05:30</updated><id>http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution</id><content type="html" xml:base="http://localhost:4000/blog/why-is-the.jar-file-not-opening-reason-and-solution">&lt;h1 id=&quot;why-is-the-jar-file-not-opening&quot;&gt;&lt;strong&gt;Why is the .JAR file not opening?&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h3 id=&quot;reason-and-solution-for-you&quot;&gt;&lt;strong&gt;Reason and solution for you…&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;When it comes to .JAR files, we can understand that sometimes they just don’t go well, for example sometimes they just don’t open! As a developer, it may be very frustrating and unmotivating, but no worries! Today we are here to tell you what actually went wrong with your .JAR file that results in it not opening, and trust us this blog post will give you so many facts that you will never worry anymore about thinking about why my .JAR file is not working? So, without any further due let’s jump into our topic…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/maxresdefault.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reason-1---the-java-run-time-environment-is-not-properly-set-to-run-jar-files&quot;&gt;&lt;strong&gt;Reason 1 - The Java Run-Time Environment is not properly set to run .JAR files&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;This may be one of the very common reasons for a .JAR file to not open. Luckily there are a couple of easy solutions for fixing this problem on your own. When we try to open a .jar file, what happens most of the time is that Windows will ask what program to use. Most of us simply choose the Java.exe, but this has the problem of stripping –jar from the program’s execution path. Basically you cannot set the required complex command to open .jar files by using “Open With…” in Windows 10 of your PC.&lt;/p&gt;
+
+&lt;p&gt;So now, normally what happens is that we associate the .jar file to open with java.exe, and double-click on the executable .jar, then a command prompt window will open for a split second and close, and the program does not launch. And here’s how you get an unopened .JAR file!&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-&quot;&gt;&lt;strong&gt;Solution :&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;To fix this what we need to do is re-associate the .jar file with the Java binary. Here is a step-by-step procedure on how to do it with some tips.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First of all make sure you are updated with the latest Java Runtime Environment, if not please do so.&lt;/li&gt;
+  &lt;li&gt;Now, navigate to your Java installation folder, go inside the /bin/ folder, right-click on Java.exe and set it to “Run as Administrator”.&lt;/li&gt;
+  &lt;li&gt;After this, press Windows + X keys and select “Command Prompt (Admin)” or Powershell (Admin) and type ‘cmd’.&lt;/li&gt;
+  &lt;li&gt;Now, type the following commands into the prompt (replace the C:\Program Files\etc with your actual Java installation folder, for example, C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe) :&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;ftype jarfileterm=cmd /s /k “”C:\Program Files\Java\jre7\bin\java.exe” -jar “%1″ %*” assoc .jar=jarfileterm&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Or if in case you want the command prompt to stay open after launching the .jar file (for debugging purposes), use the following code instead of the previous one:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;ftype jarfileterm=cmd /s /k “”C:\Program Files\Java\jre7\bin\java.exe” -jar “%1″ %*” assoc .jar=jarfileterm&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And now, we suggest you try to launch the .JAR file that was not opening. Depending on which of the steps above we told you to take, the java executable should either launch or launch with a persistent command prompt behind it (which will fill up with Java calls from the app, useful for debugging purposes). And, that’s how you will be able to open a .JAR file that was not opening, and you know why it was doing that so. But, wait. If your problem is not solved yet, don’t sweat it! We have another solution for you and it will definitely work! Stay tuned for the next reason.&lt;/p&gt;
+
+&lt;h2 id=&quot;reason-2---windows-registry-is-not-calling-jre-java-runtime-environment-properly&quot;&gt;&lt;strong&gt;Reason 2 - Windows Registry is not calling JRE (Java Runtime Environment) properly&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Now, as we have already worked with the command prompt and still if your .JAR file is not running; and the steps did not work for you, we will need to tweak your registry.&lt;/p&gt;
+
+&lt;p&gt;Follow the steps below in the solution and you may be able to solve the problem…&lt;/p&gt;
+
+&lt;h3 id=&quot;solution--1&quot;&gt;&lt;strong&gt;Solution :&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First of all, do a simple thing. Just right-click on your Start button and do a search for “Regedit”, when it pops up open it.&lt;/li&gt;
+  &lt;li&gt;Now, pay attention and expand the HKEY_CLASSES_ROOT folder, and scroll down until you find the folders “jar_auto_file” and “jarfileterm”; you will find them right somewhere there.&lt;/li&gt;
+  &lt;li&gt;After that, expand the path as follows : &lt;strong&gt;jar_auto_file &amp;gt; Shell &amp;gt; Open &amp;gt; Command&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Now, you will see a key named “Default”. Just right-click on the “Default” key and choose the “Modify” option.&lt;/li&gt;
+  &lt;li&gt;Now in the “Value data” box that will pop up in the “Edit string” window, paste the ‘ftype’ command you entered earlier in the command prompt, and press OK.&lt;/li&gt;
+  &lt;li&gt;Similarly, do the same procedure for the jarfileterm folder (you need to expand &lt;strong&gt;jarfileterm &amp;gt; Shell &amp;gt; Open &amp;gt; Command&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, we recommend you to exit Regedit and try to open your .JAR file now! It should open by now successfully. And that’s how we can say you are able to open your ‘not-running’ .JAR file now, with the addition of gaining some knowledge about why it was happening in the first place!&lt;/p&gt;
+
+&lt;p&gt;We hope you liked this blog post and it brings value to your time, there are many other interesting blog posts for developers on our site; check them out too. If you have any suggestions, questions, queries, or compliments the comment box is all yours! We will love to hear from you, suggest to us what you like to know more from us. On that note, we hope to see you in another blog post of Appscms.com. See ya!&lt;/p&gt;</content><author><name>ankita</name></author><summary type="html">Why is the .JAR file not opening?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/uploads/maxresdefault-1.jpg" /><media:content medium="image" url="http://localhost:4000/uploads/maxresdefault-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Best Java Decompilers</title><link href="http://localhost:4000/blog/best-java-decompilers" rel="alternate" type="text/html" title="Best Java Decompilers" /><published>2020-12-04T00:00:00+05:30</published><updated>2020-12-04T00:00:00+05:30</updated><id>http://localhost:4000/blog/best-java-decompilers</id><content type="html" xml:base="http://localhost:4000/blog/best-java-decompilers">&lt;h1 id=&quot;best-java-decompilers&quot;&gt;&lt;strong&gt;Best Java Decompilers&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;Java decompilers are one of the quite normally used terms in today’s technological world of development. Every new age developer needs one as it is one of the important gears in the programmer lifestyle. Now, as we talk about Java decompilers let’s get to know a little bit more about the term Decompiler itself.&lt;/p&gt;
 
