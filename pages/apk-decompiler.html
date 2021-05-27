@@ -321,14 +321,15 @@ permalink: apk-decompiler
 
             getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
         }
-           
+
 
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `decompiler?type=apk`
-         
+            let url = `/test`
+
             let data = {
-                "getURL": getInputUrl ,
-                "putURL": putOutputUrl 
+                "getInputUrl": getInputUrl,
+                "putOutputUrl": putOutputUrl,
+                "type": "apk"
             }
 
             let res2 = await fetch(url, {
