@@ -319,10 +319,10 @@ permalink: apk-decompiler
                 body: formData
             })
 
-            getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
+            getOutputUrlUpload(file, getInputUrl, getOutputUrl, putOutputUrl)
         }
-        const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `/test`
+        const getOutputUrlUpload = async (file, getInputUrl, getOutputUrl, putOutputUrl) => {
+            let url = `/decompilation`
 
             let data = {
                 "getInputUrl": getInputUrl,
@@ -344,8 +344,18 @@ permalink: apk-decompiler
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-                document.querySelector(".DownloadFiles").style.display = "none"
+                let URL = `test`
+                const formData = new FormData();
+                formData.append("data", file);
 
+                let res = await fetch(`URL`, {
+                    method: 'POST',
+                    type: "apk",
+                    body: formData
+                })
+
+                document.querySelector(".DownloadFiles").style.display = "block"
+                downloads.href = getOutputUrl
                 del.style.display = "block"
             }
         }
