@@ -70,7 +70,7 @@
 
   [[redirects]]
   from = "/decompiler2*"
-  to = "decompiler-dev.herokuapp.com/v1/decompile:splat"
+  to = "http://decompiler-dev.herokuapp.com/v1/decompile:splat"
   force = true
   status = 200
 
