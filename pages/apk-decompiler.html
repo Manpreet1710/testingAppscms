@@ -321,8 +321,6 @@ permalink: apk-decompiler
 
             getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
         }
-
-
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
             let url = `/test`
 
@@ -334,6 +332,9 @@ permalink: apk-decompiler
 
             let res2 = await fetch(url, {
                 method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
                 body: JSON.stringify(data)
             })
             main.innerHTML = ''
@@ -343,8 +344,8 @@ permalink: apk-decompiler
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-                document.querySelector(".DownloadFiles").style.display = "block"
-                downloads.href = getOutputUrl
+                document.querySelector(".DownloadFiles").style.display = "none"
+
                 del.style.display = "block"
             }
         }
