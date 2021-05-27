@@ -344,11 +344,11 @@ permalink: apk-decompiler
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-                let URL = `test`
+                let URL = `/test`
                 const formData = new FormData();
                 formData.append("data", file);
 
-                let res = await fetch(`URL`, {
+                let res = await fetch(URL, {
                     method: 'POST',
                     type: "apk",
                     body: formData
