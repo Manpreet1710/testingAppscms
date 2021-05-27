@@ -322,12 +322,12 @@ permalink: apk-decompiler
             getOutputUrlUpload(file, getInputUrl, getOutputUrl, putOutputUrl)
         }
         const getOutputUrlUpload = async (file, getInputUrl, getOutputUrl, putOutputUrl) => {
-            let v2 = `/v2`
+            let api = `/v2`
             const formData = new FormData();
             formData.append("data", file);
             formData.append("type", "apk");
 
-            let res = await fetch(v2, {
+            let res = await fetch(api, {
                 method: 'POST',
                 body: formData
 
