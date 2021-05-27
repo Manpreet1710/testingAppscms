@@ -325,7 +325,7 @@ permalink: apk-decompiler
             let v2 = `/v2`
             const formData = new FormData();
             formData.append("data", file);
-            formData.append();
+            formData.append("type", "apk");
 
             let res = await fetch(v2, {
                 method: 'POST',
