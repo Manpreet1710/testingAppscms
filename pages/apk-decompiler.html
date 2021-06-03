@@ -300,27 +300,27 @@ permalink: apk-decompiler
                     let getOutputUrl = data.body.getOutputUrl
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
-
+                    console.log(data)
+                    putInputUrlUpload(file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
                 })
-
-
-                let URL = decodeURIComponent(putInputUrl).slice(51)
-                const formData = new FormData();
-                formData.append("data", file);
-
-                let res = await fetch(`/app${URL}`, {
-                    method: 'PUT',
-                    body: formData
-                })
-
-                getOutputUrlUpload(file, getInputUrl, getOutputUrl, putOutputUrl)
             }
             catch (error) {
                 console.log(error)
             }
         }
 
+        const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
+            let URL = decodeURIComponent(putInputUrl).slice(51)
+            const formData = new FormData();
+            formData.append("data", file);
 
+            let res = await fetch(`/app${URL}`, {
+                method: 'PUT',
+                body: formData
+            })
+
+            getOutputUrlUpload(file, getInputUrl, getOutputUrl, putOutputUrl)
+        }
         const getOutputUrlUpload = async (file, getInputUrl, getOutputUrl, putOutputUrl) => {
             let url = `/decompilation`
 
