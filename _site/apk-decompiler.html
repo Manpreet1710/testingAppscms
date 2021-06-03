@@ -645,20 +645,22 @@
                 body: formData
             })
 
-            getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
+            getOutputUrlUpload(file, getInputUrl, getOutputUrl, putOutputUrl)
         }
-           
+        const getOutputUrlUpload = async (file, getInputUrl, getOutputUrl, putOutputUrl) => {
+            let url = `/decompilation`
 
-        const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `decompiler?type=apk`
-         
             let data = {
-                "getURL": getInputUrl ,
-                "putURL": putOutputUrl 
+                "getInputUrl": decodeURIComponent(getInputUrl),
+                "putOutputUrl": decodeURIComponent(putOutputUrl),
+                "type": "apk"
             }
 
             let res2 = await fetch(url, {
                 method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
                 body: JSON.stringify(data)
             })
             main.innerHTML = ''
@@ -668,6 +670,17 @@
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
+                let v2 = `/v2`
+                const formData = new FormData();
+                formData.append("file", file);
+                formData.append("type", "apk");
+
+                let res = await fetch(v2, {
+                    method: 'POST',
+                    body: formData
+
+                })
+
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"

@@ -639,16 +639,19 @@
 
 
         const getOutputUrlUpload = async (getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `decompiler2`
+            let url = `/decompilation`
 
             let data = {
-                "getURL": getInputUrl,
-                "putURL": putOutputUrl,
+                "getInputUrl": getInputUrl,
+                "putOutputUrl": putOutputUrl,
                 "type": "jar"
             }
 
             let res2 = await fetch(url, {
                 method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
                 body: JSON.stringify(data)
             })
             main.innerHTML = ''
@@ -658,8 +661,7 @@
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-                document.querySelector(".DownloadFiles").style.display = "block"
-                downloads.href = getOutputUrl
+                document.querySelector(".DownloadFiles").style.display = "none"
                 del.style.display = "block"
             }
         }

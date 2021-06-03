@@ -325,8 +325,8 @@ permalink: apk-decompiler
             let url = `/decompilation`
 
             let data = {
-                "getInputUrl": getInputUrl,
-                "putOutputUrl": putOutputUrl,
+                "getInputUrl": decodeURIComponent(getInputUrl),
+                "putOutputUrl": decodeURIComponent(putOutputUrl),
                 "type": "apk"
             }
 

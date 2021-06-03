@@ -69,9 +69,16 @@
   status = 200
 
   [[redirects]]
-  from = "/decompiler2*"
-  to = "decompiler-dev.herokuapp.com/v1/decompile:splat"
+  from = "/decompilation*"
+  to = "http://decompiler-dev.herokuapp.com/v1/decompile:splat"
   force = true
   status = 200
+
+  [[redirects]]
+  from = "/v2*"
+  to = "http://decompiler-dev.herokuapp.com/v2/decompile:splat"
+  force = true
+  status = 200
+
 
   
