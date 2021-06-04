@@ -319,7 +319,7 @@ permalink: apk-decompiler
             formData.append("file", file);
             formData.append('data', JSON.stringify(data))
 
-            console.log(formData)
+            // console.log(formData)
 
             const res2 = await axios.post(
                 `/v3`,
@@ -327,12 +327,13 @@ permalink: apk-decompiler
             )
 
 
-            main.innerHTML = ''
+
             if (res2.status == 200) {
                 console.log(true)
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
+                main.innerHTML = ''
             } else {
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
