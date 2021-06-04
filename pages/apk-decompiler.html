@@ -313,13 +313,10 @@ permalink: apk-decompiler
             let v3 = `/v3`
 
 
-            var objArr = [];
-            objArr.push({ "putOutputUrl": putOutputUrl, "type": "apk" });
-
             const formData = new FormData();
             formData.append("file", file);
             formData.append("type", "apk");
-            formData.append('data', JSON.stringify(objArr))
+            formData.append('putOutputUrl', JSON.stringify(putOutputUrl))
 
             let res2 = await fetch(v3, {
                 method: 'POST',
