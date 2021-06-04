@@ -297,18 +297,18 @@ permalink: jar-decompiler
             }
         }
 
-        const putInputUrlUpload = (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
+        const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
             let fileName = input.files[0]
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
             formData.append("file", fileName);
 
-            let res = fetch(`/app${URL}`, {
+            let res = await fetch(`/app${URL}`, {
                 method: 'PUT',
-                body: formData
+                body: formData,
+                getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
             })
 
-            getOutputUrlUpload(getInputUrl, getOutputUrl, putOutputUrl)
         }
 
 
