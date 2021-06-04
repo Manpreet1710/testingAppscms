@@ -339,22 +339,10 @@ permalink: apk-decompiler
             })
             main.innerHTML = ''
             if (res2.status == 200) {
-                console.log(true)
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-                let v2 = `/v2`
-                const formData = new FormData();
-                formData.append("file", file);
-                formData.append("type", "apk");
-
-                let res = await fetch(v2, {
-                    method: 'POST',
-                    body: formData
-
-                })
-
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
