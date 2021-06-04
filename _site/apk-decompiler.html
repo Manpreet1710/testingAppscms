@@ -648,14 +648,12 @@
                 // console.log(formData)
 
                 const res2 = await fetch(
-                    `http://decompiler-dev.herokuapp.com/v3/decompile`, {
+                    `/v3`, {
                     "method": 'POST',
                     body: formData
                 })
 
-
-
-
+                let intervalID
                 if (res2.status === 200) {
                     console.log(true)
                     document.querySelector(".DownloadFiles").style.display = "block"
@@ -663,16 +661,14 @@
                     del.style.display = "block"
                     main.innerHTML = ''
                 } else {
-                    setInterval(async () => {
+                    intervalID = setInterval(async () => {
                         let getOutput = await fetch(getOutputUrl)
-                        if (getOutput.status === 200) {
-                            document.querySelector(".DownloadFiles").style.display = "block"
-                            downloads.href = getOutputUrl
-                            del.style.display = "block"
-                            main.innerHTML = ''
-                            clearInterval(getOutput);
-                        }
-                    }, 5000);
+                        clearInterval(intervalID);
+                        document.querySelector(".DownloadFiles").style.display = "block"
+                        downloads.href = getOutputUrl
+                        del.style.display = "block"
+                        main.innerHTML = ''
+                    }, 6000);
                 }
             }
 
