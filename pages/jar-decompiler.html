@@ -274,7 +274,6 @@ permalink: jar-decompiler
 
         zip.workerScriptsPath = "/zipjs/"
         const upload = async () => {
-            let file = input.files[0]
             let fileName = file.name
             try {
                 main.innerHTML = `<div class="loader">
@@ -290,7 +289,7 @@ permalink: jar-decompiler
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
+                    putInputUrlUpload(putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
                 })
             }
             catch (error) {
@@ -299,9 +298,10 @@ permalink: jar-decompiler
         }
 
         const putInputUrlUpload = (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
+            let fileName = input.files[0]
             let URL = putInputUrl.slice(51)
             const formData = new FormData();
-            formData.append("file", file);
+            formData.append("file", fileName);
 
             let res = fetch(`/app${URL}`, {
                 method: 'PUT',
