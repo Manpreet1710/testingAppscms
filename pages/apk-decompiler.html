@@ -291,7 +291,7 @@ permalink: apk-decompiler
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
-                let URL = `presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `/presignedurl?fileName=${fileName}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -310,46 +310,51 @@ permalink: apk-decompiler
         }
         const getOutputUrlUpload = async (file, getOutputUrl, putOutputUrl) => {
             // let v3 = `/v3`
+            try {
+                const data = {
+                    "putOutputUrl": putOutputUrl,
+                    "type": "apk"
+                }
+                const formData = new FormData();
+                formData.append("file", file);
+                formData.append('data', JSON.stringify(data))
 
-            const data = {
-                "putOutputUrl": putOutputUrl,
-                "type": "apk"
+                // console.log(formData)
+
+                const res2 = await fetch(
+                    `/v3`, {
+                    "method": 'POST',
+                    body: formData
+                })
+
+
+
+
+                if (res2.status === 200) {
+                    console.log(true)
+                    document.querySelector(".DownloadFiles").style.display = "block"
+                    downloads.href = getOutputUrl
+                    del.style.display = "block"
+                    main.innerHTML = ''
+                } else {
+                    setInterval(async () => {
+                        let getOutput = await fetch(getOutputUrl)
+                        if (getOutput.status === 200) {
+                            document.querySelector(".DownloadFiles").style.display = "block"
+                            downloads.href = getOutputUrl
+                            del.style.display = "block"
+                            main.innerHTML = ''
+                            clearInterval(getOutput);
+                        }
+                    }, 5000);
+                }
             }
-            const formData = new FormData();
-            formData.append("file", file);
-            formData.append('data', JSON.stringify(data))
 
-            // console.log(formData)
-
-            const res2 = await axios.post(
-                `/v3`,
-                formData
-            )
-
-
-            main.innerHTML = ''
-            if (res2.status == 200) {
-                console.log(true)
-                document.querySelector(".DownloadFiles").style.display = "block"
-                downloads.href = getOutputUrl
-                del.style.display = "block"
-            }
-            else if (res2.status == 502 || res2.status == 500) {
-                console.log("ss")
-                setInterval(async () => {
-                    try {
-                        downloads.href = await axios.get(getOutputUrl)
-                    } catch (error) {
-                        console.log(error)
-                    }
-                }, 5000);
-            }
-            else {
-                document.querySelector(".DownloadFiles").style.display = "block"
-                downloads.href = getOutputUrl
-                del.style.display = "block"
+            catch (error) {
+                console.log(error)
             }
         }
+
 
         //restart function
         function restart() {
