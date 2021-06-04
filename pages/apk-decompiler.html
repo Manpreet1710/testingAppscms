@@ -312,10 +312,9 @@ permalink: apk-decompiler
 
             let v3 = `/v3`
 
-
             const formData = new FormData();
             formData.append("file", file);
-            formData.append('putOutputUrl', JSON.stringify({ putOutputUrl, "type": "apk" }))
+            formData.append('data', JSON.stringify({ putOutputUrl, "type": "apk" }))
 
             let res2 = await fetch(v3, {
                 method: 'POST',
@@ -331,7 +330,6 @@ permalink: apk-decompiler
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
