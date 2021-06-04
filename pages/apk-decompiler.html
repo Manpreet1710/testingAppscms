@@ -327,14 +327,23 @@ permalink: apk-decompiler
             )
 
 
-
+            main.innerHTML = ''
             if (res2.status == 200) {
                 console.log(true)
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
-                main.innerHTML = ''
-            } else {
+            }
+            if (res2.status == 502) {
+                setInterval(() => {
+                    try {
+                        downloads.href = await axios.get(getOutputUrl)
+                    } catch (error) {
+                        console.log(error)
+                    }
+                }, 5000);
+            }
+            else {
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
