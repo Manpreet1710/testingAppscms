@@ -312,7 +312,7 @@ permalink: apk-decompiler
         const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
             let URL = decodeURIComponent(putInputUrl).slice(51)
             const formData = new FormData();
-            formData.append("data", file)
+            formData.append("file", file)
 
             let res = await fetch(`/app${URL}`, {
                 method: 'PUT',
@@ -344,17 +344,6 @@ permalink: apk-decompiler
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-                let v2 = `/v2`
-                const formData = new FormData();
-                formData.append("file", file);
-                formData.append("type", "apk");
-
-                let res = await fetch(v2, {
-                    method: 'POST',
-                    body: formData
-
-                })
-
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
