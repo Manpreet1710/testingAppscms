@@ -334,7 +334,7 @@ permalink: apk-decompiler
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             }
-            if (res2.status == 502) {
+            if (res2.status == 502 || res2.status == 500) {
                 setInterval(async () => {
                     try {
                         downloads.href = await axios.get(getOutputUrl)
