@@ -312,8 +312,7 @@ permalink: apk-decompiler
         const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
             let URL = decodeURIComponent(putInputUrl).slice(51)
             const formData = new FormData();
-            formData.append("file", file);
-            formData.append("type", "apk");
+            formData.append("data", file)
 
             let res = await fetch(`/app${URL}`, {
                 method: 'PUT',
