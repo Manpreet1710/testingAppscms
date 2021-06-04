@@ -301,14 +301,14 @@ permalink: apk-decompiler
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data + 'hello world')
-                    getOutputUrlUpload(file, putOutputUrl)
+                    getOutputUrlUpload(file, getOutputUrl, putOutputUrl)
                 })
             }
             catch (error) {
                 console.log(error)
             }
         }
-        const getOutputUrlUpload = async (file, putOutputUrl) => {
+        const getOutputUrlUpload = async (file, getOutputUrl, putOutputUrl) => {
 
             let v3 = `/v3`
 
