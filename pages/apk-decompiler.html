@@ -321,7 +321,7 @@ permalink: apk-decompiler
 
             getOutputUrlUpload(file, getInputUrl, getOutputUrl, putOutputUrl)
         }
-        const getOutputUrlUpload = (file, getInputUrl, getOutputUrl, putOutputUrl) => {
+        const getOutputUrlUpload = async (file, getInputUrl, getOutputUrl, putOutputUrl) => {
             let url = `/decompilation`
 
             let data = {
@@ -330,11 +330,8 @@ permalink: apk-decompiler
                 "type": "apk"
             }
 
-            let res2 = axios.get(url, {
+            let res2 = await fetch(url, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
                 body: JSON.stringify(data)
             })
             main.innerHTML = ''
@@ -358,12 +355,6 @@ permalink: apk-decompiler
         }
 
     </script>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"
-        integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ=="
-        crossorigin="anonymous"></script>
-
 </body>
 
 </html>
