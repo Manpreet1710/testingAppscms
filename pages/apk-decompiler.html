@@ -324,7 +324,7 @@ permalink: apk-decompiler
             let res2 = await fetch(v3, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'multipart/form-data; boundary=something'
                 },
                 body: formData
             })
