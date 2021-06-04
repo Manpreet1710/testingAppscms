@@ -309,18 +309,21 @@ permalink: apk-decompiler
             }
         }
         const getOutputUrlUpload = async (file, getOutputUrl, putOutputUrl) => {
-
             let v3 = `/v3`
+
+            const data = {
+                "putOutputUrl": putOutputUrl,
+                "type": "apk"
+            }
+
 
             const formData = new FormData();
             formData.append("file", file);
-            formData.append('data', JSON.stringify({ putOutputUrl, "type": "apk" }))
+            formData.append('data', JSON.stringify(data))
 
             let res2 = await fetch(v3, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'multipart/form-data'
-                },
+
                 body: formData
             })
             main.innerHTML = ''
