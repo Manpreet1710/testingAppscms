@@ -301,41 +301,30 @@ permalink: apk-decompiler
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
+                    getOutputUrlUpload(file, putOutputUrl)
                 })
             }
             catch (error) {
                 console.log(error)
             }
         }
+        const getOutputUrlUpload = async (file, putOutputUrl) => {
 
-        const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
-            let URL = decodeURIComponent(putInputUrl).slice(51)
-            const formData = new FormData();
-            formData.append("file", file)
-
-            let res = await fetch(`/app${URL}`, {
-                method: 'PUT',
-                body: formData
-            })
-
-            getOutputUrlUpload(file, getInputUrl, getOutputUrl, putOutputUrl)
-        }
-        const getOutputUrlUpload = async (file, getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `/decompilation`
+            let v3 = `/v3`
 
             let data = {
-                "getInputUrl": decodeURIComponent(getInputUrl),
                 "putOutputUrl": decodeURIComponent(putOutputUrl),
                 "type": "apk"
             }
 
-            let res2 = await fetch(url, {
+            const formData = new FormData();
+            formData.append("file", file);
+            formData.append("type", "apk");
+            formData.append("data", data);
+
+            let res2 = await fetch(v3, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data)
+                body: formData
             })
             main.innerHTML = ''
             if (res2.status == 200) {
@@ -344,17 +333,7 @@ permalink: apk-decompiler
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-                let v2 = `/v2`
-                const formData = new FormData();
-                formData.append("file", file);
-                formData.append("type", "apk");
-                formData.append("data", data);
 
-                let res = await fetch(v2, {
-                    method: 'POST',
-                    body: formData
-
-                })
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"
