@@ -627,41 +627,31 @@
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
+                    getOutputUrlUpload(file, getOutputUrl, putOutputUrl)
                 })
             }
             catch (error) {
                 console.log(error)
             }
         }
+        const getOutputUrlUpload = async (file, getOutputUrl, putOutputUrl) => {
+            let v3 = `/v3`
 
-        const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
-            let URL = decodeURIComponent(putInputUrl).slice(51)
-            const formData = new FormData();
-            formData.append("data", file);
-
-            let res = await fetch(`/app${URL}`, {
-                method: 'PUT',
-                body: formData
-            })
-
-            getOutputUrlUpload(file, getInputUrl, getOutputUrl, putOutputUrl)
-        }
-        const getOutputUrlUpload = async (file, getInputUrl, getOutputUrl, putOutputUrl) => {
-            let url = `/decompilation`
-
-            let data = {
-                "getInputUrl": decodeURIComponent(getInputUrl),
-                "putOutputUrl": decodeURIComponent(putOutputUrl),
+            const data = {
+                "putOutputUrl": putOutputUrl,
                 "type": "apk"
             }
+            const formData = new FormData();
+            formData.append("file", file);
+            formData.append('data', JSON.stringify(data))
 
-            let res2 = await fetch(url, {
+
+            let res2 = await fetch(v3, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryhdAn2zoXJyZJvjOY',
                 },
-                body: JSON.stringify(data)
+                body: formData
             })
             main.innerHTML = ''
             if (res2.status == 200) {
@@ -670,17 +660,6 @@
                 downloads.href = getOutputUrl
                 del.style.display = "block"
             } else {
-                let v2 = `/v2`
-                const formData = new FormData();
-                formData.append("file", file);
-                formData.append("type", "apk");
-
-                let res = await fetch(v2, {
-                    method: 'POST',
-                    body: formData
-
-                })
-
                 document.querySelector(".DownloadFiles").style.display = "block"
                 downloads.href = getOutputUrl
                 del.style.display = "block"

@@ -315,16 +315,15 @@ permalink: apk-decompiler
                 "putOutputUrl": putOutputUrl,
                 "type": "apk"
             }
-
-
             const formData = new FormData();
             formData.append("file", file);
             formData.append('data', JSON.stringify(data))
 
+
             let res2 = await fetch(v3, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryhdAn2zoXJyZJvjOY',
                 },
                 body: formData
             })
