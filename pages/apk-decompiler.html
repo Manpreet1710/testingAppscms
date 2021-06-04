@@ -319,11 +319,13 @@ permalink: apk-decompiler
             formData.append("file", file);
             formData.append('data', JSON.stringify(data))
 
+            console.log(formData)
+
 
             let res2 = await fetch(v3, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryhdAn2zoXJyZJvjOY',
+                    'Content-Type': 'application/json',
                 },
                 body: formData
             })
