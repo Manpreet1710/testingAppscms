@@ -285,7 +285,8 @@ permalink: apk-decompiler
 
         zip.workerScriptsPath = "/zipjs/"
         const upload = async () => {
-            let file = input.files[0].name
+            let file = input.files[0]
+            let fileName = input.files[0].name
             try {
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
@@ -300,7 +301,7 @@ permalink: apk-decompiler
                     let putInputUrl = data.body.putInputUrl
                     let putOutputUrl = data.body.putOutputUrl
                     console.log(data)
-                    putInputUrlUpload(putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
+                    putInputUrlUpload(file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl)
                 })
             }
             catch (error) {
@@ -308,11 +309,10 @@ permalink: apk-decompiler
             }
         }
 
-        const putInputUrlUpload = async (putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
+        const putInputUrlUpload = async (file, putInputUrl, getInputUrl, getOutputUrl, putOutputUrl) => {
             let URL = decodeURIComponent(putInputUrl).slice(51)
-            let fileName = input.files[0]
             const formData = new FormData();
-            formData.append("file", fileName);
+            formData.append("file", file);
 
             let res = await fetch(`/app${URL}`, {
                 method: 'PUT',
