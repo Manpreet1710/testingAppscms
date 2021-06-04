@@ -332,6 +332,9 @@ permalink: apk-decompiler
 
             let res2 = await fetch(url, {
                 method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
                 body: JSON.stringify(data)
             })
             main.innerHTML = ''
