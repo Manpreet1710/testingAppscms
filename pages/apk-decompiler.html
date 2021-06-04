@@ -324,7 +324,7 @@ permalink: apk-decompiler
 
             let res2 = await fetch(v3, {
                 method: 'POST',
-                body: formData
+                body: JSON.stringify(formData)
             })
             main.innerHTML = ''
             if (res2.status == 200) {
