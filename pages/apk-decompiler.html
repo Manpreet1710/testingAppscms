@@ -286,12 +286,12 @@ permalink: apk-decompiler
         zip.workerScriptsPath = "/zipjs/"
         const upload = async () => {
             let file = input.files[0]
-            let fileName = input.files[0].name
+            let fileName = file.name
             try {
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
-                let URL = `presignedurl?fileName=${file}&fileType=apk`
+                let URL = `presignedurl?fileName=${fileName}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
