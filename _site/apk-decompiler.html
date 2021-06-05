@@ -617,7 +617,7 @@
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
-                let URL = `/presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -648,7 +648,7 @@
                 // console.log(formData)
 
                 const res2 = await fetch(
-                    `/v3`, {
+                    `http://decompiler-dev.herokuapp.com/v3/decompile`, {
                     "method": 'POST',
                     body: formData
                 })
@@ -664,11 +664,13 @@
                     intervalID = setInterval(async () => {
                         let URL = decodeURIComponent(getOutputUrl).slice(51)
                         let getOutput = await fetch(`/app${URL}`)
-                        clearInterval(intervalID);
-                        document.querySelector(".DownloadFiles").style.display = "block"
-                        downloads.href = getOutputUrl
-                        del.style.display = "block"
-                        main.innerHTML = ''
+                        if (getOutput.status === 200) {
+                            clearInterval(intervalID);
+                            document.querySelector(".DownloadFiles").style.display = "block"
+                            downloads.href = getOutputUrl
+                            del.style.display = "block"
+                            main.innerHTML = ''
+                        }
                     }, 6000);
                 }
             }
