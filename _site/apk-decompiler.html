@@ -617,7 +617,7 @@
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
-                let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `/presignedurl?fileName=${fileName}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -662,7 +662,8 @@
                     main.innerHTML = ''
                 } else {
                     intervalID = setInterval(async () => {
-                        let getOutput = await fetch(getOutputUrl)
+                        let URL = decodeURIComponent(getOutputUrl).slice(51)
+                        let getOutput = await fetch(`/app${URL}`)
                         clearInterval(intervalID);
                         document.querySelector(".DownloadFiles").style.display = "block"
                         downloads.href = getOutputUrl
