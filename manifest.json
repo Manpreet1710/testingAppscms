@@ -1,0 +1,22 @@
+{
+    "background_color": "#ffffff",
+    "description": "Unscramble Words - A tool that can change any Unscramble letters into a scramble words in few seconds with the use of massive database, create a proper phrase.",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "https://condescending-poincare-a1c143.netlify.app/images/logo.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "https://condescending-poincare-a1c143.netlify.app/images/logo.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        }
+    ],
+    "name": "appscms",
+    "short_name": "appscms",
+    "start_url": "https://condescending-poincare-a1c143.netlify.app/",
+    "theme_color": "#ffffff",
+    "scope": "/"
+}

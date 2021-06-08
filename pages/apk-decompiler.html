@@ -291,7 +291,7 @@ permalink: apk-decompiler
                 main.innerHTML = `<div class="loader">
                     <img src='loading.gif' width="40px">
                     </div>`
-                let URL = `/presignedurl?fileName=${fileName}&fileType=apk`
+                let URL = `https://mnfqxvh8p3.execute-api.ap-northeast-1.amazonaws.com/Production/presignedurl?fileName=${fileName}&fileType=apk`
                 let response = await fetch(URL, {
                     method: 'POST',
                 })
@@ -322,7 +322,7 @@ permalink: apk-decompiler
                 // console.log(formData)
 
                 const res2 = await fetch(
-                    `/v3`, {
+                    `http://decompiler-dev.herokuapp.com/v3/decompile`, {
                     "method": 'POST',
                     body: formData
                 })
@@ -336,9 +336,11 @@ permalink: apk-decompiler
                     main.innerHTML = ''
                 } else {
                     intervalID = setInterval(async () => {
-                        let URL = decodeURIComponent(getOutputUrl).slice(51)
-                        let getOutput = await fetch(`/app${URL}`)
+                        let URL = decodeURIComponent(getOutputUrl)
+                        let getOutput = await fetch(URL)
+                        console.log(getOutput.status)
                         if (getOutput.status === 200) {
+                            console.log(getOutput.status)
                             clearInterval(intervalID);
                             document.querySelector(".DownloadFiles").style.display = "block"
                             downloads.href = getOutputUrl
@@ -347,6 +349,7 @@ permalink: apk-decompiler
                         }
                     }, 6000);
                 }
+
             }
 
             catch (error) {

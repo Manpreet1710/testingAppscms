@@ -23,6 +23,7 @@ sass:
   style: compressed
 markdown: kramdown
 plugins:
+  - jekyll-pwa-plugin
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
@@ -70,3 +71,23 @@ analytics:
     tracking_id:
     anonymize_ip:
 timezone:
+pwa:
+  enabled: false # Optional
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - '{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}'
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - 'fonts/**/*'
+
+name: "mysite"
+short_name: "ms"
+url: "https://mysite.com"
+language: "en"
+lang_direction: "ltr"
+color: "#abc123"
